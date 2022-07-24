@@ -3,7 +3,7 @@
       "text":"Please show me the medium size blouses"
    },
    "1":{
-      "text":"I need to see red color sarees"
+      "text":"is there is discount for this?"
    },
    "2":{
       "text":"Hey, how can I find a dry-fit that has a long sleeve?"
@@ -12,12 +12,21 @@
       "text":"I'm looking for a white shirt,can you help me for find a shirt that fit me?"
    },
    "4":{
-      "text":"Do you have shirts"
+      "text":"Are there any discounts available today"
    },
    "5":{
-      "text":"Can you recommend something for me?"
+      "text":"are there any seasonal discounts?
    },
    "6":{
+      "text":"What type of shirts are there?"
+   },
+   "7":{
+      "text":"What type of shirts are there?"
+   },
+   "8":{
+      "text":"Are there any offers for credit card payments?"
+   },
+   "9":{
       "text":"What type of shirts are there?"
    }
 }
