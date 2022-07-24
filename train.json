@@ -1,224 +1,214 @@
 {
-    "0": {
-        "intent": "AddToPlaylist",
-        "text": "Add a tune to my elrow Guest List",
-        "slots": {
-            "music_item": "tune",
-            "playlist_owner": "my",
-            "playlist": "elrow Guest List"
-        },
-        "positions": {
-            "music_item": [
-                6,
-                9
-            ],
-            "playlist_owner": [
-                14,
-                15
-            ],
-            "playlist": [
-                17,
-                32
-            ]
-        }
-    },
-    "1": {
-        "intent": "AddToPlaylist",
-        "text": "Add a guy is a guy to the infinite indie folk playlist.",
-        "slots": {
-            "entity_name": "a guy is a guy",
-            "playlist": "infinite indie folk"
-        },
-        "positions": {
-            "entity_name": [
-                4,
-                17
-            ],
-            "playlist": [
-                26,
-                44
-            ]
-        }
-    },
-    "2": {
-        "intent": "AddToPlaylist",
-        "text": "Put hampartsoum limondjian in running to rock 170 to 190 bpm",
-        "slots": {
-            "artist": "hampartsoum limondjian",
-            "playlist": "running to rock 170 to 190 bpm"
-        },
-        "positions": {
-            "artist": [
-                4,
-                25
-            ],
-            "playlist": [
-                30,
-                59
-            ]
-        }
-    },
-    "3": {
-        "intent": "AddToPlaylist",
-        "text": "Add Recalled to Life to This Is Alejandro Fernández",
-        "slots": {
-            "entity_name": "Recalled to Life",
-            "playlist": "This Is Alejandro Fernández"
-        },
-        "positions": {
-            "entity_name": [
-                4,
-                19
-            ],
-            "playlist": [
-                24,
-                50
-            ]
-        }
-    },
-    "4": {
-        "intent": "AddToPlaylist",
-        "text": "Add Bronislau Kaper to the drive playlist.",
-        "slots": {
-            "artist": "Bronislau Kaper",
-            "playlist": "drive"
-        },
-        "positions": {
-            "artist": [
-                4,
-                18
-            ],
-            "playlist": [
-                27,
-                31
-            ]
-        }
-    },
-    "5": {
-        "intent": "AddToPlaylist",
-        "text": "add this song by George Melly to my 90's Baby Makers playlist",
-        "slots": {
-            "music_item": "song",
-            "artist": "George Melly",
-            "playlist_owner": "my",
-            "playlist": "90's Baby Makers"
-        },
-        "positions": {
-            "music_item": [
-                9,
-                12
-            ],
-            "artist": [
-                17,
-                28
-            ],
-            "playlist_owner": [
-                33,
-                34
-            ],
-            "playlist": [
-                36,
-                51
-            ]
-        }
-    },
-    "6": {
-        "intent": "AddToPlaylist",
-        "text": "add 157 Riverside Avenue to leticia's animal humor playlist",
-        "slots": {
-            "entity_name": "157 Riverside Avenue",
-            "playlist_owner": "leticia's",
-            "playlist": "animal humor"
-        },
-        "positions": {
-            "entity_name": [
-                4,
-                23
-            ],
-            "playlist_owner": [
-                28,
-                36
-            ],
-            "playlist": [
-                38,
-                49
-            ]
-        }
-    },
-    "7": {
-        "intent": "AddToPlaylist",
-        "text": "add the name covenant to the playlist Fusion Fest",
-        "slots": {
-            "entity_name": "covenant",
-            "playlist": "Fusion Fest"
-        },
-        "positions": {
-            "entity_name": [
-                13,
-                20
-            ],
-            "playlist": [
-                38,
-                48
-            ]
-        }
-    },
-    "8": {
-        "intent": "AddToPlaylist",
-        "text": "Add Live from Aragon Ballroom to Trapeo",
-        "slots": {
-            "entity_name": "Live from Aragon Ballroom",
-            "playlist": "Trapeo"
-        },
-        "positions": {
-            "entity_name": [
-                4,
-                28
-            ],
-            "playlist": [
-                33,
-                38
-            ]
-        }
-    },
-    "9": {
-        "intent": "AddToPlaylist",
-        "text": "add the song to the Dub On The Beach playlist",
-        "slots": {
-            "music_item": "song",
-            "playlist": "Dub On The Beach"
-        },
-        "positions": {
-            "music_item": [
-                8,
-                11
-            ],
-            "playlist": [
-                20,
-                35
-            ]
-        }
-    },
-    "10": {
-        "intent": "AddToPlaylist",
-        "text": "Add 2012 Zwanzig Zwölf to my miami 2017 guest list",
-        "slots": {
-            "entity_name": "2012 Zwanzig Zwölf",
-            "playlist_owner": "my",
-            "playlist": "miami 2017 guest list"
-        },
-        "positions": {
-            "entity_name": [
-                4,
-                21
-            ],
-            "playlist_owner": [
-                26,
-                27
-            ],
-            "playlist": [
-                29,
-                49
-            ]
-        }
-    }}
+   "0":{
+      "intent":"search_product",
+      "text":"I want to buy a medium cap",
+      "slots":{
+	 "size":"medium",
+         "product_category":"cap"
+      },
+      "positions":{
+         "size":[
+            16,
+            21
+         ],
+         "product_category":[
+            23,
+            25
+         ]
+      }
+   },
+   "1":{
+      "intent":"search_product",
+      "text":"Please show me a medium t-shirt",
+      "slots":{
+      	  "size":"medium",
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "size":[
+            17,
+            22
+         ],
+         "product_category":[
+            24,
+            30
+         ]
+      }
+   },
+   "2":{
+      "intent":"search_product",
+      "text":"Hi.I want to buy a black colour long trouser",
+      "slots":{
+  	 "size":"long",
+         "color":"black",
+         "product_category":"trouser"
+      },
+      "positions":{
+         "size":[
+            32,
+            35
+         ],
+         "color":[
+            19,
+            23
+         ],
+         "product_category":[
+            37,
+            43
+         ]
+      }
+   },
+   "3":{
+      "intent":"search_product",
+      "text":"Please show me a small shirt that fit me",
+      "slots":{
+         "size":"small",
+         "product_category":"shirt"
+      },
+      "positions":{
+         "size":[
+            17,
+            21
+         ],
+         "product_category":[
+            23,
+            27
+         ]
+      }
+   },
+   "4":{
+      "intent":"search_product",
+      "text":"I want a white large frock",
+      "slots":{
+      	 "size":"large",
+         "color":"white",
+         "product_category":"frock"
+      },
+      "positions":{
+         "size":[
+            15,
+            19
+         ],
+         "color":[
+            9,
+            13
+         ],
+         "product_category":[
+            21,
+            25
+         ]
+      }
+   },
+   "5":{
+      "intent":"search_product",
+      "text":"I want a pair of small shoes",
+      "slots":{
+      	 "size":"small",
+         "product_category":"shoes"
+      },
+      "positions":{
+         "size":[
+            17,
+            21
+         ],
+         "product_category":[
+            23,
+            27
+         ]
+      }
+   },
+   "6":{
+      "intent":"search_product",
+      "text":"I am looking for a full sleeve t-shirt",
+      "slots":{
+      	 "size":"full",
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "size":[
+            19,
+            22
+         ],
+         "product_category":[
+            24,
+            37
+         ]
+      }
+   },
+   "7":{
+      "intent":"search_product",
+      "text":"Please show me a xl clothes that fit me",
+      "slots":{
+         "size":"xl",
+         "product_category":"clothes"
+      },
+      "positions":{
+         "size":[
+            17,
+            18
+         ],
+         "product_category":[
+            20,
+            26
+         ]
+      }
+   },
+   "8":{
+      "intent":"search_product",
+      "text":"Please show me a small dress for a wedding",
+      "slots":{
+         "size":"small",
+         "product_category":"wedding"
+      },
+      "positions":{
+         "size":[
+            17,
+            21
+         ],
+         "product_category":[
+            35,
+            41
+         ]
+      }
+   },
+   "9":{
+      "intent":"search_product",
+      "text":"Show me a small shirt very suitable to me",
+      "slots":{
+         "size":"small",
+         "product_category":"shirt"
+      },
+      "positions":{
+         "size":[
+            10,
+            14
+         ],
+         "product_category":[
+            16,
+            20
+         ]
+      }
+   },
+   "10":{
+      "intent":"search_product",
+      "text":"I want a black large t-shirt",
+      "slots":{
+      	 "size":"large",
+         "color":"black",
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "size":[
+            15,
+            19
+         ],
+         "color":[
+            9,
+            13
+         ],
+         "product_category":[
+            21,
+            27
+         ]
+      }
+   }}
