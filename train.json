@@ -1,69 +1,134 @@
-    {"312": {
+{
+    "0": {
         "intent": "AddToPlaylist",
-        "text": "Add Chér to the Still Got the Blues playlist",
+        "text": "Add a tune to my elrow Guest List",
         "slots": {
-            "entity_name": "Chér",
-            "playlist": "Still Got the Blues"
+            "music_item": "tune",
+            "playlist_owner": "my",
+            "playlist": "elrow Guest List"
         },
         "positions": {
-            "entity_name": [
-                4,
-                7
+            "music_item": [
+                6,
+                9
             ],
-            "playlist": [
-                16,
-                34
-            ]
-        }
-    },
-    "313": {
-        "intent": "AddToPlaylist",
-        "text": "put Sonntagskind onto the playlist called soulful disco",
-        "slots": {
-            "entity_name": "Sonntagskind",
-            "playlist": "soulful disco"
-        },
-        "positions": {
-            "entity_name": [
-                4,
+            "playlist_owner": [
+                14,
                 15
             ],
             "playlist": [
-                42,
-                54
+                17,
+                32
             ]
         }
     },
-    "314": {
+    "1": {
         "intent": "AddToPlaylist",
-        "text": "To johnnie's funtime activity playlist add the name The Best of Guitar Shorty",
+        "text": "Add a guy is a guy to the infinite indie folk playlist.",
         "slots": {
-            "playlist_owner": "johnnie's",
-            "playlist": "funtime activity",
-            "entity_name": "The Best of Guitar Shorty"
+            "entity_name": "a guy is a guy",
+            "playlist": "infinite indie folk"
         },
         "positions": {
-            "playlist_owner": [
-                3,
-                11
+            "entity_name": [
+                4,
+                17
             ],
             "playlist": [
-                13,
-                28
-            ],
-            "entity_name": [
-                52,
-                76
+                26,
+                44
             ]
         }
     },
-    "315": {
+    "2": {
         "intent": "AddToPlaylist",
-        "text": "add rise of the infidels to my bring back the 90s playlist",
+        "text": "Put hampartsoum limondjian in running to rock 170 to 190 bpm",
         "slots": {
-            "entity_name": "rise of the infidels",
+            "artist": "hampartsoum limondjian",
+            "playlist": "running to rock 170 to 190 bpm"
+        },
+        "positions": {
+            "artist": [
+                4,
+                25
+            ],
+            "playlist": [
+                30,
+                59
+            ]
+        }
+    },
+    "3": {
+        "intent": "AddToPlaylist",
+        "text": "Add Recalled to Life to This Is Alejandro Fernández",
+        "slots": {
+            "entity_name": "Recalled to Life",
+            "playlist": "This Is Alejandro Fernández"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                19
+            ],
+            "playlist": [
+                24,
+                50
+            ]
+        }
+    },
+    "4": {
+        "intent": "AddToPlaylist",
+        "text": "Add Bronislau Kaper to the drive playlist.",
+        "slots": {
+            "artist": "Bronislau Kaper",
+            "playlist": "drive"
+        },
+        "positions": {
+            "artist": [
+                4,
+                18
+            ],
+            "playlist": [
+                27,
+                31
+            ]
+        }
+    },
+    "5": {
+        "intent": "AddToPlaylist",
+        "text": "add this song by George Melly to my 90's Baby Makers playlist",
+        "slots": {
+            "music_item": "song",
+            "artist": "George Melly",
             "playlist_owner": "my",
-            "playlist": "bring back the 90s"
+            "playlist": "90's Baby Makers"
+        },
+        "positions": {
+            "music_item": [
+                9,
+                12
+            ],
+            "artist": [
+                17,
+                28
+            ],
+            "playlist_owner": [
+                33,
+                34
+            ],
+            "playlist": [
+                36,
+                51
+            ]
+        }
+    },
+    "6": {
+        "intent": "AddToPlaylist",
+        "text": "add 157 Riverside Avenue to leticia's animal humor playlist",
+        "slots": {
+            "entity_name": "157 Riverside Avenue",
+            "playlist_owner": "leticia's",
+            "playlist": "animal humor"
         },
         "positions": {
             "entity_name": [
@@ -72,267 +137,88 @@
             ],
             "playlist_owner": [
                 28,
-                29
+                36
             ],
             "playlist": [
-                31,
-                48
-            ]
-        }
-    },
-    "316": {
-        "intent": "AddToPlaylist",
-        "text": "add this artist to my Jazz playlist",
-        "slots": {
-            "music_item": "artist",
-            "playlist_owner": "my",
-            "playlist": "Jazz"
-        },
-        "positions": {
-            "music_item": [
-                9,
-                14
-            ],
-            "playlist_owner": [
-                19,
-                20
-            ],
-            "playlist": [
-                22,
-                25
-            ]
-        }
-    },
-    "317": {
-        "intent": "AddToPlaylist",
-        "text": "add album to this is trey songz playlist",
-        "slots": {
-            "music_item": "album",
-            "playlist": "this is trey songz"
-        },
-        "positions": {
-            "music_item": [
-                4,
-                8
-            ],
-            "playlist": [
-                13,
-                30
-            ]
-        }
-    },
-    "318": {
-        "intent": "AddToPlaylist",
-        "text": "add this track to latin jazz",
-        "slots": {
-            "music_item": "track",
-            "playlist": "latin jazz"
-        },
-        "positions": {
-            "music_item": [
-                9,
-                13
-            ],
-            "playlist": [
-                18,
-                27
-            ]
-        }
-    },
-    "319": {
-        "intent": "AddToPlaylist",
-        "text": "I'd like to put duett onto my hot country playlist.",
-        "slots": {
-            "entity_name": "duett",
-            "playlist_owner": "my",
-            "playlist": "hot country"
-        },
-        "positions": {
-            "entity_name": [
-                16,
-                20
-            ],
-            "playlist_owner": [
-                27,
-                28
-            ],
-            "playlist": [
-                30,
-                40
-            ]
-        }
-    },
-    "320": {
-        "intent": "AddToPlaylist",
-        "text": "Add a song to in residence metal hammer episode 6",
-        "slots": {
-            "music_item": "song",
-            "playlist": "in residence metal hammer episode 6"
-        },
-        "positions": {
-            "music_item": [
-                6,
-                9
-            ],
-            "playlist": [
-                14,
-                48
-            ]
-        }
-    },
-    "321": {
-        "intent": "AddToPlaylist",
-        "text": "Add Jonathan Arons to my Indie Electronics playlist",
-        "slots": {
-            "artist": "Jonathan Arons",
-            "playlist_owner": "my",
-            "playlist": "Indie Electronics"
-        },
-        "positions": {
-            "artist": [
-                4,
-                17
-            ],
-            "playlist_owner": [
-                22,
-                23
-            ],
-            "playlist": [
-                25,
-                41
-            ]
-        }
-    },
-    "322": {
-        "intent": "AddToPlaylist",
-        "text": "Add Sarah Vaughan to the spa treatment playlist.",
-        "slots": {
-            "artist": "Sarah Vaughan",
-            "playlist": "spa treatment"
-        },
-        "positions": {
-            "artist": [
-                4,
-                16
-            ],
-            "playlist": [
-                25,
-                37
-            ]
-        }
-    },
-    "323": {
-        "intent": "AddToPlaylist",
-        "text": "Add I Hate Myself and I Want to Die  to my Six string peacefulness",
-        "slots": {
-            "entity_name": "I Hate Myself and I Want to Die",
-            "playlist_owner": "my",
-            "playlist": "Six string peacefulness"
-        },
-        "positions": {
-            "entity_name": [
-                4,
-                34
-            ],
-            "playlist_owner": [
-                40,
-                41
-            ],
-            "playlist": [
-                43,
-                65
-            ]
-        }
-    },
-    "324": {
-        "intent": "AddToPlaylist",
-        "text": "add this Candi Staton artist to my Dancefloor Hits",
-        "slots": {
-            "artist": "Candi Staton",
-            "music_item": "artist",
-            "playlist_owner": "my",
-            "playlist": "Dancefloor Hits"
-        },
-        "positions": {
-            "artist": [
-                9,
-                20
-            ],
-            "music_item": [
-                22,
-                27
-            ],
-            "playlist_owner": [
-                32,
-                33
-            ],
-            "playlist": [
-                35,
+                38,
                 49
             ]
         }
     },
-    "325": {
+    "7": {
         "intent": "AddToPlaylist",
-        "text": "I'd like johnny nash to be put into my playlist Always Pop Punk",
+        "text": "add the name covenant to the playlist Fusion Fest",
         "slots": {
-            "artist": "johnny nash",
-            "playlist_owner": "my",
-            "playlist": "Always Pop Punk"
+            "entity_name": "covenant",
+            "playlist": "Fusion Fest"
         },
         "positions": {
-            "artist": [
-                9,
-                19
-            ],
-            "playlist_owner": [
-                36,
-                37
+            "entity_name": [
+                13,
+                20
             ],
             "playlist": [
-                48,
-                62
+                38,
+                48
             ]
         }
     },
-    "326": {
+    "8": {
         "intent": "AddToPlaylist",
-        "text": "Add the album to the top 100 country tracks on spotify playlist.",
+        "text": "Add Live from Aragon Ballroom to Trapeo",
         "slots": {
-            "music_item": "album",
-            "playlist": "top 100 country tracks on spotify"
-        },
-        "positions": {
-            "music_item": [
-                8,
-                12
-            ],
-            "playlist": [
-                21,
-                53
-            ]
-        }
-    },
-    "327": {
-        "intent": "AddToPlaylist",
-        "text": "add Contact to my nu metal playlist",
-        "slots": {
-            "entity_name": "Contact",
-            "playlist_owner": "my",
-            "playlist": "nu metal"
+            "entity_name": "Live from Aragon Ballroom",
+            "playlist": "Trapeo"
         },
         "positions": {
             "entity_name": [
                 4,
-                10
-            ],
-            "playlist_owner": [
-                15,
-                16
+                28
             ],
             "playlist": [
-                18,
-                25
+                33,
+                38
+            ]
+        }
+    },
+    "9": {
+        "intent": "AddToPlaylist",
+        "text": "add the song to the Dub On The Beach playlist",
+        "slots": {
+            "music_item": "song",
+            "playlist": "Dub On The Beach"
+        },
+        "positions": {
+            "music_item": [
+                8,
+                11
+            ],
+            "playlist": [
+                20,
+                35
+            ]
+        }
+    },
+    "10": {
+        "intent": "AddToPlaylist",
+        "text": "Add 2012 Zwanzig Zwölf to my miami 2017 guest list",
+        "slots": {
+            "entity_name": "2012 Zwanzig Zwölf",
+            "playlist_owner": "my",
+            "playlist": "miami 2017 guest list"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                21
+            ],
+            "playlist_owner": [
+                26,
+                27
+            ],
+            "playlist": [
+                29,
+                49
             ]
         }
     }}
