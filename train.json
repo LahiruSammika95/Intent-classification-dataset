@@ -211,4 +211,142 @@
             27
          ]
       }
-   }}
+   },
+   "11":{
+      "intent":"discount",
+      "text":"Are there any discount today?",
+      "slots":{
+	 "day":"today"
+  
+      },
+      "positions":{
+         "day":[
+            23,
+            27
+         ]
+      }
+   },
+   "12":{
+      "intent":"discount",
+      "text":"If I buy 2,will you give me any discount ?",
+      "slots":{
+      	  "qty":"2"
+      },
+      "positions":{
+         "qty":[
+            8,
+            8
+         ]
+      }
+   },
+   "13":{
+      "intent":"discount",
+      "text":"How muck should I pay for this If I buy 2? Will you provide any discount?",
+      "slots":{
+  	 "qty":"2"
+      },
+      "positions":{
+         "qty":[
+            39,
+            39
+         ]
+      }
+   },
+   "14":{
+      "intent":"discount",
+      "text":"Are there any offers for credit card payments?",
+      "slots":{
+         "payment_method":"credit card payments"        
+      },
+      "positions":{
+         "payment_method":[
+            25,
+            44
+         ]
+
+      }
+   },
+   "15":{
+      "intent":"discount",
+      "text":"Are there any offers?",
+      "slots":{
+      },
+      "positions":{
+      }
+   },
+   "16":{
+      "intent":"discount",
+      "text":"Is there any discounts available?",
+      "slots":{
+
+      },
+      "positions":{
+
+      }
+   },
+   "17":{
+      "intent":"discount",
+      "text":"Are there any discounts or card offers available now",
+      "slots":{
+         "payment_method":"card"  
+      },
+      "positions":{
+         "payment_method":[
+            27,
+            30
+         ]
+      }
+   },
+   "18":{
+      "intent":"discount",
+      "text":"Are there any offers for credit card payments",
+      "slots":{
+         "payment_method":"credit card" 
+      },
+      "positions":{
+         "payment_method":[
+            25,
+            35
+         ]
+      }
+   },
+   "19":{
+      "intent":"discount",
+      "text":"Are there any discounts or offers for this dress?",
+      "slots":{
+         "product":"this dress"
+      },
+      "positions":{
+         "product":[
+            38,
+            47
+         ]
+      }
+   },
+   "20":{
+      "intent":"discount",
+      "text":"What are the discounts available today?",
+      "slots":{
+         "day":"today"
+      },
+      "positions":{
+         "day":[
+            33,
+            37
+         ]
+      }
+   },
+   "21":{
+      "intent":"discount",
+      "text":"Are there any discounts available today.",
+      "slots":{
+      	 "day":"today"
+      },
+      "positions":{
+         "day":[
+            34,
+            38
+         ]
+      }
+   }
+   }
