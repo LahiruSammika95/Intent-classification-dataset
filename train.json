@@ -29,14 +29,9 @@
       "intent":"search_product",
       "text":"Hi.I want to buy a black colour long trouser",
       "slots":{
-         "color":"black",
          "product_category":"long trouser"
       },
       "positions":{
-         "color":[
-            19,
-            23
-         ],
          "product_category":[
             37,
             43
@@ -60,14 +55,9 @@
       "intent":"search_product",
       "text":"I want a white frock",
       "slots":{
-         "color":"white",
          "product_category":"frock"
       },
       "positions":{
-         "color":[
-            9,
-            13
-         ],
          "product_category":[
             19,
             15
@@ -143,14 +133,9 @@
       "intent":"search_product",
       "text":"I want a black t-shirt",
       "slots":{
-         "color":"black",
          "product_category":"t-shirt"
       },
       "positions":{
-         "color":[
-            9,
-            13
-         ],
          "product_category":[
             15,
             21
@@ -168,10 +153,6 @@
          "product_category":[
             29,
             35
-         ],
-         "brand":[
-            50,
-            54
          ]
       }
    },
@@ -179,14 +160,9 @@
       "intent":"search_product",
       "text":"Please show me the medium size blouses",
       "slots":{
-         "size":"medium",
          "product_category":"blouses"
       },
       "positions":{
-         "size":[
-            19,
-            24
-         ],
          "product_category":[
             31,
             37
@@ -210,14 +186,9 @@
       "intent":"search_product",
       "text":"I need to see red color sarees",
       "slots":{
-         "color":"red",
          "product_category":"saree"
       },
       "positions":{
-         "color":[
-            14,
-            16
-         ],
          "product_category":[
             24,
             29
