@@ -161,8 +161,8 @@
       "intent":"search_product",
       "text":"Please show me the available t-shirt on crocodile brand?",
       "slots":{
-         "product_category":"t-shirt",
-         "brand":"crocodile"
+         "product_category":"t-shirt"
+   
       },
       "positions":{
          "product_category":[
