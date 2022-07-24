@@ -1,285 +1,266 @@
 {
-    "0": {
-        "intent": "search_product",
-        "text": "I want to buy a cap",
-        "slots": {
-            "product_category": "cap"
-    
-        },
-        "positions": {
-            "product_category": [
-                16,
-                18
-            ]
-        }
-    },
-    "1": {
-        "intent": "search_product",
-        "text": "Please show me a t-shirt",
-        "slots": {
-            "product_category": "t-shirt"
-            
-        },
-        "positions": {
-            "product_category": [
-                17,
-                23
-            ]
-        }
-    },
-    "2": {
-        "intent": "search_product",
-        "text": "Hi.I want to buy a black colour long trouser",
-        "slots": {
-            "color":"black",
-            "product_category": "long trouser"
-            
-           
-        },
-        "positions": {
-            "color": [
-                19,
-                23
-            ],
-            "product_category": [
-                37,
-                43
-            ]
-        }
-    },
-    "3": {
-        "intent": "search_product",
-        "text": "Please show me a shirt that fit me",
-        "slots": {
-            "product_category": "shirt"
-            
-        },
-        "positions": {
-            "product_category": [
-                17,
-                21
-            ]
-        }
-    },
-    "4": {
-        "intent": "search_product",
-        "text": "I want a white frock",
-        "slots": {
-            "color":"white",
-            "product_category": "frock"        
-        },
-        "positions": {
-            "color": [
-                9,
-                13
-            ],
-            "product_category": [
-                19,
-                15
-            ]
-        }
-    },
-    "5": {
-        "intent": "search_product",
-        "text": "I want a pair of shoes",
-        "slots": {
-            "product_category": "shoes"
-            
-        },
-        "positions": {
-            "product_category": [
-                17,
-                21
-            ]
-        }
-    },    
-    "6": {
-        "intent": "search_product",
-        "text": "I am looking for a full sleeve t-shirt",
-        "slots": {
-            "product_category": "full sleeve t-shirt"        
-        },
-        "positions": {
-            "product_category": [
-                19,
-                37
-            ]
-        }
-    },
-    "7": {
-        "intent": "search_product",
-        "text": "Please show me a clothes that fit me",
-        "slots": {
-            "product_category": "clothes"
-            
-        },
-        "positions": {
-            "product_category": [
-                17,
-                23
-            ]
-        }
-    },  
-    "8": {
-        "intent": "search_product",
-        "text": "Please show me a dress for a wedding",
-        "slots": {
-            "product_category": "wedding"        
-        },
-        "positions": {
-            "product_category": [
-                29,
-                35
-            ]
-        }
-    },
-    "9": {
-        "intent": "search_product",
-        "text": "Show me a shirt very suitable to me",
-        "slots": {
-            "product_category": "shirt"
-            
-        },
-        "positions": {
-            "product_category": [
-                10,
-                14
-            ]
-        }
-    }, 
-    "10": {
-        "intent": "search_product",
-        "text": "I want a black t-shirt",
-        "slots": {
-            "color":"black",
-            "product_category": "t-shirt"
-            
-           
-        },
-        "positions": {
-            "color": [
-                9,
-                13
-            ],
-            "product_category": [
-                15,
-                21
-            ]
-        }
-    },
-    "11": {
-        "intent": "search_product",
-        "text": "Please show me the available t-shirt on crocodile brand?",
-        "slots": {
-            "product_category": "t-shirt",
-            "brand":"crocodile"
-          
-            
-           
-        },
-        "positions": {
-            "product_category": [
-                29,
-                35
-            ],
-            "brand": [
-                50,
-                54
-            ]
-        }
-    },
-    "12": {
-        "intent": "search_product",
-        "text": "Please show me the medium size blouses",
-        "slots": {
-            "size":"medium",
-            "product_category": "blouses"
-                  
-        },
-        "positions": {
-            "size": [
-                19,
-                24
-            ],
-            "product_category": [
-                31,
-                37
-            ]
-
-        }
-    },
-    "13": {
-        "intent": "search_product",
-        "text": "Do you have shirts?",
-        "slots": {
-            "product_category": "shirt",
-
-        },
-        "positions": {
-            "product_category": [
-                12,
-                17
-            ]
-        }
-    },
-    "14": {
-        "intent": "search_product",
-        "text": "I need to see red color sarees",
-        "slots": {
-            "color": "red",
-            "product_category": "saree"
-        },
-        "positions": {
-            "color": [
-                14,
-                16
-            ],
-            "product_category": [
-                24,
-                29
-            ]
-        }
-    },
-    "15": {
-        "intent": "search_product",
-        "text": "I want a blouse that suits me",
-        "slots": {
-            "product_category": "blouse",
-        
-        },
-        "positions": {
-            "product_category": [
-                9,
-                14
-            ]
-        }
-    },
-    "16": {
-        "intent": "search_product",
-        "text": "Hey, how can I find a dry-fit that has a long sleeve?",
-        "slots": {
-            "product_category": "dry-fit"
-        },
-        "positions": {
-            "product_category": [
-                22,
-                28
-            ]
-        }
-    },
-    "17": {
-        "intent": "search_product",
-        "text": "What are the latest designs for me that you have?",
-        "slots": {
-            "product_category": "latest designs",
-  
-        },
-        "positions": {
-            "product_category": [
-                13,
-                26
-            ]
-        }
-    },
-    }
-    
+   "0":{
+      "intent":"search_product",
+      "text":"I want to buy a cap",
+      "slots":{
+         "product_category":"cap"
+      },
+      "positions":{
+         "product_category":[
+            16,
+            18
+         ]
+      }
+   },
+   "1":{
+      "intent":"search_product",
+      "text":"Please show me a t-shirt",
+      "slots":{
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "product_category":[
+            17,
+            23
+         ]
+      }
+   },
+   "2":{
+      "intent":"search_product",
+      "text":"Hi.I want to buy a black colour long trouser",
+      "slots":{
+         "color":"black",
+         "product_category":"long trouser"
+      },
+      "positions":{
+         "color":[
+            19,
+            23
+         ],
+         "product_category":[
+            37,
+            43
+         ]
+      }
+   },
+   "3":{
+      "intent":"search_product",
+      "text":"Please show me a shirt that fit me",
+      "slots":{
+         "product_category":"shirt"
+      },
+      "positions":{
+         "product_category":[
+            17,
+            21
+         ]
+      }
+   },
+   "4":{
+      "intent":"search_product",
+      "text":"I want a white frock",
+      "slots":{
+         "color":"white",
+         "product_category":"frock"
+      },
+      "positions":{
+         "color":[
+            9,
+            13
+         ],
+         "product_category":[
+            19,
+            15
+         ]
+      }
+   },
+   "5":{
+      "intent":"search_product",
+      "text":"I want a pair of shoes",
+      "slots":{
+         "product_category":"shoes"
+      },
+      "positions":{
+         "product_category":[
+            17,
+            21
+         ]
+      }
+   },
+   "6":{
+      "intent":"search_product",
+      "text":"I am looking for a full sleeve t-shirt",
+      "slots":{
+         "product_category":"full sleeve t-shirt"
+      },
+      "positions":{
+         "product_category":[
+            19,
+            37
+         ]
+      }
+   },
+   "7":{
+      "intent":"search_product",
+      "text":"Please show me a clothes that fit me",
+      "slots":{
+         "product_category":"clothes"
+      },
+      "positions":{
+         "product_category":[
+            17,
+            23
+         ]
+      }
+   },
+   "8":{
+      "intent":"search_product",
+      "text":"Please show me a dress for a wedding",
+      "slots":{
+         "product_category":"wedding"
+      },
+      "positions":{
+         "product_category":[
+            29,
+            35
+         ]
+      }
+   },
+   "9":{
+      "intent":"search_product",
+      "text":"Show me a shirt very suitable to me",
+      "slots":{
+         "product_category":"shirt"
+      },
+      "positions":{
+         "product_category":[
+            10,
+            14
+         ]
+      }
+   },
+   "10":{
+      "intent":"search_product",
+      "text":"I want a black t-shirt",
+      "slots":{
+         "color":"black",
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "color":[
+            9,
+            13
+         ],
+         "product_category":[
+            15,
+            21
+         ]
+      }
+   },
+   "11":{
+      "intent":"search_product",
+      "text":"Please show me the available t-shirt on crocodile brand?",
+      "slots":{
+         "product_category":"t-shirt",
+         "brand":"crocodile"
+      },
+      "positions":{
+         "product_category":[
+            29,
+            35
+         ],
+         "brand":[
+            50,
+            54
+         ]
+      }
+   },
+   "12":{
+      "intent":"search_product",
+      "text":"Please show me the medium size blouses",
+      "slots":{
+         "size":"medium",
+         "product_category":"blouses"
+      },
+      "positions":{
+         "size":[
+            19,
+            24
+         ],
+         "product_category":[
+            31,
+            37
+         ]
+      }
+   },
+   "13":{
+      "intent":"search_product",
+      "text":"Do you have shirts?",
+      "slots":{
+         "product_category":"shirt"
+      },
+      "positions":{
+         "product_category":[
+            12,
+            17
+         ]
+      }
+   },
+   "14":{
+      "intent":"search_product",
+      "text":"I need to see red color sarees",
+      "slots":{
+         "color":"red",
+         "product_category":"saree"
+      },
+      "positions":{
+         "color":[
+            14,
+            16
+         ],
+         "product_category":[
+            24,
+            29
+         ]
+      }
+   },
+   "15":{
+      "intent":"search_product",
+      "text":"I want a blouse that suits me",
+      "slots":{
+         "product_category":"blouse"
+      },
+      "positions":{
+         "product_category":[
+            9,
+            14
+         ]
+      }
+   },
+   "16":{
+      "intent":"search_product",
+      "text":"Hey, how can I find a dry-fit that has a long sleeve?",
+      "slots":{
+         "product_category":"dry-fit"
+      },
+      "positions":{
+         "product_category":[
+            22,
+            28
+         ]
+      }
+   },
+   "17":{
+      "intent":"search_product",
+      "text":"What are the latest designs for me that you have?",
+      "slots":{
+         "product_category":"latest designs"
+      },
+      "positions":{
+         "product_category":[
+            13,
+            26
+         ]
+      }
+   }
+}
