@@ -1,8 +1,23 @@
 {
-    "0": {
-        "text": "I want to buy a cap"
-    },
-    "1": {
-        "text": "I want to buy a shirt"
-    }
+  "0": {
+    "text": "Please show me the medium size blouses"
+  },
+  "1": {
+    "text": "I need to see red color sarees"
+  },
+  "2": {
+    "text": "Hey, how can I find a dry-fit that has a long sleeve?"
+  },
+  "3": {
+    "text": "I'm looking for a white shirt,can you help me for find a shirt that fit me?"
+  },
+  "4": {
+    "text": "Do you have shirts"
+  },
+  "5": {
+    "text": "Can you recommend something for me?"
+  },
+  "6": {
+    "text": "What type of shirts are there?"
+  }
 }
