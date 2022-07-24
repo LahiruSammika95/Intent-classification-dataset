@@ -1,237 +1,338 @@
-{
-   "0":{
-      "intent":"search_product",
-      "text":"I want to buy a cap",
-      "slots":{
-         "product_category":"cap"
-      },
-      "positions":{
-         "product_category":[
-            16,
-            18
-         ]
-      }
-   },
-   "1":{
-      "intent":"search_product",
-      "text":"Please show me a t-shirt",
-      "slots":{
-         "product_category":"t-shirt"
-      },
-      "positions":{
-         "product_category":[
-            17,
-            23
-         ]
-      }
-   },
-   "2":{
-      "intent":"search_product",
-      "text":"Hi.I want to buy a black colour long trouser",
-      "slots":{
-         "product_category":"long trouser"
-      },
-      "positions":{
-         "product_category":[
-            37,
-            43
-         ]
-      }
-   },
-   "3":{
-      "intent":"search_product",
-      "text":"Please show me a shirt that fit me",
-      "slots":{
-         "product_category":"shirt"
-      },
-      "positions":{
-         "product_category":[
-            17,
-            21
-         ]
-      }
-   },
-   "4":{
-      "intent":"search_product",
-      "text":"I want a white frock",
-      "slots":{
-         "product_category":"frock"
-      },
-      "positions":{
-         "product_category":[
-            19,
-            15
-         ]
-      }
-   },
-   "5":{
-      "intent":"search_product",
-      "text":"I want a pair of shoes",
-      "slots":{
-         "product_category":"shoes"
-      },
-      "positions":{
-         "product_category":[
-            17,
-            21
-         ]
-      }
-   },
-   "6":{
-      "intent":"search_product",
-      "text":"I am looking for a full sleeve t-shirt",
-      "slots":{
-         "product_category":"full sleeve t-shirt"
-      },
-      "positions":{
-         "product_category":[
-            19,
-            37
-         ]
-      }
-   },
-   "7":{
-      "intent":"search_product",
-      "text":"Please show me a clothes that fit me",
-      "slots":{
-         "product_category":"clothes"
-      },
-      "positions":{
-         "product_category":[
-            17,
-            23
-         ]
-      }
-   },
-   "8":{
-      "intent":"search_product",
-      "text":"Please show me a dress for a wedding",
-      "slots":{
-         "product_category":"wedding"
-      },
-      "positions":{
-         "product_category":[
-            29,
-            35
-         ]
-      }
-   },
-   "9":{
-      "intent":"search_product",
-      "text":"Show me a shirt very suitable to me",
-      "slots":{
-         "product_category":"shirt"
-      },
-      "positions":{
-         "product_category":[
-            10,
-            14
-         ]
-      }
-   },
-   "10":{
-      "intent":"search_product",
-      "text":"I want a black t-shirt",
-      "slots":{
-         "product_category":"t-shirt"
-      },
-      "positions":{
-         "product_category":[
-            15,
-            21
-         ]
-      }
-   },
-   "11":{
-      "intent":"search_product",
-      "text":"Please show me the available t-shirt on crocodile brand?",
-      "slots":{
-         "product_category":"t-shirt"
-   
-      },
-      "positions":{
-         "product_category":[
-            29,
-            35
-         ]
-      }
-   },
-   "12":{
-      "intent":"search_product",
-      "text":"Please show me the medium size blouses",
-      "slots":{
-         "product_category":"blouses"
-      },
-      "positions":{
-         "product_category":[
-            31,
-            37
-         ]
-      }
-   },
-   "13":{
-      "intent":"search_product",
-      "text":"Do you have shirts?",
-      "slots":{
-         "product_category":"shirt"
-      },
-      "positions":{
-         "product_category":[
-            12,
-            17
-         ]
-      }
-   },
-   "14":{
-      "intent":"search_product",
-      "text":"I need to see red color sarees",
-      "slots":{
-         "product_category":"saree"
-      },
-      "positions":{
-         "product_category":[
-            24,
-            29
-         ]
-      }
-   },
-   "15":{
-      "intent":"search_product",
-      "text":"I want a blouse that suits me",
-      "slots":{
-         "product_category":"blouse"
-      },
-      "positions":{
-         "product_category":[
-            9,
-            14
-         ]
-      }
-   },
-   "16":{
-      "intent":"search_product",
-      "text":"Hey, how can I find a dry-fit that has a long sleeve?",
-      "slots":{
-         "product_category":"dry-fit"
-      },
-      "positions":{
-         "product_category":[
-            22,
-            28
-         ]
-      }
-   },
-   "17":{
-      "intent":"search_product",
-      "text":"What are the latest designs for me that you have?",
-      "slots":{
-         "product_category":"latest designs"
-      },
-      "positions":{
-         "product_category":[
-            13,
-            26
-         ]
-      }
-   }
-}
+    {"312": {
+        "intent": "AddToPlaylist",
+        "text": "Add Chér to the Still Got the Blues playlist",
+        "slots": {
+            "entity_name": "Chér",
+            "playlist": "Still Got the Blues"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                7
+            ],
+            "playlist": [
+                16,
+                34
+            ]
+        }
+    },
+    "313": {
+        "intent": "AddToPlaylist",
+        "text": "put Sonntagskind onto the playlist called soulful disco",
+        "slots": {
+            "entity_name": "Sonntagskind",
+            "playlist": "soulful disco"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                15
+            ],
+            "playlist": [
+                42,
+                54
+            ]
+        }
+    },
+    "314": {
+        "intent": "AddToPlaylist",
+        "text": "To johnnie's funtime activity playlist add the name The Best of Guitar Shorty",
+        "slots": {
+            "playlist_owner": "johnnie's",
+            "playlist": "funtime activity",
+            "entity_name": "The Best of Guitar Shorty"
+        },
+        "positions": {
+            "playlist_owner": [
+                3,
+                11
+            ],
+            "playlist": [
+                13,
+                28
+            ],
+            "entity_name": [
+                52,
+                76
+            ]
+        }
+    },
+    "315": {
+        "intent": "AddToPlaylist",
+        "text": "add rise of the infidels to my bring back the 90s playlist",
+        "slots": {
+            "entity_name": "rise of the infidels",
+            "playlist_owner": "my",
+            "playlist": "bring back the 90s"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                23
+            ],
+            "playlist_owner": [
+                28,
+                29
+            ],
+            "playlist": [
+                31,
+                48
+            ]
+        }
+    },
+    "316": {
+        "intent": "AddToPlaylist",
+        "text": "add this artist to my Jazz playlist",
+        "slots": {
+            "music_item": "artist",
+            "playlist_owner": "my",
+            "playlist": "Jazz"
+        },
+        "positions": {
+            "music_item": [
+                9,
+                14
+            ],
+            "playlist_owner": [
+                19,
+                20
+            ],
+            "playlist": [
+                22,
+                25
+            ]
+        }
+    },
+    "317": {
+        "intent": "AddToPlaylist",
+        "text": "add album to this is trey songz playlist",
+        "slots": {
+            "music_item": "album",
+            "playlist": "this is trey songz"
+        },
+        "positions": {
+            "music_item": [
+                4,
+                8
+            ],
+            "playlist": [
+                13,
+                30
+            ]
+        }
+    },
+    "318": {
+        "intent": "AddToPlaylist",
+        "text": "add this track to latin jazz",
+        "slots": {
+            "music_item": "track",
+            "playlist": "latin jazz"
+        },
+        "positions": {
+            "music_item": [
+                9,
+                13
+            ],
+            "playlist": [
+                18,
+                27
+            ]
+        }
+    },
+    "319": {
+        "intent": "AddToPlaylist",
+        "text": "I'd like to put duett onto my hot country playlist.",
+        "slots": {
+            "entity_name": "duett",
+            "playlist_owner": "my",
+            "playlist": "hot country"
+        },
+        "positions": {
+            "entity_name": [
+                16,
+                20
+            ],
+            "playlist_owner": [
+                27,
+                28
+            ],
+            "playlist": [
+                30,
+                40
+            ]
+        }
+    },
+    "320": {
+        "intent": "AddToPlaylist",
+        "text": "Add a song to in residence metal hammer episode 6",
+        "slots": {
+            "music_item": "song",
+            "playlist": "in residence metal hammer episode 6"
+        },
+        "positions": {
+            "music_item": [
+                6,
+                9
+            ],
+            "playlist": [
+                14,
+                48
+            ]
+        }
+    },
+    "321": {
+        "intent": "AddToPlaylist",
+        "text": "Add Jonathan Arons to my Indie Electronics playlist",
+        "slots": {
+            "artist": "Jonathan Arons",
+            "playlist_owner": "my",
+            "playlist": "Indie Electronics"
+        },
+        "positions": {
+            "artist": [
+                4,
+                17
+            ],
+            "playlist_owner": [
+                22,
+                23
+            ],
+            "playlist": [
+                25,
+                41
+            ]
+        }
+    },
+    "322": {
+        "intent": "AddToPlaylist",
+        "text": "Add Sarah Vaughan to the spa treatment playlist.",
+        "slots": {
+            "artist": "Sarah Vaughan",
+            "playlist": "spa treatment"
+        },
+        "positions": {
+            "artist": [
+                4,
+                16
+            ],
+            "playlist": [
+                25,
+                37
+            ]
+        }
+    },
+    "323": {
+        "intent": "AddToPlaylist",
+        "text": "Add I Hate Myself and I Want to Die  to my Six string peacefulness",
+        "slots": {
+            "entity_name": "I Hate Myself and I Want to Die",
+            "playlist_owner": "my",
+            "playlist": "Six string peacefulness"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                34
+            ],
+            "playlist_owner": [
+                40,
+                41
+            ],
+            "playlist": [
+                43,
+                65
+            ]
+        }
+    },
+    "324": {
+        "intent": "AddToPlaylist",
+        "text": "add this Candi Staton artist to my Dancefloor Hits",
+        "slots": {
+            "artist": "Candi Staton",
+            "music_item": "artist",
+            "playlist_owner": "my",
+            "playlist": "Dancefloor Hits"
+        },
+        "positions": {
+            "artist": [
+                9,
+                20
+            ],
+            "music_item": [
+                22,
+                27
+            ],
+            "playlist_owner": [
+                32,
+                33
+            ],
+            "playlist": [
+                35,
+                49
+            ]
+        }
+    },
+    "325": {
+        "intent": "AddToPlaylist",
+        "text": "I'd like johnny nash to be put into my playlist Always Pop Punk",
+        "slots": {
+            "artist": "johnny nash",
+            "playlist_owner": "my",
+            "playlist": "Always Pop Punk"
+        },
+        "positions": {
+            "artist": [
+                9,
+                19
+            ],
+            "playlist_owner": [
+                36,
+                37
+            ],
+            "playlist": [
+                48,
+                62
+            ]
+        }
+    },
+    "326": {
+        "intent": "AddToPlaylist",
+        "text": "Add the album to the top 100 country tracks on spotify playlist.",
+        "slots": {
+            "music_item": "album",
+            "playlist": "top 100 country tracks on spotify"
+        },
+        "positions": {
+            "music_item": [
+                8,
+                12
+            ],
+            "playlist": [
+                21,
+                53
+            ]
+        }
+    },
+    "327": {
+        "intent": "AddToPlaylist",
+        "text": "add Contact to my nu metal playlist",
+        "slots": {
+            "entity_name": "Contact",
+            "playlist_owner": "my",
+            "playlist": "nu metal"
+        },
+        "positions": {
+            "entity_name": [
+                4,
+                10
+            ],
+            "playlist_owner": [
+                15,
+                16
+            ],
+            "playlist": [
+                18,
+                25
+            ]
+        }
+    }}
