@@ -1,0 +1,63 @@
+{
+    "0": {
+        "intent": "search_product",
+        "text": "I want to buy a cap",
+        "slots": {
+            "product_category": "cap"
+    
+        },
+        "positions": {
+            "product_category": [
+                16,
+                18
+            ]
+        }
+    },
+    "1": {
+        "intent": "search_product",
+        "text": "Please show me a t-shirt",
+        "slots": {
+            "product_category": "t-shirt"
+            
+        },
+        "positions": {
+            "product_category": [
+                17,
+                23
+            ]
+        }
+    },
+    "2": {
+        "intent": "search_product",
+        "text": "Hi.I want to buy a black colour long trouser",
+        "slots": {
+            "color":"black",
+            "product_category": "long trouser"
+            
+           
+        },
+        "positions": {
+            "color": [
+                19,
+                23
+            ],
+            "product_category": [
+                37,
+                43
+            ]
+        }
+    },
+    "3": {
+        "intent": "search_product",
+        "text": "Please show me a shirt that fit me",
+        "slots": {
+            "product_category": "shirt"
+            
+        },
+        "positions": {
+            "product_category": [
+                17,
+                21
+            ]
+        }
+    }}
