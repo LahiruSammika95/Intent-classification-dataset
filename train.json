@@ -348,5 +348,129 @@
             38
          ]
       }
+   },
+   "22":{
+      "intent":"search_product",
+      "text":"I want a black large t-shirt",
+      "slots":{
+         "color":"black",
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "color":[
+            9,
+            13
+         ],
+         "product_category":[
+            15,
+            21
+         ]
+      }
+   },
+   "23":{
+      "intent":"search_product",
+      "text":"Please show me the available t-shirt on crocodile brand?",
+      "slots":{
+         "product_category":"t-shirt"
+   
+      },
+      "positions":{
+         "product_category":[
+            29,
+            35
+         ],
+         "brand":[
+            50,
+            54
+         ]
+      }
+   },
+   "24":{
+      "intent":"search_product",
+      "text":"Please show me the medium size blouses",
+      "slots":{
+         "size":"medium",
+         "product_category":"blouses"
+      },
+      "positions":{
+         "size":[
+            19,
+            24
+         ],
+         "product_category":[
+            31,
+            37
+         ]
+      }
+   },
+   "25":{
+      "intent":"search_product",
+      "text":"Do you have shirts?",
+      "slots":{
+         "product_category":"shirt"
+      },
+      "positions":{
+         "product_category":[
+            12,
+            17
+         ]
+      }
+   },
+   "26":{
+      "intent":"search_product",
+      "text":"I need to see red color sarees",
+      "slots":{
+         "color":"red",
+         "product_category":"saree"
+      },
+      "positions":{
+         "color":[
+            14,
+            16
+         ],
+         "product_category":[
+            24,
+            29
+         ]
+      }
+   },
+   "27":{
+      "intent":"search_product",
+      "text":"I want a blouse that suits me",
+      "slots":{
+         "product_category":"blouse"
+      },
+      "positions":{
+         "product_category":[
+            9,
+            14
+         ]
+      }
+   },
+   "28":{
+      "intent":"search_product",
+      "text":"Hey, how can I find a dry-fit that has a long sleeve?",
+      "slots":{
+         "product_category":"dry-fit"
+      },
+      "positions":{
+         "product_category":[
+            22,
+            28
+         ]
+      }
+   },
+   "29":{
+      "intent":"search_product",
+      "text":"What are the latest designs for me that you have?",
+      "slots":{
+         "product_category":"latest designs"
+      },
+      "positions":{
+         "product_category":[
+            13,
+            26
+         ]
+      }
    }
    }
