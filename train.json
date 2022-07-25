@@ -472,5 +472,199 @@
             26
          ]
       }
-   }
+   },
+   "30":{
+      "intent":"search_product",
+      "text":"I'm looking for a white shirt,can you help me for find a shirt that fit me?",
+      "slots":{
+         "color":"white",
+         "product_category":"shirt"
+      },
+      "positions":{
+         "color":[
+            18,
+            22
+         ],
+         "product_category":[
+            24,
+            28
+         ]
+      }
+   },
+   "31":{
+      "intent":"search_product",
+      "text":"What type of shirts are there?",
+      "slots":{
+         "product_category":"shirts"
+      },
+      "positions":{
+         "product_category":[
+            13,
+            18
+         ]
+      }
+   },
+   "32":{
+      "intent":"search_product",
+      "text":"Please give me a shirt that fit me",
+      "slots":{
+         "product_category":"shirt"
+      },
+      "positions":{
+         "product_category":[
+            17,
+            21
+         ]
+      }
+   },
+   "33":{
+      "intent":"search_product",
+      "text":"I want a pair of white shoes",
+      "slots":{
+         "color":"white",
+         "product_category":"shoes"
+      },
+      "positions":{
+         "color":[
+            17,
+            21
+         ],
+         "product_category":[
+            23,
+            27
+         ]
+      }
+   },
+   "34":{
+      "intent":"search_product",
+      "text":"I want a pair of white shoes in size 6",
+      "slots":{
+         "color":"white",
+         "product_category":"shoes",
+         "size":"6"
+      },
+      "positions":{
+         "color":[
+            17,
+            21
+         ],
+         "product_category":[
+            23,
+            27
+         ],
+         "size":[
+            37,
+            37
+         ]
+      }
+   },
+   "35":{
+      "intent":"search_product",
+      "text":"I want L size in this shirt or blouse",
+      "slots":{
+         "size":"L",
+         "product_category":"shirt or blouse"
+      },
+      "positions":{
+         "size":[
+            7,
+            7
+         ],
+         "product_category":[
+            22,
+            36
+         ]
+      }
+   },
+   "36":{
+      "intent":"search_product",
+      "text":"I want a shirt",
+      "slots":{
+         "product_category":"shirt"
+      },
+      "positions":{
+         "product_category":[
+            9,
+            13
+         ]
+      }
+   },
+   "37":{
+      "intent":"search_product",
+      "text":"Do you have new model dresses? please show me",
+      "slots":{
+         "product_category":"new model dresses"
+      },
+      "positions":{
+         "product_category":[
+            12,
+            28
+         ]
+      }
+   },
+   "38":{
+      "intent":"search_product",
+      "text":"i want pair of casual shoes",
+      "slots":{
+         "product_category":"casual shoes"
+      },
+      "positions":{
+         "product_category":[
+            15,
+            26
+         ]
+      }
+   },
+   "39":{
+      "intent":"search_product",
+      "text":"I want to buy a party frock",
+      "slots":{
+         "product_category":"party frock"
+      },
+      "positions":{
+         "product_category":[
+            16,
+            26
+         ]
+      }
+   },
+   "40":{
+      "intent":"search_product",
+      "text":"Please show me a blouse fit me",
+      "slots":{
+         "product_category":"blouse"
+      },
+      "positions":{
+         "product_category":[
+            17,
+            22
+         ]
+      }
+   },
+   "41":{
+      "intent":"search_product",
+      "text":"Can you show me some shirts?",
+      "slots":{
+         "product_category":"shirts"
+      },
+      "positions":{
+         "product_category":[
+            21,
+            26
+         ]
+      }
+   },
+   "42":{
+      "intent":"search_product",
+      "text":"I want sport outfits. Do you have?",
+      "slots":{
+         "product_category":"sport outfits"
+      },
+      "positions":{
+         "product_category":[
+            7,
+            19
+         ]
+      }
+   }      
    }
