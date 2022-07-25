@@ -216,11 +216,11 @@
       "intent":"discount",
       "text":"Are there any discount today?",
       "slots":{
-	 "day":"today"
+	 "discount_period":"today"
   
       },
       "positions":{
-         "day":[
+         "discount_period":[
             23,
             27
          ]
@@ -327,10 +327,10 @@
       "intent":"discount",
       "text":"What are the discounts available today?",
       "slots":{
-         "day":"today"
+         "discount_period":"today"
       },
       "positions":{
-         "day":[
+         "discount_period":[
             33,
             37
          ]
@@ -340,10 +340,10 @@
       "intent":"discount",
       "text":"Are there any discounts available today.",
       "slots":{
-      	 "day":"today"
+      	 "discount_period":"today"
       },
       "positions":{
-         "day":[
+         "discount_period":[
             34,
             38
          ]
@@ -1331,7 +1331,155 @@
             26
          ]
       }
-   }
+   },
+   "83":{
+      "intent":"pay",
+      "text":"What is the total price again",
+      "slots":{
+         "total_price":"total price"
+      },
+      "positions":{
+         "total_price":[
+            12,
+            22
+         ]
+      }
+   },
+   "84":{
+      "intent":"pay",
+      "text":"How can I pay for these? Will you accept crypto?",
+      "slots":{
+         "payment_method":"crypto"
+      },
+      "positions":{
+         "payment_method":[
+            41,
+            46
+         ]
+      }
+   },
+   "85":{
+      "intent":"pay",
+      "text":"Can I pay cash on delivery",
+      "slots":{
+         "payment_method":"cash on delivery"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            25
+         ]
+      }
+   },
+   "86":{
+      "intent":"pay",
+      "text":"Can I pay by credit card?",
+      "slots":{
+         "payment_method":"credit card"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            23
+         ]
+      }
+   },
+   "87":{
+      "intent":"pay",
+      "text":"Do you have the credit card facilities?",
+      "slots":{
+         "payment_method":"credit card"
+      },
+      "positions":{
+         "payment_method":[
+            16,
+            26
+         ]
+      }
+   },
+   "88":{
+      "intent":"pay",
+      "text":"Can i pay later",
+      "slots":{
+         "payment_method":"later"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            14
+         ]
+      }
+   },
+   "89":{
+      "intent":"pay",
+      "text":"Do you have facility to pay via debit card",
+      "slots":{
+         "payment_method":"debit card"
+      },
+      "positions":{
+         "payment_method":[
+            32,
+            41
+         ]
+      }
+   },
+   "90":{
+      "intent":"pay",
+      "text":"Can i pay credit card",
+      "slots":{
+         "payment_method":"credit card"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            20
+         ]
+      }
+   },
+   "91":{
+      "intent":"pay",
+      "text":"Is there any additional chargers when paying via credit card ?",
+      "slots":{
+         "payment_method":"credit card",
+         "total_price":"any additional chargers"
+      },
+      "positions":{
+         "payment_method":[
+            49,
+            59
+         ],
+         "total_price":[
+            13,
+            31
+         ],
+      }
+   },
+   "92":{
+      "intent":"pay",
+      "text":"Can I pay by my credit or debit card? ",
+      "slots":{
+         "payment_method":"credit or debit card"
+      },
+      "positions":{
+         "payment_method":[
+            16,
+            35
+         ]
+      }
+   },
+   "93":{
+      "intent":"pay",
+      "text":"Can I pay by card",
+      "slots":{
+         "payment_method":"card"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            16
+         ]
+      }
+   }, 
    
    
    }
