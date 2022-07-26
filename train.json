@@ -376,7 +376,7 @@
       "text":"Please show me office wears of color black that fit me",
       "slots":{
          "product_category":"office wears",
-         "color":"black",
+         "color":"black"
       },
       "positions":{
          "product_category":[
@@ -394,7 +394,7 @@
       "text":"can you show shirts or T-shirts of size large",
       "slots":{
          "product_category":"shirts or T-shirts",
-         "size":"large",
+         "size":"large"
       },
       "positions":{
          "product_category":[
@@ -430,7 +430,7 @@
       "text":"Have you got any long sleeve shirts with color brown?",
       "slots":{
          "product_category":"long sleeve shirts",
-         "color":"brown",
+         "color":"brown"
       },
       "positions":{
          "product_category":[
@@ -520,7 +520,7 @@
       "text":"I need a nike short trouser of size extra small",
       "slots":{
          "product_category":"nike short trouser",
-         "size":"extra small",
+         "size":"extra small"
       },
       "positions":{
          "product_category":[
@@ -556,7 +556,7 @@
       "text":"What are the latest designs with size double xl for me that you have?",
       "slots":{
          "product_category":"latest designs",
-         "size":"double xl",        
+         "size":"double xl"     
       },
       "positions":{
          "product_category":[
@@ -764,7 +764,7 @@
       "text":"Please show me a blouse in size large that fit me",
       "slots":{
          "product_category":"blouse",
-         "size":"large",
+         "size":"large"
       },
       "positions":{
          "product_category":[
@@ -800,7 +800,7 @@
       "text":"I want sport outfits. Do you have size large?",
       "slots":{
          "product_category":"sport outfits",
-         "size":"large",   
+         "size":"large"
       },
       "positions":{
          "product_category":[
@@ -810,7 +810,7 @@
          "size":[
             39,
             43
-         ],        
+         ]     
       }
    },      
    "43":{
