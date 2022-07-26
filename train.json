@@ -414,7 +414,42 @@
          ]
       }
    },
-
+   "21":{
+      "intent":"discount",
+      "text":"Are there any discounts available today.",
+      "slots":{
+      	 "discount_period":"today",
+	 "discount_percentage":"any"  
+      },
+      "positions":{
+         "discount_period":[
+            34,
+            38
+         ],
+         "discount_percentage":[
+            10,
+            12
+         ]
+      }
+   },
+   "22":{
+      "intent":"search_product",
+      "text":"I want a black large t-shirt",
+      "slots":{
+         "color":"black",
+         "product_category":"t-shirt"
+      },
+      "positions":{
+         "color":[
+            9,
+            13
+         ],
+         "product_category":[
+            15,
+            21
+         ]
+      }
+   },
 
     "23":{
        "intent":"pay",
@@ -626,5 +661,81 @@
          4
       ]
      }
-  }
+  },
+ 
+     "34":{
+     "intent":"pay",
+     "text":"Do you consider credit card payments",
+     "slots":{
+        "payment_method":"credit card",
+        "object":"you"
+     },
+     "positions":{
+        "payment_method":[
+           16,
+           27
+        ],
+        "object":[
+         3,
+         5
+      ]
+     }
+  },
+ 
+ "35":{
+    "intent":"pay",
+    "text":"If i buy two what happen to the total price?",
+    "slots":{
+       "total_price":"total price",
+       "object":""
+    },
+    "positions":{
+       "payment_method":[
+          19,
+          42
+       ],
+       "object":[
+        3,
+        3
+     ]
+    }
+ },
+    "36":{
+       "intent":"pay",
+       "text":"Do you have facility to pay via debit card",
+       "slots":{
+          "payment_method":"debit card",
+          "object":"you"
+       },
+       "positions":{
+          "payment_method":[
+             32,
+             41
+          ],
+          "object":[
+             3,
+             5
+          ]
+       }
+    },
+ 
+    "37":{
+       "intent":"pay",
+       "text":"Can i pay credit card",
+       "slots":{
+          "payment_method":"credit card",
+          "object":"I"
+       },
+       "positions":{
+          "payment_method":[
+             10,
+             20
+          ],
+          "object":[
+             4,
+             4
+          ]
+          
+       }
+    }
  }
