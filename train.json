@@ -1647,1803 +1647,2215 @@
             ]
         }
     },
-    "86": {
+    "88": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "What are the latest fashionable tshirts in extra large size?",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "latest fashionable tshirts",
+            "size": "extra large"
         },
         "positions": {
             "product_category": [
                 13,
-                17
+                38
             ],
             "size": [
-                35,
-                40
+                43,
+                53
             ]
         }
     },
-    "86": {
+    "89": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Can you show me purple or blue underwear",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "underwear",
+            "color": "purple or blue"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                31,
+                39
             ],
-            "size": [
-                35,
-                40
+            "color": [
+                16,
+                29
             ]
         }
     },
-    "86": {
+    "90": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Please show me available xl shirts and t-shirts?",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category":"shirts and t-shirts",
+            "size": "xl"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                28,
+                46
             ],
             "size": [
-                35,
-                40
+                25,
+                26
             ]
         }
     },
-    "86": {
+    "91": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "excuse me, do you have new designs of outfits which fit for me? I'm looking for size double xl",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "new designs of outfits",
+            "size": "double xl"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                22,
+                43
             ],
             "size": [
-                35,
-                40
+                84,
+                92
             ]
         }
     },
-    "86": {
+    "92": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Hello, i need to buy a dress can you help me? I would like to have large size red color one",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "dress",
+            "size": "large",
+            "color":"red"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                23,
+                27
             ],
             "size": [
-                35,
-                40
+                67,
+                71
+            ],
+            "color": [
+                78,
+                80
             ]
         }
     },
-    "86": {
+    "93": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Is this dress suites to me? I'm looking for a maroon color one",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "dress",
+            "color": "maroon"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                8,
+                12
             ],
-            "size": [
-                35,
-                40
+            "color": [
+                46,
+                53
             ]
         }
     },
-    "86": {
+    "94": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Can you show me latest frocks? I need a light green one",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "latest frocks",
+            "color": "light green"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                16,
+                28
             ],
-            "size": [
-                35,
-                40
+            "color": [
+                40,
+                50
             ]
         }
     },
-    "86": {
+    "95": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "I want a long white mix frock that fit me",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "long white mix frock",
+            "color": "white"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                9,
+                28
             ],
             "size": [
-                35,
-                40
+                14,
+                18
             ]
         }
     },
-    "86": {
+    "96": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Please show me a good q&q wrist watch",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "wrist watch",
+            "brand": "q&q"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                26,
+                36
             ],
             "size": [
-                35,
-                40
+                22,
+                24
             ]
         }
     },
-    "86": {
+    "97": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Where is the ladies section. I like to see some office wears",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category":"office wears"
+
         },
         "positions": {
             "product_category": [
-                13,
-                17
-            ],
-            "size": [
-                35,
-                40
+                48,
+                59
             ]
         }
     },
-    "86": {
+    "98": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "I want to buy a wrist band. Do you have it in color white and black",
         "slots": {
-            "product_category": "men’s",
+            "product_category": "wrist band",
+            "color": "white and black"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                25
+            ],
+            "color": [
+                52,
+                66
+            ]
+        }
+    },
+    "99": {
+        "intent": "search_product",
+        "text": "Do you have orange color caps without any print on it?",
+        "slots": {
+            "product_category": "caps",
+            "color": "orange"
+        },
+        "positions": {
+            "product_category": [
+                25,
+                28
+            ],
+            "color": [
+                12,
+                17
+            ]
+        }
+    },
+    "100": {
+        "intent": "search_product",
+        "text": "Show me a sunglass that suits me. Dark frame would be perfect",
+        "slots": {
+            "product_category": "sunglass",
+            "color": "Dark"
+        },
+        "positions": {
+            "product_category": [
+                10,
+                17
+            ],
+            "color": [
+                34,
+                37
+            ]
+        }
+    },
+    "101": {
+        "intent": "search_product",
+        "text": "I want to buy a women sport t shirt",
+        "slots": {
+            "product_category": "sport t shirt",
+            "gender": "women"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                34
+            ],
+            "gender": [
+                16,
+                20
+            ]
+        }
+    },
+    "102": {
+        "intent": "search_product",
+        "text": "I want a mens cotton trouser. My hip is around 38",
+        "slots": {
+            "product_category": "cotton trouser",
+            "gender":"mens",
+            "size": "38"
+        },
+        "positions": {
+            "product_category": [
+                14,
+                27
+            ],
+            "gender": [
+                9,
+                12
+            ],
+            "size": [
+                46,
+                48
+            ]
+        }
+    },
+    "103": {
+        "intent": "search_product",
+        "text": "Can you show me baby towels? If you have give me a small one please",
+        "slots": {
+            "product_category": "baby towels",
+            "size": "small"
+        },
+        "positions": {
+            "product_category": [
+                15,
+                25
+            ],
+            "size": [
+                50,
+                54
+            ]
+        }
+    },
+    "104": {
+        "intent": "search_product",
+        "text": "I want ash color men's casual trouser",
+        "slots": {
+            "product_category": "mens casual trouser",
+            "color": "ash",
+            "gender":"mens"
+        },
+        "positions": {
+            "product_category": [
+                17,
+                36
+            ],
+            "color": [
+                7,
+                9
+            ],
+            "gender": [
+                17,
+                21
+            ]
+        }
+    },
+    "105": {
+        "intent": "search_product",
+        "text": "I need to buy a dark green tie",
+        "slots": {
+            "product_category": "tie",
+            "color": "dark green"
+        },
+        "positions": {
+            "product_category": [
+                27,
+                29
+            ],
+            "size": [
+                16,
+                25
+            ]
+        }
+    },
+    "106": {
+        "intent": "search_product",
+        "text": "I want to buy ladies sport shoes. Can u show me?",
+        "slots": {
+            "product_category": "ladies sport shoes",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                14,
+                31
+            ],
+            "gender": [
+                14,
+                19
+            ]
+        }
+    },
+    "107": {
+        "intent": "search_product",
+        "text": "Do you have good choice for me? can you select matching color of a dress to me? I need a ladies pant",
+        "slots": {
+            "product_category": "ladies pant",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                89,
+                99
+            ],
+            "gender": [
+                89,
+                94
+            ]
+        }
+    },
+    "108": {
+        "intent": "search_product",
+        "text": "what kind of brands you are selling? I'm looking for a medium size jersey",
+        "slots": {
+            "product_category": "jersey",
             "size": "medium"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                67,
+                72
             ],
             "size": [
-                35,
-                40
+                55,
+                60
             ]
         }
-    }
-    ,
-
-   "110":{
-      "intent":"pay",
-      "text":"What is the total price again",
-      "slots":{
-         "total_price":"total price",
-         "verb":"is"
-      },
-      "positions":{
-         "total_price":[
-            12,
-            22
-         ],
-         "verb":[
-            5,
-            6
-         ]
-      }
-   },
-
-   "111":{
-      "intent":"pay",
-      "text":"How can I pay for these? Will you accept crypto?",
-      "slots":{
-         "payment_method":"crypto",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            41,
-            46
-         ],
-         "object":[
-            8,
-            8
-         ]
-      }
-   },
-
-   "112":{
-      "intent":"pay",
-      "text":"Can I pay cash on delivery",
-      "slots":{
-         "payment_method":"cash on delivery",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            25
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-   "113":{
-      "intent":"pay",
-      "text":"Can I pay by credit card?",
-      "slots":{
-         "payment_method":"credit card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            23
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-   "114":{
-      "intent":"pay",
-      "text":"Do you have the credit card facilities?",
-      "slots":{
-         "payment_method":"credit card",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            16,
-            26
-         ],
-         "object":[
-            3,
-            5
-         ]
-      }
-   },
-
-   "115":{
-      "intent":"pay",
-      "text":"Can i pay later",
-      "slots":{
-         "payment_method":"later",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            14
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-   "116":{
-      "intent":"pay",
-      "text":"Do you have facility to pay via debit card",
-      "slots":{
-         "payment_method":"debit card",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            32,
-            41
-         ],
-         "object":[
-            3,
-            5
-         ]
-      }
-   },
-
-   "117":{
-      "intent":"pay",
-      "text":"Can i pay credit card",
-      "slots":{
-         "payment_method":"credit card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            20
-         ],
-         "object":[
-            4,
-            4
-         ]
-         
-      }
-   },
-
-   "118":{
-      "intent":"pay",
-      "text":"Is there any additional chargers when paying via credit card ?",
-      "slots":{
-         "payment_method":"credit card",
-         "total_price":"any additional chargers"
-      },
-      "positions":{
-         "payment_method":[
-            49,
-            59
-         ],
-         "total_price":[
-            13,
-            31
-         ]
-      }
-   },
-
-   "119":{
-      "intent":"pay",
-      "text":"Can I pay by my credit or debit card? ",
-      "slots":{
-         "payment_method":"credit or debit card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            16,
-            35
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-   "1110":{
-      "intent":"pay",
-      "text":"Can I pay by card",
-      "slots":{
-         "payment_method":"card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            16
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-   "1111":{
-      "intent":"pay",
-      "text":"Can i pay by credit card",
-      "slots":{
-         "payment_method":"credit card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            23
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-   "1211":{
-      "intent":"pay",
-      "text":"Can i pay by debit card",
-      "slots":{
-         "payment_method":"debit card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            22
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-   "1311":{
-      "intent":"pay",
-      "text":"Can i pay by visa card",
-      "slots":{
-         "payment_method":"visa card",
-         "object":"I"
-      },
-      "positions":{
-         "payment_method":[
-            4,
-            4
-         ],
-         "object":[
-            4,
-            4
-         ]
-      }
-   },
-
-
-   "1411":{
-    "intent":"pay",
-    "text":"Do you accept credit card payments",
+    },
+    "109": {
+        "intent": "search_product",
+        "text": "Hi dear, I need to buy mens sport shoes. what kind of brands do you have?",
+        "slots": {
+            "product_category": "mens sport shoes",
+            "gender": "mens"
+        },
+        "positions": {
+            "product_category": [
+                23,
+                38
+            ],
+            "size": [
+                23,
+                26
+            ]
+        }
+    },
+"200":{
+    "intent":"discount",
+    "text":"Are there any offers today",
     "slots":{
-       "payment_method":"credit card",
-       "object":"you"
+  "discount_percentage":"any",
+  "discount_period":"today"
     },
     "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          21,
+          25
+       ]
+    }
+ },
+ "201":{
+    "intent":"discount",
+    "text":"Are there any discounts or offers for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          43,
+          47
+       ]
+    }
+ },
+ "202":{
+    "intent":"discount",
+    "text":"What are the discounts available today",
+    "slots":{
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ]
+    }
+ },
+ "203":{
+    "intent":"discount",
+    "text":"Are there any discounts available today.",
+    "slots":{
+       "discount_period":"today",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          34,
+          38
+       ],
+       "discount_percentage":[
+          10,
+          12
+       ]
+    }
+ },
+ "204":{
+    "intent":"discount",
+    "text":"Are there any offers for this shirt",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"shirt"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          30,
+          34
+       ]
+    }
+ },
+ "205":{
+    "intent":"discount",
+    "text":"Are the any discounts available for this month?",
+    "slots":{
+       "discount_period":"month",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          41,
+          45
+       ],
+       "discount_percentage":[
+          8,
+          10
+       ]
+    }
+ },
+ "206":{
+    "intent":"discount",
+    "text":"What are the discounts available in this season",
+    "slots":{
+       "discount_period":"season"
+    },
+    "positions":{
+       "size":[
+          41,
+          46
+       ]
+    }
+ },
+ "207":{
+    "intent":"discount",
+    "text":"Any discounts on Black Friday?",
+    "slots":{
+       "discount_period":"Black fiday",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          17,
+          28
+       ],
+       "discount_percentage":[
+          0,
+          2
+       ]
+    }
+ },
+ "208":{
+    "intent":"discount",
+    "text":"Are their any discounts available for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          43,
+          47
+       ]
+    }
+ },
+ "209":{
+    "intent":"discount",
+    "text":"Are there any credit card offers?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
        "payment_method":[
           14,
-          33
-       ],
-       "object":[
-        3,
-        5
-     ]
-       
+          24
+       ]
     }
-   },
-
-    "1511":{
-    "intent":"pay",
-    "text":"Is debit card okay?",
+ },
+ "210":{
+    "intent":"discount",
+    "text":"Is there 5% offer available for this product?",
     "slots":{
-       "payment_method":"debit card",
-       "verb":"is"
+        "discount_percentage":"5%",
+       "product_category":"product"
     },
     "positions":{
+       "discount_percentage":[
+          9,
+          10
+       ],         
+       "product_category":[
+          37,
+          43
+       ]
+    }
+ },
+ "211":{
+    "intent":"discount",
+    "text":"Is there 10% offer available for this blouse?",
+    "slots":{
+       "discount_percentage":"10%",
+       "product_category":"blouse"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],         
+       "product_category":[
+          38,
+          43
+       ]
+    }
+ },
+ "212":{
+    "intent":"discount",
+    "text":"Do you give any offes for today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          12,
+          14
+       ],         
+       "discount_period":[
+          26,
+          30
+       ]
+    }
+ },
+ "213":{
+    "intent":"discount",
+    "text":"If I buy this what is your best price today?",
+    "slots":{
+       "discount_period":"today"
+    },
+    "positions":{        
+       "discount_period":[
+          38,
+          42
+       ]
+    }
+ },
+ "214":{
+    "intent":"discount",
+    "text":"What are the discount items are there today?",
+    "slots":{
+       "product_category":"items",
+       "discount_period":"today"
+    },
+    "positions":{
+       "product_category":[
+          22,
+          26
+       ],
+       "discount_period":[
+          38,
+          42
+       ]
+    }
+ },
+ "215":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
        "payment_method":[
-          3,
+          25,
+          35
+       ]
+    }
+ },
+ "216":{
+    "intent":"discount",
+    "text":"What are the discounted clothes today",
+    "slots":{
+       "product_category":"clothes",
+       "discount_period":"today"
+    },
+    "positions":{
+       "product_category":[
+          24,
+          30
+       ],
+       "discount_period":[
+          32,
+          36
+       ]
+    }
+ },
+ "217":{
+    "intent":"discount",
+    "text":"Are there 20% discounts today?",
+    "slots":{
+       "discount_percentage":"20%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          24,
+          28
+       ]
+    }
+ },
+ "218":{
+    "intent":"discount",
+    "text":"Are there any discounts for this item ?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"item"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          36
+       ]
+    }
+ },
+ "219":{
+    "intent":"discount",
+    "text":"How much discount offered in this dress today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_period":[
+          40,
+          44
+       ],
+       "product_category":[
+          34,
+          38
+       ]
+    }
+ },
+ "220":{
+    "intent":"discount",
+    "text":"Are there any discounts available today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          34,
+          38
+       ]
+    }
+ },
+ "221":{
+    "intent":"discount",
+    "text":"Are you giving any discount these days?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"these days"
+    },
+    "positions":{
+       "discount_percentage":[
+          15,
           17
        ],
-       "verb":[
-        1,
-        2
-     ]
+       "discount_period":[
+          28,
+          37
+       ]
     }
  },
-
-    "1611":{
-    "intent":"pay",
-    "text":"Can I pay by master card?",
+ "222":{
+    "intent":"discount",
+    "text":"Are there any offers for festival?",
     "slots":{
-       "payment_method":"master card",
-       "object":"I"
+       "discount_percentage":"any",
+       "discount_period":"festival"
     },
     "positions":{
-       "payment_method":[
-          13,
-          23
+       "discount_percentage":[
+          10,
+          12
        ],
-       "object":[
-        4,
-        4
-     ]
+       "discount_period":[
+          25,
+          32
+       ]
     }
  },
-
-    "1711":{
-    "intent":"pay",
-    "text":"Do you consider credit card payments",
+ "223":{
+    "intent":"discount",
+    "text":"is there any offers these days?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"these days"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "discount_period":[
+          20,
+          29
+       ]
+    }
+ },
+ "224":{
+    "intent":"discount",
+    "text":"is this party frock having 20% off?",
+    "slots":{
+       "discount_percentage":"20%",
+       "product_category":"party frock"
+    },
+    "positions":{
+       "discount_percentage":[
+          27,
+          29
+       ],
+       "product_category":[
+          8,
+          18
+       ]
+    }
+ },
+ "225":{
+    "intent":"discount",
+    "text":"are there any discount for this season",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"season"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          32,
+          37
+       ]
+    }
+ },
+ "226":{
+    "intent":"discount",
+    "text":"do you offer any discounts for sunday?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"sunday"
+    },
+    "positions":{
+       "discount_percentage":[
+          13,
+          15
+       ],
+       "discount_period":[
+          31,
+          36
+       ]
+    }
+ },
+ "227":{
+    "intent":"discount",
+    "text":"Are there 15% offers available today? ",
+    "slots":{
+       "discount_percentage":"15%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          31,
+          35
+       ]
+    }
+ },
+ "228":{
+    "intent":"discount",
+    "text":"how many days do you offer 50% discount?",
+    "slots":{
+       "discount_percentage":"50%",
+       "discount_period":"days"
+    },
+    "positions":{
+       "discount_percentage":[
+          27,
+          29
+       ],
+       "discount_period":[
+          9,
+          12
+       ]
+    }
+ },
+ "229":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "230":{
+    "intent":"discount",
+    "text":"Are there 10% offers for credit cards?",
+    "slots":{
+       "discount_percentage":"10%",
+       "payment_method":"credit cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          36
+       ]
+    }
+ },
+ "231":{
+    "intent":"discount",
+    "text":"if i buy two sarees how will be my bill?",
+    "slots":{
+       "qty":"two",
+       "product_category":"sarees"
+    },
+    "positions":{
+       "qty":[
+          9,
+          11
+       ],
+       "product_category":[
+          13,
+          18
+       ]
+    }
+ },
+ "232":{
+    "intent":"discount",
+    "text":"are there any seasonal discounts today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_type":"seasonal"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          14,
+          21
+       ]
+    }
+ },
+ "233":{
+    "intent":"discount",
+    "text":"Should i pay by credit card today?",
     "slots":{
        "payment_method":"credit card",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          14,
+          21
+       ]
+    }
+ },
+ "234":{
+    "intent":"discount",
+    "text":"Can you give me 5% discount for this dress?",
+    "slots":{
+       "discount_percentage":"5%",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          16,
+          17
+       ],
+       "product_category":[
+          37,
+          41
+       ]
+    }
+ },
+ "235":{
+    "intent":"discount",
+    "text":"Do u have any offers today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          21,
+          25
+       ]
+    }
+ },
+ "236":{
+    "intent":"discount",
+    "text":"Is this the discount that you are giving to this shirt today?",
+    "slots":{
+       "product_category":"shirt",
+       "discount_period":"today"
+    },
+    "positions":{
+       "product_category":[
+          49,
+          53
+       ],
+       "discount_period":[
+          55,
+          59
+       ]
+    }
+ },
+ "237":{
+    "intent":"discount",
+    "text":"Is this dress for this price? Can't you lower the price for this month?",
+    "slots":{
+       "product_category":"dress",
+       "discount_period":"month"
+    },
+    "positions":{
+       "product_category":[
+          8,
+          12
+       ],
+       "discount_period":[
+          65,
+          69
+       ]
+    }
+ },
+ "238":{
+    "intent":"discount",
+    "text":"Can make it as low price for the frock?",
+    "slots":{
+       "discount_percentage":"low price",
+       "product_category":"frock"
+    },
+    "positions":{
+       "discount_percentage":[
+          15,
+          23
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "239":{
+    "intent":"discount",
+    "text":"Are there any offers in this week?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"this week"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          24,
+          32
+       ]
+    }
+ },
+ "240":{
+    "intent":"discount",
+    "text":"Are there any discounts available for pair of shoes? ",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"pair of shoes"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          38,
+          50
+       ]
+    }
+ },
+ "241":{
+    "intent":"discount",
+    "text":"Can you give atleast a small discount?",
+    "slots":{
+       "discount_percentage":"small",
        "object":"you"
     },
     "positions":{
-       "payment_method":[
-          16,
+       "discount_percentage":[
+          23,
           27
        ],
        "object":[
-        3,
-        5
-     ]
+          4,
+          6
+       ]
     }
  },
-
-
- "1811":{
-   "intent":"pay",
-   "text":"Can i pay through Visa Card?",
-   "slots":{
-      "payment_method":"visa card",
-      "object":"I"
-   },
-   "positions":{
-      "payment_method":[
-         18,
-         26
-      ],
-      "object":[
-       4,
-       4
-    ]
-   }
-},
-
-"1911":{
-   "intent":"pay",
-   "text":"Do you accept debit card payment?",
-   "slots":{
-      "payment_method":"debit card",
-      "object":"you"
-   },
-   "positions":{
-      "payment_method":[
-         14,
-         23
-      ],
-      "object":[
-       3,
-       5
-    ]
-   }
-},
-
-"2011":{
-   "intent":"pay",
-   "text":"Do you do credit card transactions?",
-   "slots":{
-      "payment_method":"credit card",
-      "object":"you"
-   },
-   "positions":{
-      "payment_method":[
-         10,
-         20
-      ],
-      "object":[
-       3,
-       5
-    ]
-   }
-},
-
-"2111":{
-   "intent":"pay",
-   "text":"Can I pay from my banking app?",
-   "slots":{
-      "payment_method":"banking app",
-      "object":"I"
-   },
-   "positions":{
-      "payment_method":[
-         18,
-         28
-      ],
-      "object":[
-       4,
-       4
-    ]
-   }
-},
-
-"2211":{
-   "intent":"pay",
-   "text":"I'm going to pay by a credit card is it ok?",
-   "slots":{
-      "payment_method":"credit card",
-      "object":"I"
-   },
-   "positions":{
-      "payment_method":[
-         22,
-         32
-      ],
-      "object":[
-       1,
-       1
-    ]
-   }
-},
-
-"2311":{
-   "intent":"pay",
-   "text":"can i pay using my credit card?",
-   "slots":{
-      "payment_method":"credit card",
-      "object":"I"
-   },
-   "positions":{
-      "payment_method":[
-         19,
-         29
-      ],
-      "object":[
-       1,
-       1
-    ]
-   }
-},
-
-"2411":{
-   "intent":"pay",
-   "text":"If i buy two what happen to the total price?",
-   "slots":{
-      "total_price":"total price",
-      "object":"i"
-   },
-   "positions":{
-      "total_price":[
-         19,
-         42
-      ],
-      "object":[
-       3,
-       3
-    ]
-   }
-},
-
-   "2511":{
-      "intent":"pay",
-      "text":"can i pay using my debit card?",
-      "slots":{
-         "payment_method":"debit card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            19,
-            28
-         ],
-         "object":[
-          4,
+ "242":{
+    "intent":"discount",
+    "text":"Any offer for this cloth?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"cloth"
+    },
+    "positions":{
+       "discount_percentage":[
+          0,
+          2
+       ],
+       "product_category":[
+          19,
+          23
+       ]
+    }
+ },
+ "243":{
+    "intent":"discount",
+    "text":"Are there any offers for this dresses? ",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          30,
+          36
+       ]
+    }
+ },
+ "244":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card of NDB bank?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "245":{
+    "intent":"discount",
+    "text":"Are there 10% discounts today?",
+    "slots":{
+       "discount_percentage":"10%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          24,
+          28
+       ]
+    }
+ },
+ "246":{
+    "intent":"discount",
+    "text":"Are there any seasonal discounts or any other offers for credit card payments?",
+    "slots":{
+       "discount_type":"seasonal",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_period":[
+          14,
+          21
+       ],
+       "payment_method":[
+          57,
+          67
+       ]
+    }
+ },
+ "247":{
+    "intent":"discount",
+    "text":"Are there any discount for this week?",
+    "slots":{
+       "discount_period":"this week",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          10,
+          12
+       ],
+       "payment_method":[
+          57,
+          67
+       ]
+    }
+ },
+ "248":{
+    "intent":"discount",
+    "text":"Do you give any discount for this month?",
+    "slots":{
+       "discount_period":"this month",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          29,
+          38
+       ],
+       "discount_percentage":[
+          12,
+          14
+       ]
+    }
+ },
+ "249":{
+    "intent":"discount",
+    "text":"Are there any offers for this shoes?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"this shoes"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          25,
           34
        ]
-      }
-   },
-
-   
-   "2611":{
-      "intent":"pay",
-      "text":"Do you accept dialog eZcash?",
-      "slots":{
-         "payment_method":"dialog eZcash",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            26
-         ],
-         "object":[
-          3,
-          5
+    }
+ },
+ "250":{
+    "intent":"discount",
+    "text":"Any discounts available for the dresses?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dresses"
+    },
+    "positions":{
+       "discount_percentage":[
+          0,
+          2
+       ],
+       "product_category":[
+          32,
+          38
        ]
-      }
-   },
-
-   "2711":{
-      "intent":"pay",
-      "text":"Do you accept Sampath Vishwa?",
-      "slots":{
-         "payment_method":"Sampath Vishwa",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            27
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "2811":{
-      "intent":"pay",
-      "text":"Do you accept virtual wallet payments?",
-      "slots":{
-         "payment_method":"virtual wallet payments",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            36
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "2911":{
-      "intent":"pay",
-      "text":"Do you access to internet banking?",
-      "slots":{
-         "payment_method":"internet banking",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            17,
-            32
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3011":{
-      "intent":"pay",
-      "text":"Do you have facility with ebanking?",
-      "slots":{
-         "payment_method":"ebanking",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            26,
-            33
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3111":{
-      "intent":"pay",
-      "text":"Can I pay via mobitel mcash?",
-      "slots":{
-         "payment_method":"mobitel mcash",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            26
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "3211":{
-      "intent":"pay",
-      "text":"Can I use BOC smartpay?",
-      "slots":{
-         "payment_method":"smartpay",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            21
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "3311":{
-      "intent":"pay",
-      "text":"Can I use telebanking?",
-      "slots":{
-         "payment_method":"telebanking",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            20
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "3411":{
-      "intent":"pay",
-      "text":"Do you accept digital wallet payments?",
-      "slots":{
-         "payment_method":"digital wallet",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            27
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3511":{
-      "intent":"pay",
-      "text":"Do you accept EWallet payments",
-      "slots":{
-         "payment_method":"EWallet",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            29
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3611":{
-      "intent":"pay",
-      "text":"Do you accept DirectPay?",
-      "slots":{
-         "payment_method":"DirectPay",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            22
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3711":{
-      "intent":"pay",
-      "text":"Do you accept WEBXPAY?",
-      "slots":{
-         "payment_method":"WEBXPAY",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            20
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3811":{
-      "intent":"pay",
-      "text":"Do you accept WeChatPay?",
-      "slots":{
-         "payment_method":"WeChatPay",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            22
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "3911":{
-      "intent":"pay",
-      "text":"Do you accept UPay?",
-      "slots":{
-         "payment_method":"UPay",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            17
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "4011":{
-      "intent":"pay",
-      "text":"Do you accept FriMi payments?",
-      "slots":{
-         "payment_method":"FriMi",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            27
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "4111":{
-      "intent":"pay",
-      "text":"Do you accept AliPay?",
-      "slots":{
-         "payment_method":"AliPay",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            19
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "4211":{
-      "intent":"pay",
-      "text":"Do you accept GeniePayments",
-      "slots":{
-         "payment_method":"GeniePayments",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            26
-         ],
-         "object":[
-          3,
-          5
-       ]
-      }
-   },
-
-   "4311":{
-      "intent":"pay",
-      "text":"Can i pay via iPay?",
-      "slots":{
-         "payment_method":"iPay",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            18
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "4411":{
-      "intent":"pay",
-      "text":"Can i use peoplespay app?",
-      "slots":{
-         "payment_method":"peoplespay",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            19
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "4511":{
-      "intent":"pay",
-      "text":"Can i use mobilewallet?",
-      "slots":{
-         "payment_method":"mobilewallet",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            21
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "4611":{
-      "intent":"pay",
-      "text":"Can i use NSBpay?",
-      "slots":{
-         "payment_method":"NSBpay",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            16,
-            10
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "4711":{
-      "intent":"pay",
-      "text":"Can i use SOLO app for payements?",
-      "slots":{
-         "payment_method":"SOLO app",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            17
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "4811":{
-      "intent":"pay",
-      "text":"Can I use QPlus app for making the payments?",
-      "slots":{
-         "payment_method":"QPlus app",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            18
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "4911":{
-      "intent":"pay",
-      "text":"Can I use Paymaster app for making the payments?",
-      "slots":{
-         "payment_method":"Paymaster app",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            22
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5011":{
-      "intent":"pay",
-      "text":"Can I use Seylanpay app for making the payments?",
-      "slots":{
-         "payment_method":"Seylanpay",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            22
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5111":{
-      "intent":"pay",
-      "text":"Can I use Sampath WePay for making the payments?",
-      "slots":{
-         "payment_method":"Sampath WePay",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            23
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5211":{
-      "intent":"pay",
-      "text":"Can I pay via debit card or credit card ?",
-      "slots":{
-         "payment_method":"debit card or credit card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            38
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5311":{
-      "intent":"pay",
-      "text":"Can I use a credit card or debit card to pay?",
-      "slots":{
-         "payment_method":"debit card or credit card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            12,
-            36
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5411":{
-      "intent":"pay",
-      "text":"Can I use a payment card card to pay?",
-      "slots":{
-         "payment_method":"payment card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            12,
-            23
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5511":{
-      "intent":"pay",
-      "text":"Can I use an atm card card to pay?",
-      "slots":{
-         "payment_method":"atm card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            25
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5611":{
-      "intent":"pay",
-      "text":"Can I pay by cash?",
-      "slots":{
-         "payment_method":"cash",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            16
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5711":{
-      "intent":"pay",
-      "text":"Do you accept cards?",
-      "slots":{
-         "payment_method":"cards",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            14 ,
-            19
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5712":{
-      "intent":"pay",
-      "text":"can I pay by my visa card?",
-      "slots":{
-         "payment_method":"visa card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            16 ,
-            24
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "5811":{
-      "intent":"pay",
-      "text":"What are the payment methods you have?",
-      "slots":{
-         "payment_method":"payment methods",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            13 ,
-            27
-         ],
-         "object":[
-          29,
+    }
+ },
+ "251":{
+    "intent":"discount",
+    "text":"What are the discounts for bags available today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"bags"
+    },
+    "positions":{
+       "discount_period":[
+          43,
+          47
+       ],
+       "product_category":[
+          28,
           31
        ]
-      }
-   },
-
-   "5911":{
-      "intent":"pay",
-      "text":"I like to pay via Visa card. Is it okay?",
-      "slots":{
-         "payment_method":"visa card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            18,
-            26
-         ],
-         "object":[
-          1,
-          1
+    }
+ },
+ "252":{
+    "intent":"discount",
+    "text":"Are there any discounts for this shirt?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"shirt"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          37
        ]
-      }
-   },
-
-   "6011":{
-      "intent":"pay",
-      "text":"Is there a way to pay by card?",
-      "slots":{
-         "payment_method":"card",
-         "verb":"is"
-      },
-      "positions":{
-         "payment_method":[
-            25,
-            28
-         ],
-         "verb":[
-          1,
+    }
+ },
+ "253":{
+    "intent":"discount",
+    "text":"please let me know whether there any discounts for this product",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"this product"
+    },
+    "positions":{
+       "discount_percentage":[
+          33,
+          35
+       ],
+       "product_category":[
+          51,
+          62
+       ]
+    }
+ },
+ "254":{
+    "intent":"discount",
+    "text":"If I buy two or more would you provide any discounts ?",
+    "slots":{
+       "discount_percentage":"any",
+       "qty":"two or more"
+    },
+    "positions":{
+       "discount_percentage":[
+          39,
+          41
+       ],
+       "qty":[
+          9,
+          19
+       ]
+    }
+ },
+ "255":{
+    "intent":"discount",
+    "text":"are there any offers for five t-shirts?",
+    "slots":{
+       "qty":"five",
+       "product_category":"t-shirts"
+    },
+    "positions":{
+       "qty":[
+          25,
+          28
+       ],
+       "product_category":[
+          30,
+          37
+       ]
+    }
+ },
+ "256":{
+    "intent":"discount",
+    "text":"I need a 10% discount for this skirt",
+    "slots":{
+       "discount_percentage":"10%",
+       "product_category":"skirt"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "product_category":[
+          31,
+          35
+       ]
+    }
+ },
+ "257":{
+    "intent":"discount",
+    "text":"I saw you had 20% discounts yesterday. Do you have today?",
+    "slots":{
+       "discount_percentage":"20%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          14,
+          16
+       ],
+       "discount_period":[
+          51,
+          55
+       ]
+    }
+ },
+ "258":{
+    "intent":"discount",
+    "text":"Are you offering any discounts in this season?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"season"
+    },
+    "positions":{
+       "discount_percentage":[
+          17,
+          19
+       ],
+       "discount_period":[
+          39,
+          44
+       ]
+    }
+ },
+ "259":{
+    "intent":"discount",
+    "text":"Is there any offers for two products?",
+    "slots":{
+       "qty":"two",
+       "product_category":"products"
+    },
+    "positions":{
+       "qty":[
+          24,
+          26
+       ],
+       "product_category":[
+          28,
+          35
+       ]
+    }
+ },
+ "260":{
+    "intent":"discount",
+    "text":"Any offers to credit cards?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          0,
           2
+       ],
+       "payment_method":[
+          14,
+          25
        ]
-      }
-   },
-
-   "6111":{
-      "intent":"pay",
-      "text":"Can I pay using my mobile app?",
-      "slots":{
-         "payment_method":"mobile app",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            19,
-            28
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "6211":{
-      "intent":"pay",
-      "text":"Can I do a card payment",
-      "slots":{
-         "payment_method":"card payment",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            11,
-            22
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "6311":{
-      "intent":"pay",
-      "text":"Can I pay by cheques?",
-      "slots":{
-         "payment_method":"cheques",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            19
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "6411":{
-      "intent":"pay",
-      "text":"Can I pay this by card?",
-      "slots":{
-         "payment_method":"cards",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            18,
-            21
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "6511":{
-      "intent":"pay",
-      "text":"Is card option available?",
-      "slots":{
-         "payment_method":"card option",
-         "verb":"is"
-      },
-      "positions":{
-         "payment_method":[
-            3,
-            13
-         ],
-         "verb":[
-          1,
-          2
-       ]
-      }
-   },
-
-   "6611":{
-      "intent":"pay",
-      "text":"Can I pay by Americon Express?",
-      "slots":{
-         "payment_method":"Americon Express",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            28
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "6711":{
-      "intent":"pay",
-      "text":"Can I pay by UnionPay cards?",
-      "slots":{
-         "payment_method":"UnionPay cards",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            26
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "6811":{
-      "intent":"pay",
-      "text":"Which types of cards can be used to make a payment?",
-      "slots":{
-         "payment_method":"cards",
-         "verb":"make"
-      },
-      "positions":{
-         "payment_method":[
-            15,
-            20
-         ],
-         "verb":[
-          36,
+    }
+ },
+ "261":{
+    "intent":"discount",
+    "text":"Are there any discount for card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"card payments"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          27,
           39
        ]
-      }
-   },
-
-   "6911":{
-      "intent":"pay",
-      "text":"I need to pay by my debit card. Is it okay?",
-      "slots":{
-         "payment_method":"debit card",
-         "verb":"need"
-      },
-      "positions":{
-         "payment_method":[
-            20,
-            29
-         ],
-         "verb":[
-          2,
-          5
+    }
+ },
+ "262":{
+    "intent":"discount",
+    "text":"What are the discounts available in this season for jackets?",
+    "slots":{
+       "discount_period":"season",
+       "product_category":"jackets"
+    },
+    "positions":{
+       "discount_period":[
+          41,
+          46
+       ],
+       "product_category":[
+          52,
+          58
        ]
-      }
-   },
-
-   "7011":{
-      "intent":"pay",
-      "text":"Can I pay through qr code??",
-      "slots":{
-         "payment_method":"qr code",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            18,
-            24
-         ],
-         "object":[
-          4,
-          4
+    }
+ },
+ "263":{
+    "intent":"discount",
+    "text":"I saw you are advertising about 50% discounts .Is it still available?",
+    "slots":{
+       "object":"I",
+       "discount_percentage":"50%"
+    },
+    "positions":{
+       "object":[
+          0,
+          0
+       ],
+       "discount_percentage":[
+          32,
+          34
        ]
-      }
-   },
-
-   "7111":{
-      "intent":"pay",
-      "text":"Can I do online payment ?",
-      "slots":{
-         "payment_method":"online payment",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            9,
-            22
-         ],
-         "object":[
-          4,
-          4
+    }
+ },
+ "264":{
+    "intent":"discount",
+    "text":"What is the wholesale discounts today?",
+    "slots":{
+       "discount_type":"wholesale",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_type":[
+          12,
+          20
+       ],
+       "discount_period":[
+          32,
+          36
        ]
-      }
-   },
-
-   "7211":{
-      "intent":"pay",
-      "text":"do you have cash on delivery?",
-      "slots":{
-         "payment_method":"cash on delivery",
-         "object":"you"
-      },
-      "positions":{
-         "payment_method":[
-            12,
-            27
-         ],
-         "object":[
-          4,
-          6
+    }
+ },
+ "265":{
+    "intent":"discount",
+    "text":"Are there any bank discounts today?",
+    "slots":{
+       "discount_type":"bank",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_type":[
+          14,
+          17
+       ],
+       "discount_period":[
+          29,
+          33
        ]
-      }
-   },
-
-   "7311":{
-      "intent":"pay",
-      "text":"is it possible to pay by cards?",
-      "slots":{
-         "payment_method":"cards",
-         "verb":"is"
-      },
-      "positions":{
-         "payment_method":[
-            25,
-            30
-         ],
-         "verb":[
-          4,
-          6
+    }
+ },
+ "266":{
+    "intent":"discount",
+    "text":"What are the discounts for that item in this week?",
+    "slots":{
+       "discount_period":"this week",
+       "product_category":"item"
+    },
+    "positions":{
+       "discount_period":[
+          40,
+          48
+       ],
+       "product_category":[
+          32,
+          35
        ]
-      }
-   },
-
-   "7411":{
-      "intent":"pay",
-      "text":"Can I pay with my bank card?",
-      "slots":{
-         "payment_method":"bank card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            18,
-            26
-         ],
-         "object":[
-          4,
-          4
+    }
+ },
+ "267":{
+    "intent":"discount",
+    "text":"Do you provide any discount facilities today ?",
+    "slots":{
+       "discount_period":"today",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          39,
+          43
+       ],
+       "discount_percentage":[
+          15,
+          17
        ]
-      }
-   },
-
-   "7511":{
-      "intent":"pay",
-      "text":"Is available cash on delivery service?",
-      "slots":{
-         "payment_method":"cash on delivery",
-         "verb":"is"
-      },
-      "positions":{
-         "payment_method":[
-            13,
-            28
-         ],
-         "verb":[
-          1,
-          2
+    }
+ },
+ "268":{
+    "intent":"discount",
+    "text":"I will buy 10 .will you provide any discounts ?",
+    "slots":{
+       "discount_percentage":"any",
+       "qty":"10"
+    },
+    "positions":{
+       "discount_percentage":[
+          32,
+          34
+       ],
+       "qty":[
+          11,
+          12
        ]
-      }
-   },
-   "7611":{
-      "intent":"pay",
-      "text":"Can I pay from my bank card?",
-      "slots":{
-         "payment_method":"bank card",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            18,
-            26
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "7711":{
-      "intent":"pay",
-      "text":"Can I pay this with gift vouchers?",
-      "slots":{
-         "payment_method":"gift vouchers",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            20,
-            32
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "7811":{
-      "intent":"pay",
-      "text":"Can I use online recurring payments?",
-      "slots":{
-         "payment_method":"online recurring payments",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            10,
-            34
-         ],
-         "object":[
-          4,
-          4
-       ]
-      }
-   },
-
-   "7911":{
-      "intent":"pay",
-      "text":"Are there any monthly payment plans available?",
-      "slots":{
-         "payment_method":"monthly payment plans",
-         "verb":"are"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            34
-         ],
-         "verb":[
-          1,
-          3
-       ]
-      }
-   },
-
-   "8011":{
-      "intent":"pay",
-      "text":"After having the offer what is the total price?",
-      "slots":{
-         "total_price":"total price",
-         "verb":"is"
-      },
-      "positions":{
-         "total_price":[
-            35,
-            45
-         ],
-         "verb":[
-          28,
+    }
+ },
+ "269":{
+    "intent":"discount",
+    "text":"Is there any discount for cash?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"cash"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "payment_method":[
+          26,
           29
        ]
-      }
-   },
-
-   "8111":{
-      "intent":"pay",
-      "text":"Can I buy this item using vouchers?",
-      "slots":{
-         "payment_method":"vouchers",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            26,
-            34
-         ],
-         "object":[
-          4,
-          4
+    }
+ },
+ "270":{
+    "intent":"discount",
+    "text":"Are there any offers for debid cards?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"debid cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
        ]
-      }
-   },
-
-   "8211":{
-      "intent":"pay",
-      "text":"Can I make an online transaction and send you the receipt?",
-      "slots":{
-         "payment_method":"online transaction",
-         "object":"i"
-      },
-      "positions":{
-         "payment_method":[
-            14,
-            32
-         ],
-         "object":[
-          4,
-          4
+    }
+ }, 
+ "271":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payment ? Is this price the final sale price?",
+    "slots":{
+       "payment_method":"credit card",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "payment_method":[
+          25,
+          35
+       ],
+       "discount_percentage":[
+          10,
+          12
        ]
-      }
-   }
-   
-}
+    }
+ },
+ "272":{
+    "intent":"discount",
+    "text":"What is the last price of this tie today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"tie"
+    },
+    "positions":{
+       "discount_period":[
+          35,
+          39
+       ],
+       "product_category":[
+          31,
+          33
+       ]
+    }
+ },
+ "273":{
+    "intent":"discount",
+    "text":"What are the discounts available for saree today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"saree"
+    },
+    "positions":{
+       "discount_period":[
+          43,
+          47
+       ],
+       "product_category":[
+          37,
+          41
+       ]
+    }
+ },
+ "274":{
+    "intent":"discount",
+    "text":"Are there any offers for Bank of ceylon master card?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"Bank of ceylon master card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          50
+       ]
+    }
+ },
+ "275":{
+    "intent":"discount",
+    "text":"Is there any discounts that product?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"product"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "product_category":[
+          28,
+          34
+       ]
+    }
+ },
+ "276":{
+    "intent":"discount",
+    "text":"Is there any discount available for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "product_category":[
+          41,
+          45
+       ]
+    }
+ },
+ "277":{
+    "intent":"discount",
+    "text":"Do you offer discounts for credit card payments today?",
+    "slots":{
+       "payment_method":"credit card",
+       "discount_period":"today"
+    },
+    "positions":{
+       "payment_method":[
+          27,
+          37
+       ],
+       "discount_period":[
+          48,
+          52
+       ]
+    }
+ },
+ "278":{
+    "intent":"discount",
+    "text":"Do you give any discounts to this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          12,
+          14
+       ],
+       "product_category":[
+          34,
+          38
+       ]
+    }
+ },
+ "279":{
+    "intent":"discount",
+    "text":"Can you give a 10% discount for this product ?",
+    "slots":{
+       "discount_percentage":"10%",
+       "product_category":"product"
+    },
+    "positions":{
+       "discount_percentage":[
+          15,
+          17
+       ],
+       "product_category":[
+          37,
+          43
+       ]
+    }
+ },
+ "280":{
+    "intent":"discount",
+    "text":"I think this is trouser having 12% discounts. Right?",
+    "slots":{
+       "discount_percentage":"12%",
+       "product_category":"trouser"
+    },
+    "positions":{
+       "discount_percentage":[
+          31,
+          33
+       ],
+       "product_category":[
+          16,
+          22
+       ]
+    }
+ },
+ "281":{
+    "intent":"discount",
+    "text":"Do you have credit card or debit card offers for this blouse?",
+    "slots":{
+       "payment_method":"card or debit card",
+       "product_category":"blouse"
+    },
+    "positions":{
+       "payment_method":[
+          19,
+          36
+       ],
+       "product_category":[
+          54,
+          59
+       ]
+    }
+ },
+ "282":{
+    "intent":"discount",
+    "text":"What are the discount available today for shorts?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"shorts"
+    },
+    "positions":{
+       "discount_period":[
+          32,
+          36
+       ],
+       "product_category":[
+          42,
+          47
+       ]
+    }
+ },
+ "283":{
+    "intent":"discount",
+    "text":"Are there any discount for the item ?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"item"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          31,
+          34
+       ]
+    }
+ },
+ "284":{
+    "intent":"discount",
+    "text":"What are the discounts available today for debid cards?",
+    "slots":{
+       "discount_period":"today",
+       "payment_method":"debid cards"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ],
+       "payment_method":[
+          43,
+          53
+       ]
+    }
+ },
+ "285":{
+    "intent":"discount",
+    "text":"What are the discounts available today for this dress?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ],
+       "product_category":[
+          48,
+          52
+       ]
+    }
+ },
+ "286":{
+    "intent":"discount",
+    "text":"What are the available discounts for shoes in this week?",
+    "slots":{
+       "discount_period":"this week",
+       "product_category":"shoes"
+    },
+    "positions":{
+       "discount_period":[
+          46,
+          54
+       ],
+       "product_category":[
+          37,
+          41
+       ]
+    }
+ },
+ "287":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "288":{
+    "intent":"discount",
+    "text":"Is this 5% discount for frocks?",
+    "slots":{
+       "discount_percentage":"5%",
+       "product_category":"frocks"
+    },
+    "positions":{
+       "discount_percentage":[
+          8,
+          9
+       ],
+       "product_category":[
+          24,
+          29
+       ]
+    }
+ },
+ "289":{
+    "intent":"discount",
+    "text":"Are there any offers for credit cards?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          36
+       ]
+    }
+ },
+ "290":{
+    "intent":"discount",
+    "text":"Are there any discounts for this dress ?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "291":{
+    "intent":"discount",
+    "text":"what are the discounts available today for this hat?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"hat"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ],
+       "product_category":[
+          48,
+          50
+       ]
+    }
+ },
+ "292":{
+    "intent":"discount",
+    "text":"May I know the offers available for Commercial Bank credit card for today?",
+    "slots":{
+       "discount_period":"today",
+       "payment_method":"Commercial Bank credit card"
+    },
+    "positions":{
+       "discount_period":[
+          68,
+          72
+       ],
+       "payment_method":[
+          36,
+          62
+       ]
+    }
+ },
+ "293":{
+    "intent":"discount",
+    "text":"Are there any discount for this slippers today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"slippers"
+    },
+    "positions":{
+       "discount_period":[
+          41,
+          45
+       ],
+       "product_category":[
+          32,
+          39
+       ]
+    }
+ },
+ "294":{
+    "intent":"discount",
+    "text":"Are there any discounts for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "295":{
+    "intent":"discount",
+    "text":"Are there any discounts for these dresses?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dresses"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          34,
+          40
+       ]
+    }
+ },
+ "296":{
+    "intent":"discount",
+    "text":"Are there any discounts available today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          34,
+          38
+       ]
+    }
+ },
+ "297":{
+    "intent":"discount",
+    "text":"Can I get any discount for this dress?",
+    "slots":{
+       "object":"I",
+       "product_category":"dress"
+    },
+    "positions":{
+       "object":[
+          5,
+          5
+       ],
+       "product_category":[
+          32,
+          36
+       ]
+    }
+ },
+ "298":{
+    "intent":"discount",
+    "text":"Can you give me a 5% discount?",
+    "slots":{
+       "object":"you",
+       "discount_percentage":"5%"
+    },
+    "positions":{
+       "object":[
+          4,
+          6
+       ],
+       "discount_percentage":[
+          18,
+          19
+       ]
+    }
+ },
+ "299":{
+    "intent":"discount",
+    "text":"Does this dress have any discount today",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_period":[
+          34,
+          38
+       ],
+       "product_category":[
+          10,
+          14
+       ]
+    }
+ },
+ "300":{
+    "intent":"discount",
+    "text":"Are there any discounts available today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          34,
+          38
+       ]
+    }
+ }}
+    
+

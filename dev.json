@@ -21,12 +21,30 @@
       "text":"What type of shirts are there?"
    },
    "7":{
-      "text":"What type of shirts are there?"
+      "text":"Are there any discount for online payment?"
    },
    "8":{
       "text":"Do you have the credit card facilities?"
    },
    "9":{
       "text":"Can I pay by credit card?"
+   },
+   "10":{
+      "text":"What type of shirts are there?"
+   },
+   "11":{
+      "text":"Is this last price? "
+   },
+   "12":{
+      "text":"How much is this?"
+   },
+   "13":{
+      "text":"Are there any small sizes?"
+   },
+   "14":{
+      "text":"Is there any special offers these days?"
+   },
+   "15":{
+      "text":"Don’t you have any discount?"
    }
 }

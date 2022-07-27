@@ -1647,201 +1647,410 @@
             ]
         }
     },
-    "86": {
+    "88": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "What are the latest fashionable tshirts in extra large size?",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "latest fashionable tshirts",
+            "size": "extra large"
         },
         "positions": {
             "product_category": [
                 13,
-                17
+                38
             ],
             "size": [
-                35,
-                40
+                43,
+                53
             ]
         }
     },
-    "86": {
+    "89": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Can you show me purple or blue underwear",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "underwear",
+            "color": "purple or blue"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                31,
+                39
             ],
-            "size": [
-                35,
-                40
+            "color": [
+                16,
+                29
             ]
         }
     },
-    "86": {
+    "90": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Please show me available xl shirts and t-shirts?",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category":"shirts and t-shirts",
+            "size": "xl"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                28,
+                46
             ],
             "size": [
-                35,
-                40
+                25,
+                26
             ]
         }
     },
-    "86": {
+    "91": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "excuse me, do you have new designs of outfits which fit for me? I'm looking for size double xl",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "new designs of outfits",
+            "size": "double xl"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                22,
+                43
             ],
             "size": [
-                35,
-                40
+                84,
+                92
             ]
         }
     },
-    "86": {
+    "92": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Hello, i need to buy a dress can you help me? I would like to have large size red color one",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "dress",
+            "size": "large",
+            "color":"red"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                23,
+                27
             ],
             "size": [
-                35,
-                40
+                67,
+                71
+            ],
+            "color": [
+                78,
+                80
             ]
         }
     },
-    "86": {
+    "93": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Is this dress suites to me? I'm looking for a maroon color one",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "dress",
+            "color": "maroon"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                8,
+                12
             ],
-            "size": [
-                35,
-                40
+            "color": [
+                46,
+                53
             ]
         }
     },
-    "86": {
+    "94": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Can you show me latest frocks? I need a light green one",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "latest frocks",
+            "color": "light green"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                16,
+                28
             ],
-            "size": [
-                35,
-                40
+            "color": [
+                40,
+                50
             ]
         }
     },
-    "86": {
+    "95": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "I want a long white mix frock that fit me",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "long white mix frock",
+            "color": "white"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                9,
+                28
             ],
             "size": [
-                35,
-                40
+                14,
+                18
             ]
         }
     },
-    "86": {
+    "96": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Please show me a good q&q wrist watch",
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category": "wrist watch",
+            "brand": "q&q"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                26,
+                36
             ],
             "size": [
-                35,
-                40
+                22,
+                24
             ]
         }
     },
-    "86": {
+    "97": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "Where is the ladies section. I like to see some office wears,
         "slots": {
-            "product_category": "men’s",
-            "size": "medium"
+            "product_category":"office wears",
+
         },
         "positions": {
             "product_category": [
-                13,
-                17
-            ],
-            "size": [
-                35,
-                40
+                48,
+                59
             ]
         }
     },
-    "86": {
+    "98": {
         "intent": "search_product",
-        "text": "Where is the men’s section? I need medium size ones",
+        "text": "I want to buy a wrist band. Do you have it in color white and black",
         "slots": {
-            "product_category": "men’s",
+            "product_category": "wrist band",
+            "color": "white and black"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                25
+            ],
+            "color": [
+                52,
+                66
+            ]
+        }
+    },
+    "99": {
+        "intent": "search_product",
+        "text": "Do you have orange color caps without any print on it?",
+        "slots": {
+            "product_category": "caps",
+            "color": "orange"
+        },
+        "positions": {
+            "product_category": [
+                25,
+                28
+            ],
+            "color": [
+                12,
+                17
+            ]
+        }
+    },
+    "100": {
+        "intent": "search_product",
+        "text": "Show me a sunglass that suits me. Dark frame would be perfect",
+        "slots": {
+            "product_category": "sunglass",
+            "color": "Dark"
+        },
+        "positions": {
+            "product_category": [
+                10,
+                17
+            ],
+            "color": [
+                34,
+                37
+            ]
+        }
+    },
+    "101": {
+        "intent": "search_product",
+        "text": "I want to buy a women sport t shirt",
+        "slots": {
+            "product_category": "sport t shirt",
+            "gender": "women"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                34
+            ],
+            "gender": [
+                16,
+                20
+            ]
+        }
+    },
+    "102": {
+        "intent": "search_product",
+        "text": "I want a mens cotton trouser. My hip is around 38",
+        "slots": {
+            "product_category": "cotton trouser",
+            "gender":"mens",
+            "size": "38"
+        },
+        "positions": {
+            "product_category": [
+                14,
+                27
+            ],
+            "gender": [
+                9,
+                12
+            ]
+            "size": [
+                46,
+                48
+            ]
+        }
+    },
+    "103": {
+        "intent": "search_product",
+        "text": "Can you show me baby towels? If you have give me a small one please",
+        "slots": {
+            "product_category": "baby towels",
+            "size": "small"
+        },
+        "positions": {
+            "product_category": [
+                15,
+                25
+            ],
+            "size": [
+                50,
+                54
+            ]
+        }
+    },
+    "104": {
+        "intent": "search_product",
+        "text": "I want ash color men's casual trouser",
+        "slots": {
+            "product_category": "mens casual trouser",
+            "color": "ash",
+            "gender":"mens"
+        },
+        "positions": {
+            "product_category": [
+                17,
+                36
+            ],
+            "color": [
+                7,
+                9
+            ],
+            "gender": [
+                17,
+                21
+            ]
+        }
+    },
+    "105": {
+        "intent": "search_product",
+        "text": "I need to buy a dark green tie",
+        "slots": {
+            "product_category": "tie",
+            "color": "dark green"
+        },
+        "positions": {
+            "product_category": [
+                27,
+                29
+            ],
+            "size": [
+                16,
+                25
+            ]
+        }
+    },
+    "106": {
+        "intent": "search_product",
+        "text": "I want to buy ladies sport shoes. Can u show me?",
+        "slots": {
+            "product_category": "ladies sport shoes",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                14,
+                31
+            ],
+            "gender": [
+                14,
+                19
+            ]
+        }
+    },
+    "107": {
+        "intent": "search_product",
+        "text": "Do you have good choice for me? can you select matching color of a dress to me? I need a ladies pant",
+        "slots": {
+            "product_category": "ladies pant",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                89,
+                99
+            ],
+            "gender": [
+                89,
+                94
+            ]
+        }
+    },
+    "108": {
+        "intent": "search_product",
+        "text": "what kind of brands you are selling? I'm looking for a medium size jersey",
+        "slots": {
+            "product_category": "jersey",
             "size": "medium"
         },
         "positions": {
             "product_category": [
-                13,
-                17
+                67,
+                72
             ],
             "size": [
-                35,
-                40
+                55,
+                60
+            ]
+        }
+    },
+    "109": {
+        "intent": "search_product",
+        "text": "Hi dear, I need to buy mens sport shoes. what kind of brands do you have?",
+        "slots": {
+            "product_category": "mens sport shoes",
+            "gender": "mens"
+        },
+        "positions": {
+            "product_category": [
+                23,
+                38
+            ],
+            "size": [
+                23,
+                26
             ]
         }
     }
