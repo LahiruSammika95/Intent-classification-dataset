@@ -1816,7 +1816,7 @@
     },
     "97": {
         "intent": "search_product",
-        "text": "Where is the ladies section. I like to see some office wears,
+        "text": "Where is the ladies section. I like to see some office wears",
         "slots": {
             "product_category":"office wears",
 
