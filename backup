@@ -2048,9 +2048,99 @@
                 23,
                 38
             ],
-            "size": [
+            "gender": [
                 23,
                 26
+            ]
+        }
+    },
+    "110": {
+        "intent": "search_product",
+        "text": "Where is the shirts corner? I need to buy a majenta color long sleeve one",
+        "slots": {
+            "product_category": "shirts",
+            "color": "majenta"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                18
+            ],
+            "color": [
+                44,
+                50
+            ]
+        }
+    },
+    "111": {
+        "intent": "search_product",
+        "text": "Please show me shorts for girls?",
+        "slots": {
+            "product_category": "shorts for girls",
+            "gender": "girls"
+        },
+        "positions": {
+            "product_category": [
+                15,
+                30
+            ],
+            "gender": [
+                26,
+                30
+            ]
+        }
+    },
+    "112": {
+        "intent": "search_product",
+        "text": "I want a light gray round neck blouse",
+        "slots": {
+            "product_category": "round neck blouse",
+            "color": "light gray"
+        },
+        "positions": {
+            "product_category": [
+                20,
+                36
+            ],
+            "color": [
+                9,
+                18
+            ]
+        }
+    },
+    "113": {
+        "intent": "search_product",
+        "text": "Hi dear,I want a women night dresses?",
+        "slots": {
+            "product_category": "women night dresses",
+            "gender": "women"
+        },
+        "positions": {
+            "product_category": [
+                17,
+                35
+            ],
+            "gender": [
+                17,
+                21
+            ]
+        }
+    },
+    "114": {
+        "intent": "search_product",
+        "text": "Do you sell frocks? I want a excel one",
+        "slots": {
+            "product_category": "frocks",
+            "size": "excel"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "size": [
+                29,
+                33
             ]
         }
     }
