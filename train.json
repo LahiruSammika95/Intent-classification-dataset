@@ -1353,6 +1353,276 @@
                 13
             ]
         }
+    },
+    "72": {
+        "intent": "search_product",
+        "text": "Are there adidas shoes?",
+        "slots": {
+            "product_category": "shoes",
+            "brand": "adidas"
+        },
+        "positions": {
+            "product_category": [
+                17,
+                21
+            ],
+            "brand": [
+                10,
+                15
+            ]
+        }
+    },
+    "73": {
+        "intent": "search_product",
+        "text": "Please show me a shirt with orange color",
+        "slots": {
+            "product_category": "shirt",
+            "color": "orange"
+        },
+        "positions": {
+            "product_category": [
+                17,
+                21
+            ],
+            "color": [
+                28,
+                33
+            ]
+        }
+    },
+    "74": {
+        "intent": "search_product",
+        "text": "I want a pair of white socks",
+        "slots": {
+            "product_category": "socks",
+            "color": "white"
+        },
+        "positions": {
+            "product_category": [
+                23,
+                27
+            ],
+            "color": [
+                17,
+                21
+            ]
+        }
+    },
+    "75": {
+        "intent": "search_product",
+        "text": "I want a new designed large size under skirt",
+        "slots": {
+            "product_category": "under skirt",
+            "size": "large"
+        },
+        "positions": {
+            "product_category": [
+                33,
+                43
+            ],
+            "size": [
+                22,
+                26
+            ]
+        }
+    },
+    "76": {
+        "intent": "search_product",
+        "text": "Do you have gold color neckless?",
+        "slots": {
+            "product_category": "neckless",
+            "color": "gold"
+        },
+        "positions": {
+            "product_category": [
+                23,
+                30
+            ],
+            "color": [
+                12,
+                15
+            ]
+        }
+    },
+    "77": {
+        "intent": "search_product",
+        "text": "I want a pair of beach slippers in size 9",
+        "slots": {
+            "product_category": "beach slippers",
+            "size": "9"
+        },
+        "positions": {
+            "product_category": [
+                17,
+                30
+            ],
+            "size": [
+                40,
+                40
+            ]
+        }
+    },
+    "78": {
+        "intent": "search_product",
+        "text": "Have you light blue t-shirts in the stock?",
+        "slots": {
+            "product_category": "t-shirts",
+            "color": "light blue"
+        },
+        "positions": {
+            "product_category": [
+                20,
+                27
+            ],
+            "color": [
+                9,
+                18
+            ]
+        }
+    },
+    "79": {
+        "intent": "search_product",
+        "text": "Can you please show me the frock section?I need to buy a large size one",
+        "slots": {
+            "product_category": "frock",
+            "size": "large"
+        },
+        "positions": {
+            "product_category": [
+                27,
+                31
+            ],
+            "size": [
+                57,
+                61
+            ]
+        }
+    },
+    "80": {
+        "intent": "search_product",
+        "text": "Where the wrist watches are? I would like to buy a casio one",
+        "slots": {
+            "product_category": "wrist watches",
+            "brand": "casio"
+        },
+        "positions": {
+            "product_category": [
+                10,
+                22
+            ],
+            "brand": [
+                51,
+                55
+            ]
+        }
+    },
+    "81": {
+        "intent": "search_product",
+        "text": "Please show me some beautiful free size crop tops",
+        "slots": {
+            "product_category": "crop tops",
+            "size": "free size"
+        },
+        "positions": {
+            "product_category": [
+                40,
+                48
+            ],
+            "size": [
+                30,
+                38
+            ]
+        }
+    },
+    "82": {
+        "intent": "search_product",
+        "text": "Do u have nike sport socks?",
+        "slots": {
+            "product_category": "sport socks",
+            "brand": "nike"
+        },
+        "positions": {
+            "product_category": [
+                15,
+                25
+            ],
+            "brand": [
+                10,
+                13
+            ]
+        }
+    },
+    "83": {
+        "intent": "search_product",
+        "text": "I want a cream color blouse that suits me",
+        "slots": {
+            "product_category": "blouse",
+            "color": "cream"
+        },
+        "positions": {
+            "product_category": [
+                21,
+                26
+            ],
+            "color": [
+                9,
+                13
+            ]
+        }
+    },
+    "84": {
+        "intent": "search_product",
+        "text": "Do you have fancy items like neckless and bangles in silver color?",
+        "slots": {
+            "product_category": "fancy items like neckless and bangles",
+            "color": "silver"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                48
+            ],
+            "color": [
+                53,
+                58
+            ]
+        }
+    },
+    "85": {
+        "intent": "search_product",
+        "text": "Show me a shirt size large or extra large",
+        "slots": {
+            "product_category": "shirt",
+            "size": "large or extra large"
+        },
+        "positions": {
+            "product_category": [
+                10,
+                14
+            ],
+            "size": [
+                21,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
     }
     }
 
