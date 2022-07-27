@@ -2143,6 +2143,114 @@
                 33
             ]
         }
-    }
+    },
+    "115": {
+        "intent": "search_product",
+        "text": "Can you show me crop tops that available? Give me a large one please",
+        "slots": {
+            "product_category": "crop tops",
+            "size": "large"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                24
+            ],
+            "size": [
+                52,
+                56
+            ]
+        }
+    },
+    "114": {
+        "intent": "search_product",
+        "text": "Do you sell frocks? I want a excel one",
+        "slots": {
+            "product_category": "frocks",
+            "size": "excel"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "size": [
+                29,
+                33
+            ]
+        }
+    },
+    "114": {
+        "intent": "search_product",
+        "text": "Do you sell frocks? I want a excel one",
+        "slots": {
+            "product_category": "frocks",
+            "size": "excel"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "size": [
+                29,
+                33
+            ]
+        }
+    },
+    "114": {
+        "intent": "search_product",
+        "text": "Do you sell frocks? I want a excel one",
+        "slots": {
+            "product_category": "frocks",
+            "size": "excel"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "size": [
+                29,
+                33
+            ]
+        }
+    },
+    "114": {
+        "intent": "search_product",
+        "text": "Do you sell frocks? I want a excel one",
+        "slots": {
+            "product_category": "frocks",
+            "size": "excel"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "size": [
+                29,
+                33
+            ]
+        }
+    },
+    "114": {
+        "intent": "search_product",
+        "text": "Do you sell frocks? I want a excel one",
+        "slots": {
+            "product_category": "frocks",
+            "size": "excel"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "size": [
+                29,
+                33
+            ]
+        }
+    },
     }
 
