@@ -2182,21 +2182,1949 @@
     },
     "117": {
         "intent": "search_product",
-        "text": "Do you sell frocks? I want a excel one",
+        "text": "Do you have mens leather wallets?",
         "slots": {
-            "product_category": "frocks",
-            "size": "excel"
+            "product_category": "mens leather wallets",
+            "gender": "mens"
         },
         "positions": {
             "product_category": [
                 12,
+                31
+            ],
+            "gender": [
+                12,
+                15
+            ]
+        }
+    },
+    "118": {
+        "intent": "search_product",
+        "text": "What kind of shirt brands do you have from size 15 & 1/2",
+        "slots": {
+            "product_category": "shirt",
+            "size": "15 & 1/2"
+        },
+        "positions": {
+            "product_category": [
+                13,
                 17
             ],
             "size": [
-                29,
-                33
+                48,
+                55
             ]
         }
+    },
+    "119": {
+        "intent": "search_product",
+        "text": "Please show me the mens t-shirts in ur clothing shop?",
+        "slots": {
+            "product_category": "t-shirts",
+            "gender": "mens"
+        },
+        "positions": {
+            "product_category": [
+                24,
+                31
+            ],
+            "gender": [
+                19,
+                22
+            ]
+        }
+    },
+    "120": {
+        "intent": "search_product",
+        "text": "I want to buy a ladies hand bag",
+        "slots": {
+            "product_category": "ladies hand bag",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                30
+            ],
+            "gender": [
+                16,
+                21
+            ]
+        }
+    },
+    "121": {
+        "intent": "search_product",
+        "text": "Can you show me some large size skinners?",
+        "slots": {
+            "product_category": "skinners",
+            "size": "large"
+        },
+        "positions": {
+            "product_category": [
+                32,
+                39
+            ],
+            "size": [
+                21,
+                25
+            ]
+        }
+    },
+    "122": {
+        "intent": "search_product",
+        "text": "I need to buy white color socks. Do you have?",
+        "slots": {
+            "product_category": "socks",
+            "color": "white"
+        },
+        "positions": {
+            "product_category": [
+                26,
+                30
+            ],
+            "color": [
+                14,
+                18
+            ]
+        }
+    },
+    "123": {
+        "intent": "search_product",
+        "text": "I want to buy a ladies jacket. can you help me?",
+        "slots": {
+            "product_category": "jacket",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                23,
+                28
+            ],
+            "gender": [
+                16,
+                21
+            ]
+        }
+    },
+    "124": {
+        "intent": "search_product",
+        "text": "Could you please tell me, Where is the best quality men's shirt for formal wearing?",
+        "slots": {
+            "product_category": "best quality men's shirt for formal wearing",
+            "gender": "men's"
+        },
+        "positions": {
+            "product_category": [
+                39,
+                81
+            ],
+            "gender": [
+                52,
+                56
+            ]
+        }
+    },
+"200":{
+    "intent":"discount",
+    "text":"Are there any offers today",
+    "slots":{
+  "discount_percentage":"any",
+  "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          21,
+          25
+       ]
     }
+ },
+ "201":{
+    "intent":"discount",
+    "text":"Are there any discounts or offers for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          43,
+          47
+       ]
     }
+ },
+ "202":{
+    "intent":"discount",
+    "text":"What are the discounts available today",
+    "slots":{
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ]
+    }
+ },
+ "203":{
+    "intent":"discount",
+    "text":"Are there any discounts available today.",
+    "slots":{
+       "discount_period":"today",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          34,
+          38
+       ],
+       "discount_percentage":[
+          10,
+          12
+       ]
+    }
+ },
+ "204":{
+    "intent":"discount",
+    "text":"Are there any offers for this shirt",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"shirt"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          30,
+          34
+       ]
+    }
+ },
+ "205":{
+    "intent":"discount",
+    "text":"Are the any discounts available for this month?",
+    "slots":{
+       "discount_period":"month",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          41,
+          45
+       ],
+       "discount_percentage":[
+          8,
+          10
+       ]
+    }
+ },
+ "206":{
+    "intent":"discount",
+    "text":"What are the discounts available in this season",
+    "slots":{
+       "discount_period":"season"
+    },
+    "positions":{
+       "size":[
+          41,
+          46
+       ]
+    }
+ },
+ "207":{
+    "intent":"discount",
+    "text":"Any discounts on Black Friday?",
+    "slots":{
+       "discount_period":"Black fiday",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          17,
+          28
+       ],
+       "discount_percentage":[
+          0,
+          2
+       ]
+    }
+ },
+ "208":{
+    "intent":"discount",
+    "text":"Are their any discounts available for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          43,
+          47
+       ]
+    }
+ },
+ "209":{
+    "intent":"discount",
+    "text":"Are there any credit card offers?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          14,
+          24
+       ]
+    }
+ },
+ "210":{
+    "intent":"discount",
+    "text":"Is there 5% offer available for this product?",
+    "slots":{
+        "discount_percentage":"5%",
+       "product_category":"product"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          10
+       ],         
+       "product_category":[
+          37,
+          43
+       ]
+    }
+ },
+ "211":{
+    "intent":"discount",
+    "text":"Is there 10% offer available for this blouse?",
+    "slots":{
+       "discount_percentage":"10%",
+       "product_category":"blouse"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],         
+       "product_category":[
+          38,
+          43
+       ]
+    }
+ },
+ "212":{
+    "intent":"discount",
+    "text":"Do you give any offes for today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          12,
+          14
+       ],         
+       "discount_period":[
+          26,
+          30
+       ]
+    }
+ },
+ "213":{
+    "intent":"discount",
+    "text":"If I buy this what is your best price today?",
+    "slots":{
+       "discount_period":"today"
+    },
+    "positions":{        
+       "discount_period":[
+          38,
+          42
+       ]
+    }
+ },
+ "214":{
+    "intent":"discount",
+    "text":"What are the discount items are there today?",
+    "slots":{
+       "product_category":"items",
+       "discount_period":"today"
+    },
+    "positions":{
+       "product_category":[
+          22,
+          26
+       ],
+       "discount_period":[
+          38,
+          42
+       ]
+    }
+ },
+ "215":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "216":{
+    "intent":"discount",
+    "text":"What are the discounted clothes today",
+    "slots":{
+       "product_category":"clothes",
+       "discount_period":"today"
+    },
+    "positions":{
+       "product_category":[
+          24,
+          30
+       ],
+       "discount_period":[
+          32,
+          36
+       ]
+    }
+ },
+ "217":{
+    "intent":"discount",
+    "text":"Are there 20% discounts today?",
+    "slots":{
+       "discount_percentage":"20%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          24,
+          28
+       ]
+    }
+ },
+ "218":{
+    "intent":"discount",
+    "text":"Are there any discounts for this item ?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"item"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          36
+       ]
+    }
+ },
+ "219":{
+    "intent":"discount",
+    "text":"How much discount offered in this dress today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_period":[
+          40,
+          44
+       ],
+       "product_category":[
+          34,
+          38
+       ]
+    }
+ },
+ "220":{
+    "intent":"discount",
+    "text":"Are there any discounts available today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          34,
+          38
+       ]
+    }
+ },
+ "221":{
+    "intent":"discount",
+    "text":"Are you giving any discount these days?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"these days"
+    },
+    "positions":{
+       "discount_percentage":[
+          15,
+          17
+       ],
+       "discount_period":[
+          28,
+          37
+       ]
+    }
+ },
+ "222":{
+    "intent":"discount",
+    "text":"Are there any offers for festival?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"festival"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          25,
+          32
+       ]
+    }
+ },
+ "223":{
+    "intent":"discount",
+    "text":"is there any offers these days?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"these days"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "discount_period":[
+          20,
+          29
+       ]
+    }
+ },
+ "224":{
+    "intent":"discount",
+    "text":"is this party frock having 20% off?",
+    "slots":{
+       "discount_percentage":"20%",
+       "product_category":"party frock"
+    },
+    "positions":{
+       "discount_percentage":[
+          27,
+          29
+       ],
+       "product_category":[
+          8,
+          18
+       ]
+    }
+ },
+ "225":{
+    "intent":"discount",
+    "text":"are there any discount for this season",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"season"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          32,
+          37
+       ]
+    }
+ },
+ "226":{
+    "intent":"discount",
+    "text":"do you offer any discounts for sunday?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"sunday"
+    },
+    "positions":{
+       "discount_percentage":[
+          13,
+          15
+       ],
+       "discount_period":[
+          31,
+          36
+       ]
+    }
+ },
+ "227":{
+    "intent":"discount",
+    "text":"Are there 15% offers available today? ",
+    "slots":{
+       "discount_percentage":"15%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          31,
+          35
+       ]
+    }
+ },
+ "228":{
+    "intent":"discount",
+    "text":"how many days do you offer 50% discount?",
+    "slots":{
+       "discount_percentage":"50%",
+       "discount_period":"days"
+    },
+    "positions":{
+       "discount_percentage":[
+          27,
+          29
+       ],
+       "discount_period":[
+          9,
+          12
+       ]
+    }
+ },
+ "229":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "230":{
+    "intent":"discount",
+    "text":"Are there 10% offers for credit cards?",
+    "slots":{
+       "discount_percentage":"10%",
+       "payment_method":"credit cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          36
+       ]
+    }
+ },
+ "231":{
+    "intent":"discount",
+    "text":"if i buy two sarees how will be my bill?",
+    "slots":{
+       "qty":"two",
+       "product_category":"sarees"
+    },
+    "positions":{
+       "qty":[
+          9,
+          11
+       ],
+       "product_category":[
+          13,
+          18
+       ]
+    }
+ },
+ "232":{
+    "intent":"discount",
+    "text":"are there any seasonal discounts today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_type":"seasonal"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          14,
+          21
+       ]
+    }
+ },
+ "233":{
+    "intent":"discount",
+    "text":"Should i pay by credit card today?",
+    "slots":{
+       "payment_method":"credit card",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          14,
+          21
+       ]
+    }
+ },
+ "234":{
+    "intent":"discount",
+    "text":"Can you give me 5% discount for this dress?",
+    "slots":{
+       "discount_percentage":"5%",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          16,
+          17
+       ],
+       "product_category":[
+          37,
+          41
+       ]
+    }
+ },
+ "235":{
+    "intent":"discount",
+    "text":"Do u have any offers today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          21,
+          25
+       ]
+    }
+ },
+ "236":{
+    "intent":"discount",
+    "text":"Is this the discount that you are giving to this shirt today?",
+    "slots":{
+       "product_category":"shirt",
+       "discount_period":"today"
+    },
+    "positions":{
+       "product_category":[
+          49,
+          53
+       ],
+       "discount_period":[
+          55,
+          59
+       ]
+    }
+ },
+ "237":{
+    "intent":"discount",
+    "text":"Is this dress for this price? Can't you lower the price for this month?",
+    "slots":{
+       "product_category":"dress",
+       "discount_period":"month"
+    },
+    "positions":{
+       "product_category":[
+          8,
+          12
+       ],
+       "discount_period":[
+          65,
+          69
+       ]
+    }
+ },
+ "238":{
+    "intent":"discount",
+    "text":"Can make it as low price for the frock?",
+    "slots":{
+       "discount_percentage":"low price",
+       "product_category":"frock"
+    },
+    "positions":{
+       "discount_percentage":[
+          15,
+          23
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "239":{
+    "intent":"discount",
+    "text":"Are there any offers in this week?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"this week"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          24,
+          32
+       ]
+    }
+ },
+ "240":{
+    "intent":"discount",
+    "text":"Are there any discounts available for pair of shoes? ",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"pair of shoes"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          38,
+          50
+       ]
+    }
+ },
+ "241":{
+    "intent":"discount",
+    "text":"Can you give atleast a small discount?",
+    "slots":{
+       "discount_percentage":"small",
+       "object":"you"
+    },
+    "positions":{
+       "discount_percentage":[
+          23,
+          27
+       ],
+       "object":[
+          4,
+          6
+       ]
+    }
+ },
+ "242":{
+    "intent":"discount",
+    "text":"Any offer for this cloth?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"cloth"
+    },
+    "positions":{
+       "discount_percentage":[
+          0,
+          2
+       ],
+       "product_category":[
+          19,
+          23
+       ]
+    }
+ },
+ "243":{
+    "intent":"discount",
+    "text":"Are there any offers for this dresses? ",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          30,
+          36
+       ]
+    }
+ },
+ "244":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card of NDB bank?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "245":{
+    "intent":"discount",
+    "text":"Are there 10% discounts today?",
+    "slots":{
+       "discount_percentage":"10%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          24,
+          28
+       ]
+    }
+ },
+ "246":{
+    "intent":"discount",
+    "text":"Are there any seasonal discounts or any other offers for credit card payments?",
+    "slots":{
+       "discount_type":"seasonal",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_period":[
+          14,
+          21
+       ],
+       "payment_method":[
+          57,
+          67
+       ]
+    }
+ },
+ "247":{
+    "intent":"discount",
+    "text":"Are there any discount for this week?",
+    "slots":{
+       "discount_period":"this week",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          10,
+          12
+       ],
+       "payment_method":[
+          57,
+          67
+       ]
+    }
+ },
+ "248":{
+    "intent":"discount",
+    "text":"Do you give any discount for this month?",
+    "slots":{
+       "discount_period":"this month",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          29,
+          38
+       ],
+       "discount_percentage":[
+          12,
+          14
+       ]
+    }
+ },
+ "249":{
+    "intent":"discount",
+    "text":"Are there any offers for this shoes?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"this shoes"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          25,
+          34
+       ]
+    }
+ },
+ "250":{
+    "intent":"discount",
+    "text":"Any discounts available for the dresses?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dresses"
+    },
+    "positions":{
+       "discount_percentage":[
+          0,
+          2
+       ],
+       "product_category":[
+          32,
+          38
+       ]
+    }
+ },
+ "251":{
+    "intent":"discount",
+    "text":"What are the discounts for bags available today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"bags"
+    },
+    "positions":{
+       "discount_period":[
+          43,
+          47
+       ],
+       "product_category":[
+          28,
+          31
+       ]
+    }
+ },
+ "252":{
+    "intent":"discount",
+    "text":"Are there any discounts for this shirt?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"shirt"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "253":{
+    "intent":"discount",
+    "text":"please let me know whether there any discounts for this product",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"this product"
+    },
+    "positions":{
+       "discount_percentage":[
+          33,
+          35
+       ],
+       "product_category":[
+          51,
+          62
+       ]
+    }
+ },
+ "254":{
+    "intent":"discount",
+    "text":"If I buy two or more would you provide any discounts ?",
+    "slots":{
+       "discount_percentage":"any",
+       "qty":"two or more"
+    },
+    "positions":{
+       "discount_percentage":[
+          39,
+          41
+       ],
+       "qty":[
+          9,
+          19
+       ]
+    }
+ },
+ "255":{
+    "intent":"discount",
+    "text":"are there any offers for five t-shirts?",
+    "slots":{
+       "qty":"five",
+       "product_category":"t-shirts"
+    },
+    "positions":{
+       "qty":[
+          25,
+          28
+       ],
+       "product_category":[
+          30,
+          37
+       ]
+    }
+ },
+ "256":{
+    "intent":"discount",
+    "text":"I need a 10% discount for this skirt",
+    "slots":{
+       "discount_percentage":"10%",
+       "product_category":"skirt"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "product_category":[
+          31,
+          35
+       ]
+    }
+ },
+ "257":{
+    "intent":"discount",
+    "text":"I saw you had 20% discounts yesterday. Do you have today?",
+    "slots":{
+       "discount_percentage":"20%",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          14,
+          16
+       ],
+       "discount_period":[
+          51,
+          55
+       ]
+    }
+ },
+ "258":{
+    "intent":"discount",
+    "text":"Are you offering any discounts in this season?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"season"
+    },
+    "positions":{
+       "discount_percentage":[
+          17,
+          19
+       ],
+       "discount_period":[
+          39,
+          44
+       ]
+    }
+ },
+ "259":{
+    "intent":"discount",
+    "text":"Is there any offers for two products?",
+    "slots":{
+       "qty":"two",
+       "product_category":"products"
+    },
+    "positions":{
+       "qty":[
+          24,
+          26
+       ],
+       "product_category":[
+          28,
+          35
+       ]
+    }
+ },
+ "260":{
+    "intent":"discount",
+    "text":"Any offers to credit cards?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          0,
+          2
+       ],
+       "payment_method":[
+          14,
+          25
+       ]
+    }
+ },
+ "261":{
+    "intent":"discount",
+    "text":"Are there any discount for card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"card payments"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          27,
+          39
+       ]
+    }
+ },
+ "262":{
+    "intent":"discount",
+    "text":"What are the discounts available in this season for jackets?",
+    "slots":{
+       "discount_period":"season",
+       "product_category":"jackets"
+    },
+    "positions":{
+       "discount_period":[
+          41,
+          46
+       ],
+       "product_category":[
+          52,
+          58
+       ]
+    }
+ },
+ "263":{
+    "intent":"discount",
+    "text":"I saw you are advertising about 50% discounts .Is it still available?",
+    "slots":{
+       "object":"I",
+       "discount_percentage":"50%"
+    },
+    "positions":{
+       "object":[
+          0,
+          0
+       ],
+       "discount_percentage":[
+          32,
+          34
+       ]
+    }
+ },
+ "264":{
+    "intent":"discount",
+    "text":"What is the wholesale discounts today?",
+    "slots":{
+       "discount_type":"wholesale",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_type":[
+          12,
+          20
+       ],
+       "discount_period":[
+          32,
+          36
+       ]
+    }
+ },
+ "265":{
+    "intent":"discount",
+    "text":"Are there any bank discounts today?",
+    "slots":{
+       "discount_type":"bank",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_type":[
+          14,
+          17
+       ],
+       "discount_period":[
+          29,
+          33
+       ]
+    }
+ },
+ "266":{
+    "intent":"discount",
+    "text":"What are the discounts for that item in this week?",
+    "slots":{
+       "discount_period":"this week",
+       "product_category":"item"
+    },
+    "positions":{
+       "discount_period":[
+          40,
+          48
+       ],
+       "product_category":[
+          32,
+          35
+       ]
+    }
+ },
+ "267":{
+    "intent":"discount",
+    "text":"Do you provide any discount facilities today ?",
+    "slots":{
+       "discount_period":"today",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "discount_period":[
+          39,
+          43
+       ],
+       "discount_percentage":[
+          15,
+          17
+       ]
+    }
+ },
+ "268":{
+    "intent":"discount",
+    "text":"I will buy 10 .will you provide any discounts ?",
+    "slots":{
+       "discount_percentage":"any",
+       "qty":"10"
+    },
+    "positions":{
+       "discount_percentage":[
+          32,
+          34
+       ],
+       "qty":[
+          11,
+          12
+       ]
+    }
+ },
+ "269":{
+    "intent":"discount",
+    "text":"Is there any discount for cash?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"cash"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "payment_method":[
+          26,
+          29
+       ]
+    }
+ },
+ "270":{
+    "intent":"discount",
+    "text":"Are there any offers for debid cards?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"debid cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ }, 
+ "271":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payment ? Is this price the final sale price?",
+    "slots":{
+       "payment_method":"credit card",
+       "discount_percentage":"any"
+    },
+    "positions":{
+       "payment_method":[
+          25,
+          35
+       ],
+       "discount_percentage":[
+          10,
+          12
+       ]
+    }
+ },
+ "272":{
+    "intent":"discount",
+    "text":"What is the last price of this tie today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"tie"
+    },
+    "positions":{
+       "discount_period":[
+          35,
+          39
+       ],
+       "product_category":[
+          31,
+          33
+       ]
+    }
+ },
+ "273":{
+    "intent":"discount",
+    "text":"What are the discounts available for saree today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"saree"
+    },
+    "positions":{
+       "discount_period":[
+          43,
+          47
+       ],
+       "product_category":[
+          37,
+          41
+       ]
+    }
+ },
+ "274":{
+    "intent":"discount",
+    "text":"Are there any offers for Bank of ceylon master card?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"Bank of ceylon master card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          50
+       ]
+    }
+ },
+ "275":{
+    "intent":"discount",
+    "text":"Is there any discounts that product?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"product"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "product_category":[
+          28,
+          34
+       ]
+    }
+ },
+ "276":{
+    "intent":"discount",
+    "text":"Is there any discount available for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          9,
+          11
+       ],
+       "product_category":[
+          41,
+          45
+       ]
+    }
+ },
+ "277":{
+    "intent":"discount",
+    "text":"Do you offer discounts for credit card payments today?",
+    "slots":{
+       "payment_method":"credit card",
+       "discount_period":"today"
+    },
+    "positions":{
+       "payment_method":[
+          27,
+          37
+       ],
+       "discount_period":[
+          48,
+          52
+       ]
+    }
+ },
+ "278":{
+    "intent":"discount",
+    "text":"Do you give any discounts to this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          12,
+          14
+       ],
+       "product_category":[
+          34,
+          38
+       ]
+    }
+ },
+ "279":{
+    "intent":"discount",
+    "text":"Can you give a 10% discount for this product ?",
+    "slots":{
+       "discount_percentage":"10%",
+       "product_category":"product"
+    },
+    "positions":{
+       "discount_percentage":[
+          15,
+          17
+       ],
+       "product_category":[
+          37,
+          43
+       ]
+    }
+ },
+ "280":{
+    "intent":"discount",
+    "text":"I think this is trouser having 12% discounts. Right?",
+    "slots":{
+       "discount_percentage":"12%",
+       "product_category":"trouser"
+    },
+    "positions":{
+       "discount_percentage":[
+          31,
+          33
+       ],
+       "product_category":[
+          16,
+          22
+       ]
+    }
+ },
+ "281":{
+    "intent":"discount",
+    "text":"Do you have credit card or debit card offers for this blouse?",
+    "slots":{
+       "payment_method":"card or debit card",
+       "product_category":"blouse"
+    },
+    "positions":{
+       "payment_method":[
+          19,
+          36
+       ],
+       "product_category":[
+          54,
+          59
+       ]
+    }
+ },
+ "282":{
+    "intent":"discount",
+    "text":"What are the discount available today for shorts?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"shorts"
+    },
+    "positions":{
+       "discount_period":[
+          32,
+          36
+       ],
+       "product_category":[
+          42,
+          47
+       ]
+    }
+ },
+ "283":{
+    "intent":"discount",
+    "text":"Are there any discount for the item ?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"item"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          31,
+          34
+       ]
+    }
+ },
+ "284":{
+    "intent":"discount",
+    "text":"What are the discounts available today for debid cards?",
+    "slots":{
+       "discount_period":"today",
+       "payment_method":"debid cards"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ],
+       "payment_method":[
+          43,
+          53
+       ]
+    }
+ },
+ "285":{
+    "intent":"discount",
+    "text":"What are the discounts available today for this dress?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ],
+       "product_category":[
+          48,
+          52
+       ]
+    }
+ },
+ "286":{
+    "intent":"discount",
+    "text":"What are the available discounts for shoes in this week?",
+    "slots":{
+       "discount_period":"this week",
+       "product_category":"shoes"
+    },
+    "positions":{
+       "discount_period":[
+          46,
+          54
+       ],
+       "product_category":[
+          37,
+          41
+       ]
+    }
+ },
+ "287":{
+    "intent":"discount",
+    "text":"Are there any offers for credit card payments?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit card"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          35
+       ]
+    }
+ },
+ "288":{
+    "intent":"discount",
+    "text":"Is this 5% discount for frocks?",
+    "slots":{
+       "discount_percentage":"5%",
+       "product_category":"frocks"
+    },
+    "positions":{
+       "discount_percentage":[
+          8,
+          9
+       ],
+       "product_category":[
+          24,
+          29
+       ]
+    }
+ },
+ "289":{
+    "intent":"discount",
+    "text":"Are there any offers for credit cards?",
+    "slots":{
+       "discount_percentage":"any",
+       "payment_method":"credit cards"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "payment_method":[
+          25,
+          36
+       ]
+    }
+ },
+ "290":{
+    "intent":"discount",
+    "text":"Are there any discounts for this dress ?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "291":{
+    "intent":"discount",
+    "text":"what are the discounts available today for this hat?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"hat"
+    },
+    "positions":{
+       "discount_period":[
+          33,
+          37
+       ],
+       "product_category":[
+          48,
+          50
+       ]
+    }
+ },
+ "292":{
+    "intent":"discount",
+    "text":"May I know the offers available for Commercial Bank credit card for today?",
+    "slots":{
+       "discount_period":"today",
+       "payment_method":"Commercial Bank credit card"
+    },
+    "positions":{
+       "discount_period":[
+          68,
+          72
+       ],
+       "payment_method":[
+          36,
+          62
+       ]
+    }
+ },
+ "293":{
+    "intent":"discount",
+    "text":"Are there any discount for this slippers today?",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"slippers"
+    },
+    "positions":{
+       "discount_period":[
+          41,
+          45
+       ],
+       "product_category":[
+          32,
+          39
+       ]
+    }
+ },
+ "294":{
+    "intent":"discount",
+    "text":"Are there any discounts for this dress?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          33,
+          37
+       ]
+    }
+ },
+ "295":{
+    "intent":"discount",
+    "text":"Are there any discounts for these dresses?",
+    "slots":{
+       "discount_percentage":"any",
+       "product_category":"dresses"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "product_category":[
+          34,
+          40
+       ]
+    }
+ },
+ "296":{
+    "intent":"discount",
+    "text":"Are there any discounts available today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          34,
+          38
+       ]
+    }
+ },
+ "297":{
+    "intent":"discount",
+    "text":"Can I get any discount for this dress?",
+    "slots":{
+       "object":"I",
+       "product_category":"dress"
+    },
+    "positions":{
+       "object":[
+          5,
+          5
+       ],
+       "product_category":[
+          32,
+          36
+       ]
+    }
+ },
+ "298":{
+    "intent":"discount",
+    "text":"Can you give me a 5% discount?",
+    "slots":{
+       "object":"you",
+       "discount_percentage":"5%"
+    },
+    "positions":{
+       "object":[
+          4,
+          6
+       ],
+       "discount_percentage":[
+          18,
+          19
+       ]
+    }
+ },
+ "299":{
+    "intent":"discount",
+    "text":"Does this dress have any discount today",
+    "slots":{
+       "discount_period":"today",
+       "product_category":"dress"
+    },
+    "positions":{
+       "discount_period":[
+          34,
+          38
+       ],
+       "product_category":[
+          10,
+          14
+       ]
+    }
+ },
+ "300":{
+    "intent":"discount",
+    "text":"Are there any discounts available today?",
+    "slots":{
+       "discount_percentage":"any",
+       "discount_period":"today"
+    },
+    "positions":{
+       "discount_percentage":[
+          10,
+          12
+       ],
+       "discount_period":[
+          34,
+          38
+       ]
+    }
+ }}
 
