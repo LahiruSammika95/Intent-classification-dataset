@@ -1623,6 +1623,1827 @@
                 40
             ]
         }
+    },
+    "87": {
+        "intent": "search_product",
+        "text": "Please show me red color suit Show me medium size of tops",
+        "slots": {
+            "product_category": "tops",
+            "size": "medium",
+            "color":"red"
+        },
+        "positions": {
+            "product_category": [
+                53,
+                56
+            ],
+            "size": [
+                38,
+                43
+            ],
+            "color": [
+                15,
+                17
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
     }
-    }
+    ,
 
+   "110":{
+      "intent":"pay",
+      "text":"What is the total price again",
+      "slots":{
+         "total_price":"total price",
+         "verb":"is"
+      },
+      "positions":{
+         "total_price":[
+            12,
+            22
+         ],
+         "verb":[
+            5,
+            6
+         ]
+      }
+   },
+
+   "111":{
+      "intent":"pay",
+      "text":"How can I pay for these? Will you accept crypto?",
+      "slots":{
+         "payment_method":"crypto",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            41,
+            46
+         ],
+         "object":[
+            8,
+            8
+         ]
+      }
+   },
+
+   "112":{
+      "intent":"pay",
+      "text":"Can I pay cash on delivery",
+      "slots":{
+         "payment_method":"cash on delivery",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            25
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+   "113":{
+      "intent":"pay",
+      "text":"Can I pay by credit card?",
+      "slots":{
+         "payment_method":"credit card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            23
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+   "114":{
+      "intent":"pay",
+      "text":"Do you have the credit card facilities?",
+      "slots":{
+         "payment_method":"credit card",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            16,
+            26
+         ],
+         "object":[
+            3,
+            5
+         ]
+      }
+   },
+
+   "115":{
+      "intent":"pay",
+      "text":"Can i pay later",
+      "slots":{
+         "payment_method":"later",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            14
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+   "116":{
+      "intent":"pay",
+      "text":"Do you have facility to pay via debit card",
+      "slots":{
+         "payment_method":"debit card",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            32,
+            41
+         ],
+         "object":[
+            3,
+            5
+         ]
+      }
+   },
+
+   "117":{
+      "intent":"pay",
+      "text":"Can i pay credit card",
+      "slots":{
+         "payment_method":"credit card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            20
+         ],
+         "object":[
+            4,
+            4
+         ]
+         
+      }
+   },
+
+   "118":{
+      "intent":"pay",
+      "text":"Is there any additional chargers when paying via credit card ?",
+      "slots":{
+         "payment_method":"credit card",
+         "total_price":"any additional chargers"
+      },
+      "positions":{
+         "payment_method":[
+            49,
+            59
+         ],
+         "total_price":[
+            13,
+            31
+         ]
+      }
+   },
+
+   "119":{
+      "intent":"pay",
+      "text":"Can I pay by my credit or debit card? ",
+      "slots":{
+         "payment_method":"credit or debit card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            16,
+            35
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+   "1110":{
+      "intent":"pay",
+      "text":"Can I pay by card",
+      "slots":{
+         "payment_method":"card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            16
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+   "1111":{
+      "intent":"pay",
+      "text":"Can i pay by credit card",
+      "slots":{
+         "payment_method":"credit card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            23
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+   "1211":{
+      "intent":"pay",
+      "text":"Can i pay by debit card",
+      "slots":{
+         "payment_method":"debit card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            22
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+   "1311":{
+      "intent":"pay",
+      "text":"Can i pay by visa card",
+      "slots":{
+         "payment_method":"visa card",
+         "object":"I"
+      },
+      "positions":{
+         "payment_method":[
+            4,
+            4
+         ],
+         "object":[
+            4,
+            4
+         ]
+      }
+   },
+
+
+   "1411":{
+    "intent":"pay",
+    "text":"Do you accept credit card payments",
+    "slots":{
+       "payment_method":"credit card",
+       "object":"you"
+    },
+    "positions":{
+       "payment_method":[
+          14,
+          33
+       ],
+       "object":[
+        3,
+        5
+     ]
+       
+    }
+   },
+
+    "1511":{
+    "intent":"pay",
+    "text":"Is debit card okay?",
+    "slots":{
+       "payment_method":"debit card",
+       "verb":"is"
+    },
+    "positions":{
+       "payment_method":[
+          3,
+          17
+       ],
+       "verb":[
+        1,
+        2
+     ]
+    }
+ },
+
+    "1611":{
+    "intent":"pay",
+    "text":"Can I pay by master card?",
+    "slots":{
+       "payment_method":"master card",
+       "object":"I"
+    },
+    "positions":{
+       "payment_method":[
+          13,
+          23
+       ],
+       "object":[
+        4,
+        4
+     ]
+    }
+ },
+
+    "1711":{
+    "intent":"pay",
+    "text":"Do you consider credit card payments",
+    "slots":{
+       "payment_method":"credit card",
+       "object":"you"
+    },
+    "positions":{
+       "payment_method":[
+          16,
+          27
+       ],
+       "object":[
+        3,
+        5
+     ]
+    }
+ },
+
+
+ "1811":{
+   "intent":"pay",
+   "text":"Can i pay through Visa Card?",
+   "slots":{
+      "payment_method":"visa card",
+      "object":"I"
+   },
+   "positions":{
+      "payment_method":[
+         18,
+         26
+      ],
+      "object":[
+       4,
+       4
+    ]
+   }
+},
+
+"1911":{
+   "intent":"pay",
+   "text":"Do you accept debit card payment?",
+   "slots":{
+      "payment_method":"debit card",
+      "object":"you"
+   },
+   "positions":{
+      "payment_method":[
+         14,
+         23
+      ],
+      "object":[
+       3,
+       5
+    ]
+   }
+},
+
+"2011":{
+   "intent":"pay",
+   "text":"Do you do credit card transactions?",
+   "slots":{
+      "payment_method":"credit card",
+      "object":"you"
+   },
+   "positions":{
+      "payment_method":[
+         10,
+         20
+      ],
+      "object":[
+       3,
+       5
+    ]
+   }
+},
+
+"2111":{
+   "intent":"pay",
+   "text":"Can I pay from my banking app?",
+   "slots":{
+      "payment_method":"banking app",
+      "object":"I"
+   },
+   "positions":{
+      "payment_method":[
+         18,
+         28
+      ],
+      "object":[
+       4,
+       4
+    ]
+   }
+},
+
+"2211":{
+   "intent":"pay",
+   "text":"I'm going to pay by a credit card is it ok?",
+   "slots":{
+      "payment_method":"credit card",
+      "object":"I"
+   },
+   "positions":{
+      "payment_method":[
+         22,
+         32
+      ],
+      "object":[
+       1,
+       1
+    ]
+   }
+},
+
+"2311":{
+   "intent":"pay",
+   "text":"can i pay using my credit card?",
+   "slots":{
+      "payment_method":"credit card",
+      "object":"I"
+   },
+   "positions":{
+      "payment_method":[
+         19,
+         29
+      ],
+      "object":[
+       1,
+       1
+    ]
+   }
+},
+
+"2411":{
+   "intent":"pay",
+   "text":"If i buy two what happen to the total price?",
+   "slots":{
+      "total_price":"total price",
+      "object":"i"
+   },
+   "positions":{
+      "total_price":[
+         19,
+         42
+      ],
+      "object":[
+       3,
+       3
+    ]
+   }
+},
+
+   "2511":{
+      "intent":"pay",
+      "text":"can i pay using my debit card?",
+      "slots":{
+         "payment_method":"debit card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            19,
+            28
+         ],
+         "object":[
+          4,
+          34
+       ]
+      }
+   },
+
+   
+   "2611":{
+      "intent":"pay",
+      "text":"Do you accept dialog eZcash?",
+      "slots":{
+         "payment_method":"dialog eZcash",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            26
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "2711":{
+      "intent":"pay",
+      "text":"Do you accept Sampath Vishwa?",
+      "slots":{
+         "payment_method":"Sampath Vishwa",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            27
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "2811":{
+      "intent":"pay",
+      "text":"Do you accept virtual wallet payments?",
+      "slots":{
+         "payment_method":"virtual wallet payments",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            36
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "2911":{
+      "intent":"pay",
+      "text":"Do you access to internet banking?",
+      "slots":{
+         "payment_method":"internet banking",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            17,
+            32
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3011":{
+      "intent":"pay",
+      "text":"Do you have facility with ebanking?",
+      "slots":{
+         "payment_method":"ebanking",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            26,
+            33
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3111":{
+      "intent":"pay",
+      "text":"Can I pay via mobitel mcash?",
+      "slots":{
+         "payment_method":"mobitel mcash",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            26
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "3211":{
+      "intent":"pay",
+      "text":"Can I use BOC smartpay?",
+      "slots":{
+         "payment_method":"smartpay",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            21
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "3311":{
+      "intent":"pay",
+      "text":"Can I use telebanking?",
+      "slots":{
+         "payment_method":"telebanking",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            20
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "3411":{
+      "intent":"pay",
+      "text":"Do you accept digital wallet payments?",
+      "slots":{
+         "payment_method":"digital wallet",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            27
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3511":{
+      "intent":"pay",
+      "text":"Do you accept EWallet payments",
+      "slots":{
+         "payment_method":"EWallet",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            29
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3611":{
+      "intent":"pay",
+      "text":"Do you accept DirectPay?",
+      "slots":{
+         "payment_method":"DirectPay",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            22
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3711":{
+      "intent":"pay",
+      "text":"Do you accept WEBXPAY?",
+      "slots":{
+         "payment_method":"WEBXPAY",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            20
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3811":{
+      "intent":"pay",
+      "text":"Do you accept WeChatPay?",
+      "slots":{
+         "payment_method":"WeChatPay",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            22
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "3911":{
+      "intent":"pay",
+      "text":"Do you accept UPay?",
+      "slots":{
+         "payment_method":"UPay",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            17
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "4011":{
+      "intent":"pay",
+      "text":"Do you accept FriMi payments?",
+      "slots":{
+         "payment_method":"FriMi",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            27
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "4111":{
+      "intent":"pay",
+      "text":"Do you accept AliPay?",
+      "slots":{
+         "payment_method":"AliPay",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            19
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "4211":{
+      "intent":"pay",
+      "text":"Do you accept GeniePayments",
+      "slots":{
+         "payment_method":"GeniePayments",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            26
+         ],
+         "object":[
+          3,
+          5
+       ]
+      }
+   },
+
+   "4311":{
+      "intent":"pay",
+      "text":"Can i pay via iPay?",
+      "slots":{
+         "payment_method":"iPay",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            18
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "4411":{
+      "intent":"pay",
+      "text":"Can i use peoplespay app?",
+      "slots":{
+         "payment_method":"peoplespay",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            19
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "4511":{
+      "intent":"pay",
+      "text":"Can i use mobilewallet?",
+      "slots":{
+         "payment_method":"mobilewallet",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            21
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "4611":{
+      "intent":"pay",
+      "text":"Can i use NSBpay?",
+      "slots":{
+         "payment_method":"NSBpay",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            16,
+            10
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "4711":{
+      "intent":"pay",
+      "text":"Can i use SOLO app for payements?",
+      "slots":{
+         "payment_method":"SOLO app",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            17
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "4811":{
+      "intent":"pay",
+      "text":"Can I use QPlus app for making the payments?",
+      "slots":{
+         "payment_method":"QPlus app",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            18
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "4911":{
+      "intent":"pay",
+      "text":"Can I use Paymaster app for making the payments?",
+      "slots":{
+         "payment_method":"Paymaster app",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            22
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5011":{
+      "intent":"pay",
+      "text":"Can I use Seylanpay app for making the payments?",
+      "slots":{
+         "payment_method":"Seylanpay",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            22
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5111":{
+      "intent":"pay",
+      "text":"Can I use Sampath WePay for making the payments?",
+      "slots":{
+         "payment_method":"Sampath WePay",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            23
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5211":{
+      "intent":"pay",
+      "text":"Can I pay via debit card or credit card ?",
+      "slots":{
+         "payment_method":"debit card or credit card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            38
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5311":{
+      "intent":"pay",
+      "text":"Can I use a credit card or debit card to pay?",
+      "slots":{
+         "payment_method":"debit card or credit card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            12,
+            36
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5411":{
+      "intent":"pay",
+      "text":"Can I use a payment card card to pay?",
+      "slots":{
+         "payment_method":"payment card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            12,
+            23
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5511":{
+      "intent":"pay",
+      "text":"Can I use an atm card card to pay?",
+      "slots":{
+         "payment_method":"atm card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            25
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5611":{
+      "intent":"pay",
+      "text":"Can I pay by cash?",
+      "slots":{
+         "payment_method":"cash",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            16
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5711":{
+      "intent":"pay",
+      "text":"Do you accept cards?",
+      "slots":{
+         "payment_method":"cards",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            14 ,
+            19
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5712":{
+      "intent":"pay",
+      "text":"can I pay by my visa card?",
+      "slots":{
+         "payment_method":"visa card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            16 ,
+            24
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "5811":{
+      "intent":"pay",
+      "text":"What are the payment methods you have?",
+      "slots":{
+         "payment_method":"payment methods",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            13 ,
+            27
+         ],
+         "object":[
+          29,
+          31
+       ]
+      }
+   },
+
+   "5911":{
+      "intent":"pay",
+      "text":"I like to pay via Visa card. Is it okay?",
+      "slots":{
+         "payment_method":"visa card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            18,
+            26
+         ],
+         "object":[
+          1,
+          1
+       ]
+      }
+   },
+
+   "6011":{
+      "intent":"pay",
+      "text":"Is there a way to pay by card?",
+      "slots":{
+         "payment_method":"card",
+         "verb":"is"
+      },
+      "positions":{
+         "payment_method":[
+            25,
+            28
+         ],
+         "verb":[
+          1,
+          2
+       ]
+      }
+   },
+
+   "6111":{
+      "intent":"pay",
+      "text":"Can I pay using my mobile app?",
+      "slots":{
+         "payment_method":"mobile app",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            19,
+            28
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "6211":{
+      "intent":"pay",
+      "text":"Can I do a card payment",
+      "slots":{
+         "payment_method":"card payment",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            11,
+            22
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "6311":{
+      "intent":"pay",
+      "text":"Can I pay by cheques?",
+      "slots":{
+         "payment_method":"cheques",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            19
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "6411":{
+      "intent":"pay",
+      "text":"Can I pay this by card?",
+      "slots":{
+         "payment_method":"cards",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            18,
+            21
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "6511":{
+      "intent":"pay",
+      "text":"Is card option available?",
+      "slots":{
+         "payment_method":"card option",
+         "verb":"is"
+      },
+      "positions":{
+         "payment_method":[
+            3,
+            13
+         ],
+         "verb":[
+          1,
+          2
+       ]
+      }
+   },
+
+   "6611":{
+      "intent":"pay",
+      "text":"Can I pay by Americon Express?",
+      "slots":{
+         "payment_method":"Americon Express",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            28
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "6711":{
+      "intent":"pay",
+      "text":"Can I pay by UnionPay cards?",
+      "slots":{
+         "payment_method":"UnionPay cards",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            26
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "6811":{
+      "intent":"pay",
+      "text":"Which types of cards can be used to make a payment?",
+      "slots":{
+         "payment_method":"cards",
+         "verb":"make"
+      },
+      "positions":{
+         "payment_method":[
+            15,
+            20
+         ],
+         "verb":[
+          36,
+          39
+       ]
+      }
+   },
+
+   "6911":{
+      "intent":"pay",
+      "text":"I need to pay by my debit card. Is it okay?",
+      "slots":{
+         "payment_method":"debit card",
+         "verb":"need"
+      },
+      "positions":{
+         "payment_method":[
+            20,
+            29
+         ],
+         "verb":[
+          2,
+          5
+       ]
+      }
+   },
+
+   "7011":{
+      "intent":"pay",
+      "text":"Can I pay through qr code??",
+      "slots":{
+         "payment_method":"qr code",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            18,
+            24
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "7111":{
+      "intent":"pay",
+      "text":"Can I do online payment ?",
+      "slots":{
+         "payment_method":"online payment",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            9,
+            22
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "7211":{
+      "intent":"pay",
+      "text":"do you have cash on delivery?",
+      "slots":{
+         "payment_method":"cash on delivery",
+         "object":"you"
+      },
+      "positions":{
+         "payment_method":[
+            12,
+            27
+         ],
+         "object":[
+          4,
+          6
+       ]
+      }
+   },
+
+   "7311":{
+      "intent":"pay",
+      "text":"is it possible to pay by cards?",
+      "slots":{
+         "payment_method":"cards",
+         "verb":"is"
+      },
+      "positions":{
+         "payment_method":[
+            25,
+            30
+         ],
+         "verb":[
+          4,
+          6
+       ]
+      }
+   },
+
+   "7411":{
+      "intent":"pay",
+      "text":"Can I pay with my bank card?",
+      "slots":{
+         "payment_method":"bank card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            18,
+            26
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "7511":{
+      "intent":"pay",
+      "text":"Is available cash on delivery service?",
+      "slots":{
+         "payment_method":"cash on delivery",
+         "verb":"is"
+      },
+      "positions":{
+         "payment_method":[
+            13,
+            28
+         ],
+         "verb":[
+          1,
+          2
+       ]
+      }
+   },
+   "7611":{
+      "intent":"pay",
+      "text":"Can I pay from my bank card?",
+      "slots":{
+         "payment_method":"bank card",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            18,
+            26
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "7711":{
+      "intent":"pay",
+      "text":"Can I pay this with gift vouchers?",
+      "slots":{
+         "payment_method":"gift vouchers",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            20,
+            32
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "7811":{
+      "intent":"pay",
+      "text":"Can I use online recurring payments?",
+      "slots":{
+         "payment_method":"online recurring payments",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            10,
+            34
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "7911":{
+      "intent":"pay",
+      "text":"Are there any monthly payment plans available?",
+      "slots":{
+         "payment_method":"monthly payment plans",
+         "verb":"are"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            34
+         ],
+         "verb":[
+          1,
+          3
+       ]
+      }
+   },
+
+   "8011":{
+      "intent":"pay",
+      "text":"After having the offer what is the total price?",
+      "slots":{
+         "total_price":"total price",
+         "verb":"is"
+      },
+      "positions":{
+         "total_price":[
+            35,
+            45
+         ],
+         "verb":[
+          28,
+          29
+       ]
+      }
+   },
+
+   "8111":{
+      "intent":"pay",
+      "text":"Can I buy this item using vouchers?",
+      "slots":{
+         "payment_method":"vouchers",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            26,
+            34
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   },
+
+   "8211":{
+      "intent":"pay",
+      "text":"Can I make an online transaction and send you the receipt?",
+      "slots":{
+         "payment_method":"online transaction",
+         "object":"i"
+      },
+      "positions":{
+         "payment_method":[
+            14,
+            32
+         ],
+         "object":[
+          4,
+          4
+       ]
+      }
+   }
+   
+}

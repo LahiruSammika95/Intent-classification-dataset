@@ -1355,1073 +1355,495 @@
         }
     },
     "72": {
-        "intent": "pay",
-        "text": "What is the total price again",
+        "intent": "search_product",
+        "text": "Are there adidas shoes?",
         "slots": {
-            "total_price": "total price",
-            "verb": "is"
+            "product_category": "shoes",
+            "brand": "adidas"
         },
         "positions": {
-            "total_price": [
-                12,
-                22
+            "product_category": [
+                17,
+                21
             ],
-            "verb": [
-                5,
-                6
+            "brand": [
+                10,
+                15
             ]
         }
     },
     "73": {
-        "intent": "pay",
-        "text": "How can I pay for these? Will you accept crypto?",
+        "intent": "search_product",
+        "text": "Please show me a shirt with orange color",
         "slots": {
-            "payment_method": "crypto",
-            "object": "I"
+            "product_category": "shirt",
+            "color": "orange"
         },
         "positions": {
-            "payment_method": [
-                41,
-                46
+            "product_category": [
+                17,
+                21
             ],
-            "object": [
-                8,
-                8
+            "color": [
+                28,
+                33
             ]
         }
     },
     "74": {
-        "intent": "pay",
-        "text": "Can I pay cash on delivery",
+        "intent": "search_product",
+        "text": "I want a pair of white socks",
         "slots": {
-            "payment_method": "cash on delivery",
-            "object": "I"
+            "product_category": "socks",
+            "color": "white"
         },
         "positions": {
-            "payment_method": [
-                10,
-                25
+            "product_category": [
+                23,
+                27
             ],
-            "object": [
-                4,
-                4
+            "color": [
+                17,
+                21
             ]
         }
     },
-    "311": {
-        "intent": "pay",
-        "text": "Can I pay by credit card?",
+    "75": {
+        "intent": "search_product",
+        "text": "I want a new designed large size under skirt",
         "slots": {
-            "payment_method": "credit card",
-            "object": "I"
+            "product_category": "under skirt",
+            "size": "large"
         },
         "positions": {
-            "payment_method": [
-                13,
-                23
+            "product_category": [
+                33,
+                43
             ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "411": {
-        "intent": "pay",
-        "text": "Do you have the credit card facilities?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                16,
+            "size": [
+                22,
                 26
-            ],
-            "object": [
-                3,
-                5
             ]
         }
     },
-    "511": {
-        "intent": "pay",
-        "text": "Can i pay later",
+    "76": {
+        "intent": "search_product",
+        "text": "Do you have gold color neckless?",
         "slots": {
-            "payment_method": "later",
-            "object": "I"
+            "product_category": "neckless",
+            "color": "gold"
         },
         "positions": {
-            "payment_method": [
-                10,
-                14
+            "product_category": [
+                23,
+                30
             ],
-            "object": [
-                4,
-                4
+            "color": [
+                12,
+                15
             ]
         }
     },
-    "611": {
-        "intent": "pay",
-        "text": "Do you have facility to pay via debit card",
+    "77": {
+        "intent": "search_product",
+        "text": "I want a pair of beach slippers in size 9",
         "slots": {
-            "payment_method": "debit card",
-            "object": "you"
+            "product_category": "beach slippers",
+            "size": "9"
         },
         "positions": {
-            "payment_method": [
-                32,
-                41
+            "product_category": [
+                17,
+                30
             ],
-            "object": [
-                3,
-                5
+            "size": [
+                40,
+                40
             ]
         }
     },
-    "711": {
-        "intent": "pay",
-        "text": "Can i pay credit card",
+    "78": {
+        "intent": "search_product",
+        "text": "Have you light blue t-shirts in the stock?",
         "slots": {
-            "payment_method": "credit card",
-            "object": "I"
+            "product_category": "t-shirts",
+            "color": "light blue"
         },
         "positions": {
-            "payment_method": [
-                10,
-                20
+            "product_category": [
+                20,
+                27
             ],
-            "object": [
-                4,
-                4
+            "color": [
+                9,
+                18
             ]
         }
     },
-    "811": {
-        "intent": "pay",
-        "text": "Is there any additional chargers when paying via credit card ?",
+    "79": {
+        "intent": "search_product",
+        "text": "Can you please show me the frock section?I need to buy a large size one",
         "slots": {
-            "payment_method": "credit card",
-            "total_price": "any additional chargers"
+            "product_category": "frock",
+            "size": "large"
         },
         "positions": {
-            "payment_method": [
-                49,
-                59
-            ],
-            "total_price": [
-                13,
+            "product_category": [
+                27,
                 31
-            ]
-        }
-    },
-    "911": {
-        "intent": "pay",
-        "text": "Can I pay by my credit or debit card? ",
-        "slots": {
-            "payment_method": "credit or debit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                35
             ],
-            "object": [
-                4,
-                4
+            "size": [
+                57,
+                61
             ]
         }
     },
-    "1011": {
-        "intent": "pay",
-        "text": "Can I pay by card",
+    "80": {
+        "intent": "search_product",
+        "text": "Where the wrist watches are? I would like to buy a casio one",
         "slots": {
-            "payment_method": "card",
-            "object": "I"
+            "product_category": "wrist watches",
+            "brand": "casio"
         },
         "positions": {
-            "payment_method": [
-                13,
-                16
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "1111": {
-        "intent": "pay",
-        "text": "Can i pay by credit card",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "1211": {
-        "intent": "pay",
-        "text": "Can i pay by debit card",
-        "slots": {
-            "payment_method": "debit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
+            "product_category": [
+                10,
                 22
             ],
-            "object": [
-                4,
-                4
+            "brand": [
+                51,
+                55
             ]
         }
     },
-    "1311": {
-        "intent": "pay",
-        "text": "Can i pay by visa card",
+    "81": {
+        "intent": "search_product",
+        "text": "Please show me some beautiful free size crop tops",
         "slots": {
-            "payment_method": "visa card",
-            "object": "I"
+            "product_category": "crop tops",
+            "size": "free size"
         },
         "positions": {
-            "payment_method": [
-                4,
-                4
+            "product_category": [
+                40,
+                48
             ],
-            "object": [
-                4,
-                4
+            "size": [
+                30,
+                38
             ]
         }
     },
-    "1411": {
-        "intent": "pay",
-        "text": "Do you accept credit card payments",
+    "82": {
+        "intent": "search_product",
+        "text": "Do u have nike sport socks?",
         "slots": {
-            "payment_method": "credit card",
-            "object": "you"
+            "product_category": "sport socks",
+            "brand": "nike"
         },
         "positions": {
-            "payment_method": [
-                14,
-                33
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "1511": {
-        "intent": "pay",
-        "text": "Is debit card okay?",
-        "slots": {
-            "payment_method": "debit card",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                3,
-                17
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "1611": {
-        "intent": "pay",
-        "text": "Can I pay by master card?",
-        "slots": {
-            "payment_method": "master card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "1711": {
-        "intent": "pay",
-        "text": "Do you consider credit card payments",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                27
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "1811": {
-        "intent": "pay",
-        "text": "Can i pay through Visa Card?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "1911": {
-        "intent": "pay",
-        "text": "Do you accept debit card payment?",
-        "slots": {
-            "payment_method": "debit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                23
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "2011": {
-        "intent": "pay",
-        "text": "Do you do credit card transactions?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                20
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "2111": {
-        "intent": "pay",
-        "text": "Can I pay from my banking app?",
-        "slots": {
-            "payment_method": "banking app",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                28
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "2211": {
-        "intent": "pay",
-        "text": "I'm going to pay by a credit card is it ok?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                22,
-                32
-            ],
-            "object": [
-                1,
-                1
-            ]
-        }
-    },
-    "2311": {
-        "intent": "pay",
-        "text": "can i pay using my credit card?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                19,
-                29
-            ],
-            "object": [
-                1,
-                1
-            ]
-        }
-    },
-    "2411": {
-        "intent": "pay",
-        "text": "If i buy two what happen to the total price?",
-        "slots": {
-            "total_price": "total price",
-            "object": ""
-        },
-        "positions": {
-            "payment_method": [
-                19,
-                42
-            ],
-            "object": [
-                3,
-                3
-            ]
-        }
-    },
-    "1121": {
-        "intent": "pay",
-        "text": "How can I pay for these? Will you accept crypto?",
-        "slots": {
-            "payment_method": "crypto",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                41,
-                46
-            ],
-            "object": [
-                8,
-                8
-            ]
-        }
-    },
-    "2222": {
-        "intent": "pay",
-        "text": "Can I pay cash on delivery",
-        "slots": {
-            "payment_method": "cash on delivery",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
+            "product_category": [
+                15,
                 25
             ],
-            "object": [
-                4,
-                4
+            "brand": [
+                10,
+                13
             ]
         }
     },
-    "3322": {
-        "intent": "pay",
-        "text": "Can I pay by credit card?",
+    "83": {
+        "intent": "search_product",
+        "text": "I want a cream color blouse that suits me",
         "slots": {
-            "payment_method": "credit card",
-            "object": "I"
+            "product_category": "blouse",
+            "color": "cream"
         },
         "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "43232": {
-        "intent": "pay",
-        "text": "Do you have the credit card facilities?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                16,
+            "product_category": [
+                21,
                 26
             ],
-            "object": [
-                3,
-                5
+            "color": [
+                9,
+                13
             ]
         }
     },
-    "53121": {
-        "intent": "pay",
-        "text": "Can i pay later",
+    "84": {
+        "intent": "search_product",
+        "text": "Do you have fancy items like neckless and bangles in silver color?",
         "slots": {
-            "payment_method": "later",
-            "object": "I"
+            "product_category": "fancy items like neckless and bangles",
+            "color": "silver"
         },
         "positions": {
-            "payment_method": [
+            "product_category": [
+                12,
+                48
+            ],
+            "color": [
+                53,
+                58
+            ]
+        }
+    },
+    "85": {
+        "intent": "search_product",
+        "text": "Show me a shirt size large or extra large",
+        "slots": {
+            "product_category": "shirt",
+            "size": "large or extra large"
+        },
+        "positions": {
+            "product_category": [
                 10,
                 14
             ],
-            "object": [
-                4,
-                4
+            "size": [
+                21,
+                40
             ]
         }
     },
-    "632324": {
-        "intent": "pay",
-        "text": "Do you have facility to pay via debit card",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "debit card",
-            "object": "you"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                32,
-                41
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "7322": {
-        "intent": "pay",
-        "text": "Can i pay credit card",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                20
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "11dd": {
-        "intent": "pay",
-        "text": "Can i pay by credit card",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
+            "product_category": [
                 13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "122323": {
-        "intent": "pay",
-        "text": "Can i pay by debit card",
-        "slots": {
-            "payment_method": "debit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "1323232": {
-        "intent": "pay",
-        "text": "Can i pay by visa card",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                4,
-                4
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "1432323": {
-        "intent": "pay",
-        "text": "Do you accept credit card payments",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                33
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "152332": {
-        "intent": "pay",
-        "text": "Is debit card okay?",
-        "slots": {
-            "payment_method": "debit card",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                3,
                 17
             ],
-            "verb": [
-                1,
-                2
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "1326": {
-        "intent": "pay",
-        "text": "Can I pay by master card?",
+    "87": {
+        "intent": "search_product",
+        "text": "Please show me red color suit Show me medium size of tops",
         "slots": {
-            "payment_method": "master card",
-            "object": "I"
+            "product_category": "tops",
+            "size": "medium",
+            "color":"red"
         },
         "positions": {
-            "payment_method": [
+            "product_category": [
+                53,
+                56
+            ],
+            "size": [
+                38,
+                43
+            ],
+            "color": [
+                15,
+                17
+            ]
+        }
+    },
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
+        },
+        "positions": {
+            "product_category": [
                 13,
-                23
+                17
             ],
-            "object": [
-                4,
-                4
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "173232": {
-        "intent": "pay",
-        "text": "Do you consider credit card payments",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "credit card",
-            "object": "you"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                16,
-                27
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                3,
-                5
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "183232": {
-        "intent": "pay",
-        "text": "Can i pay through Visa Card?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "visa card",
-            "object": "I"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                18,
-                26
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                4,
-                4
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "19232": {
-        "intent": "pay",
-        "text": "Do you accept debit card payment?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "debit card",
-            "object": "you"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                14,
-                23
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                3,
-                5
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "20232": {
-        "intent": "pay",
-        "text": "Do you do credit card transactions?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "credit card",
-            "object": "you"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                10,
-                20
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                3,
-                5
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "212332": {
-        "intent": "pay",
-        "text": "Can I pay from my banking app?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "banking app",
-            "object": "I"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                18,
-                28
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                4,
-                4
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "223232": {
-        "intent": "pay",
-        "text": "I'm going to pay by a credit card is it ok?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "credit card",
-            "object": "I"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                22,
-                32
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                1,
-                1
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "2332323": {
-        "intent": "pay",
-        "text": "can i pay using my credit card?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "credit card",
-            "object": "I"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                19,
-                29
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                1,
-                1
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "2423232": {
-        "intent": "pay",
-        "text": "If i buy two what happen to the total price?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "total_price": "total price",
-            "object": ""
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                19,
-                42
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                3,
-                3
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "2532323232": {
-        "intent": "pay",
-        "text": "can i pay using my dedit card?",
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
         "slots": {
-            "payment_method": "total price",
-            "object": "i"
+            "product_category": "men’s",
+            "size": "medium"
         },
         "positions": {
-            "payment_method": [
-                19,
-                28
+            "product_category": [
+                13,
+                17
             ],
-            "object": [
-                4,
-                34
+            "size": [
+                35,
+                40
             ]
         }
     },
-    "3232":{
-        "intent":"discount",
-        "text":"Are there any offers today",
-        "slots":{
-      "discount_percentage":"any",
-      "discount_period":"today"
+    "86": {
+        "intent": "search_product",
+        "text": "Where is the men’s section? I need medium size ones",
+        "slots": {
+            "product_category": "men’s",
+            "size": "medium"
         },
-        "positions":{
-           "discount_percentage":[
-              10,
-              12
-           ],
-           "discount_period":[
-              21,
-              25
-           ]
+        "positions": {
+            "product_category": [
+                13,
+                17
+            ],
+            "size": [
+                35,
+                40
+            ]
         }
-     },
-     "1232":{
-        "intent":"discount",
-        "text":"Are there any discounts or offers for this dress?",
-        "slots":{
-           "discount_percentage":"any",
-           "product_category":"dress"
-        },
-        "positions":{
-           "discount_percentage":[
-              10,
-              12
-           ],
-           "product_category":[
-              43,
-              47
-           ]
-        }
-     },
-     "23232":{
-        "intent":"discount",
-        "text":"What are the discounts available today",
-        "slots":{
-           "discount_period":"today"
-        },
-        "positions":{
-           "discount_period":[
-              33,
-              37
-           ]
-        }
-     },
-     "32131":{
-        "intent":"discount",
-        "text":"Are there any discounts available today.",
-        "slots":{
-           "discount_period":"today",
-           "discount_percentage":"any"
-        },
-        "positions":{
-           "discount_period":[
-              34,
-              38
-           ],
-           "discount_percentage":[
-              10,
-              12
-           ]
-        }
-     },
-     "41211":{
-        "intent":"discount",
-        "text":"Are there any offers for this shirt",
-        "slots":{
-           "discount_percentage":"any",
-           "product_category":"shirt"
-        },
-        "positions":{
-           "discount_percentage":[
-              10,
-              12
-           ],
-           "product_category":[
-              30,
-              34
-           ]
-        }
-     },
-     "53232":{
-        "intent":"discount",
-        "text":"Are the any discounts available for this month?",
-        "slots":{
-           "discount_period":"month",
-           "discount_percentage":"any"
-        },
-        "positions":{
-           "discount_period":[
-              41,
-              45
-           ],
-           "discount_percentage":[
-              8,
-              10
-           ]
-        }
-     },
-     "6332":{
-        "intent":"discount",
-        "text":"What are the discounts available in this season",
-        "slots":{
-           "discount_period":"season"
-        },
-        "positions":{
-           "size":[
-              41,
-              46
-           ]
-        }
-     },
-     "7233223":{
-        "intent":"discount",
-        "text":"Any discounts on Black Friday?",
-        "slots":{
-           "discount_period":"Black fiday",
-           "discount_percentage":"any"
-        },
-        "positions":{
-           "discount_period":[
-              17,
-              28
-           ],
-           "discount_percentage":[
-              0,
-              2
-           ]
-        }
-     },
-     "823232":{
-        "intent":"discount",
-        "text":"Are their any discounts available for this dress?",
-        "slots":{
-           "discount_percentage":"any",
-           "product_category":"dress"
-        },
-        "positions":{
-           "discount_percentage":[
-              10,
-              12
-           ],
-           "product_category":[
-              43,
-              47
-           ]
-        }
-     },
-     "932323":{
-        "intent":"discount",
-        "text":"Are there any credit card offers?",
-        "slots":{
-           "discount_percentage":"any",
-           "payment_method":"credit card"
-        },
-        "positions":{
-           "discount_percentage":[
-              10,
-              12
-           ],
-           "payment_method":[
-              14,
-              24
-           ]
-        }
-     },
-     "32310":{
-        "intent":"discount",
-        "text":"Is there 5% offer available for this product?",
-        "slots":{
-            "discount_percentage":"5%",
-           "product_category":"product"
-        },
-        "positions":{
-           "discount_percentage":[
-              9,
-              10
-           ],         
-           "product_category":[
-              37,
-              43
-           ]
-        }
-     },
-     "11232":{
-        "intent":"discount",
-        "text":"Is there 10% offer available for this blouse?",
-        "slots":{
-           "discount_percentage":"10%",
-           "product_category":"blouse"
-        },
-        "positions":{
-           "discount_percentage":[
-              9,
-              11
-           ],         
-           "product_category":[
-              38,
-              43
-           ]
-        }
-     },
-     "12222323":{
-        "intent":"discount",
-        "text":"Do you give any offes for today?",
-        "slots":{
-           "discount_percentage":"any",
-           "discount_period":"today"
-        },
-        "positions":{
-           "discount_percentage":[
-              12,
-              14
-           ],         
-           "discount_period":[
-              26,
-              30
-           ]
-        }
-    }}
+    }
+    }
 
