@@ -7765,5 +7765,122 @@
                 98
             ]
         }
+    },
+       "613": {
+        "intent": "product_specific_question",
+        "text": "How much is this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                12,
+                15
+            ]
+        }
+    },
+       "614": {
+        "intent": "product_specific_question",
+        "text": "How much is it?",
+        "slots": {
+            "product":"it"
+        },
+        "positions": {
+            "product": [
+                12,
+                13
+            ]
+        }
+    },
+       "615": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours,different sizes of it",
+        "slots": {
+            "product":"it"
+        },
+        "positions": {
+            "product": [
+                41,
+                42
+            ]
+        }
+    },
+       "616": {
+        "intent": "product_specific_question",
+        "text": "Is this the only material?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+       "617": {
+        "intent": "product_specific_question",
+        "text": "Can you show me other colours of this dress?",
+        "slots": {
+            "product":"this dress"
+        },
+        "positions": {
+            "product": [
+                33,
+                42
+            ]
+        }
+    },
+       "618": {
+        "intent": "product_specific_question",
+        "text": "What is the price of this dress?",
+        "slots": {
+            "product":"this dress"
+        },
+        "positions": {
+            "product": [
+                21,
+                30
+            ]
+        }
+    },
+       "619": {
+        "intent": "product_specific_question",
+        "text": "how long this can be used even in rough conditions?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                9,
+                12
+            ]
+        }
+    },
+       "620": {
+        "intent": "product_specific_question",
+        "text": "Do you have another design in same color dress?",
+        "slots": {
+            "product":"dress"
+        },
+        "positions": {
+            "product": [
+                41,
+                45
+            ]
+        }
+    },
+       "621": {
+        "intent": "product_specific_question",
+        "text": "shall we try another brand?",
+        "slots": {
+            "product":"dress"
+        },
+        "positions": {
+            "product": [
+                41,
+                45
+            ]
+        }
     }
 }
