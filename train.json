@@ -3003,7 +3003,7 @@
         "intent": "search_product",
         "text": "What are the brands are you selling? I'm looking for a new sunglass",
         "slots": {
-            "product_category": "new sunglass",
+            "product_category": "new sunglass"
         },
         "positions": {
             "product_category": [
@@ -7664,15 +7664,106 @@
     },
        "604": {
         "intent": "product_specific_question",
-        "text": "What colours available of this",
+        "text": "How many colours you have with this garment",
+        "slots": {
+            "product": "this garment"
+        },
+        "positions": {
+            "product": [
+                31,
+                42
+            ]
+        }
+    },
+       "605": {
+        "intent": "product_specific_question",
+        "text": "Material of the cloth?",
+        "slots": {
+            "product": "the cloth"
+        },
+        "positions": {
+            "product": [
+                12,
+                20
+            ]
+        }
+    },
+       "606": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes other than this",
         "slots": {
             "product": "this"
         },
         "positions": {
             "product": [
-                26,
-                29
+                31,
+                34
             ]
         }
     },
+       "607": {
+        "intent": "product_specific_question",
+        "text": "Any other colors other than this color?",
+        "slots": {
+            "product": "this color"
+        },
+        "positions": {
+            "product": [
+                28,
+                37
+            ]
+        }
+    },
+       "608": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, sizes and designs of this dress?",
+        "slots": {
+            "product": "this dress"
+        },
+        "positions": {
+            "product": [
+                44,
+                53
+            ]
+        }
+    },
+       "609": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes of this one",
+        "slots": {
+            "product": "this one"
+        },
+        "positions": {
+            "product": [
+                23,
+                30
+            ]
+        }
+    },
+       "610": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this frock",
+        "slots": {
+            "product": "this frock"
+        },
+        "positions": {
+            "product": [
+                31,
+                40
+            ]
+        }
+    },
+       "611": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, what is the material of the dress, is the small size available of this dress",
+        "slots": {
+            "product": "this dress"
+        },
+        "positions": {
+            "product": [
+                89,
+                98
+            ]
+        }
+    }
 }
