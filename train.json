@@ -2616,24 +2616,6 @@
             ]
         }
     },
-    "140": {
-        "intent": "search_product",
-        "text": "I want a white blouse with sleeves",
-        "slots": {
-            "product_category": "blouse with sleeves",
-            "color": "white"
-        },
-        "positions": {
-            "product_category": [
-                15,
-                33
-            ],
-            "color": [
-                9,
-                13
-            ]
-        }
-    },
     "141": {
         "intent": "search_product",
         "text": "Please show me shoes with black lases",
@@ -2757,6 +2739,330 @@
             "gender": [
                 14,
                 19
+            ]
+        }
+    },
+    "148": {
+        "intent": "search_product",
+        "text": "Hi, Can you show me short skirts? Black or gray color would be great",
+        "slots": {
+            "product_category": "short skirts",
+            "color": "Black or gray"
+        },
+        "positions": {
+            "product_category": [
+                20,
+                31
+            ],
+            "color": [
+                34,
+                46
+            ]
+        }
+    },
+    "149": {
+        "intent": "search_product",
+        "text": "I came to buy a trouser. So can you show me latest designs in xxl size?",
+        "slots": {
+            "product_category": "trouser",
+            "size": "xxl"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                22
+            ],
+            "size": [
+                62,
+                64
+            ]
+        }
+    },
+    "150": {
+        "intent": "search_product",
+        "text": "Do you have branded clothes or denims for men?",
+        "slots": {
+            "product_category": "branded clothes or denims for men",
+            "gender": "men"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                44
+            ],
+            "gender": [
+                42,
+                44
+            ]
+        }
+    },
+    "151": {
+        "intent": "search_product",
+        "text": "Hi, are you selling ladies jackets or jerseys?",
+        "slots": {
+            "product_category": "jackets or jerseys",
+            "gender": "ladies"
+        },
+        "positions": {
+            "product_category": [
+                27,
+                44
+            ],
+            "gender": [
+                20,
+                25
+            ]
+        }
+    },
+    "152": {
+        "intent": "search_product",
+        "text": "I need buy under wears. My size is Medium. can you show me the design in different brands? ",
+        "slots": {
+            "product_category": "under wears",
+            "size": "Medium"
+        },
+        "positions": {
+            "product_category": [
+                11,
+                21
+            ],
+            "size": [
+                35,
+                40
+            ]
+        }
+    },
+    "153": {
+        "intent": "search_product",
+        "text": "Hi dear, I need to buy kids sport shoes. what kind of brands do you have?",
+        "slots": {
+            "product_category": "sport shoes",
+            "gender": "kids"
+        },
+        "positions": {
+            "product_category": [
+                27,
+                37
+            ],
+            "gender": [
+                22,
+                25
+            ]
+        }
+    },
+     "154": {
+        "intent": "search_product",
+        "text": "Hi, do you have trousers of inch 32?",
+        "slots": {
+            "product_category": "trousers",
+            "size": "inch 32"
+        },
+        "positions": {
+            "product_category": [
+                16,
+                23
+            ],
+            "size": [
+                28,
+                34
+            ]
+        }
+    },
+    "155": {
+        "intent": "search_product",
+        "text": "I want a white blouse with sleeves",
+        "slots": {
+            "product_category": "blouse with sleeves",
+            "color": "white"
+        },
+        "positions": {
+            "product_category": [
+                15,
+                33
+            ],
+            "color": [
+                9,
+                13
+            ]
+        }
+    },
+    "156": {
+        "intent": "search_product",
+        "text": "Is there any hoodie or linen material t-shirt in light colors",
+        "slots": {
+            "product_category": "hoodie or linen material t-shirt",
+            "color": "light colors"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                44
+            ],
+            "color": [
+                49,
+                60
+            ]
+        }
+    },
+     "157": {
+        "intent": "search_product",
+        "text": "do you have frocks cost less than five thousand?",
+        "slots": {
+            "product_category": "frocks",
+            "price": "less than five thousand"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                17
+            ],
+            "price": [
+                24,
+                46
+            ]
+        }
+    },
+     "158": {
+        "intent": "search_product",
+        "text": "Can you show me all the blouse designs? Medium size would be great",
+        "slots": {
+            "product_category": "blouse",
+            "size": "Medium"
+        },
+        "positions": {
+            "product_category": [
+                24,
+                29
+            ],
+            "size": [
+                40,
+                45
+            ]
+        }
+    },
+    "159": {
+        "intent": "search_product",
+        "text": "Can I get a medium size white long trouser from Levi's brand?",
+        "slots": {
+            "product_category": "long trouser ",
+            "size": "medium",
+            "brand":"Levi's brand"
+        },
+        "positions": {
+            "product_category": [
+                30,
+                41
+            ],
+            "size": [
+                12,
+                17
+            ],
+            "brand": [
+                48,
+                59
+            ]
+        }
+    },
+    "160": {
+        "intent": "search_product",
+        "text": "Is there any cotton clothes for gents?",
+        "slots": {
+            "product_category": "cotton clothes",
+            "gender": "gents"
+        },
+        "positions": {
+            "product_category": [
+                13,
+                26
+            ],
+            "gender": [
+                32,
+                36
+            ]
+        }
+    },
+    "161": {
+        "intent": "search_product",
+        "text": "Do you have size 34 regular fit denim trousers?",
+        "slots": {
+            "product_category": "regular fit denim trousers",
+            "size": "34 regular fit"
+        },
+        "positions": {
+            "product_category": [
+                20,
+                45
+            ],
+            "size": [
+                17,
+                30
+            ]
+        }
+    },
+    "162": {
+        "intent": "search_product",
+        "text": "What are the brands are you selling? I'm looking for a new sunglass",
+        "slots": {
+            "product_category": "new sunglass",
+        },
+        "positions": {
+            "product_category": [
+                55,
+                66
+            ]
+        }
+    },
+    "163": {
+        "intent": "search_product",
+        "text": "I need some trousers design with white stones",
+        "slots": {
+            "product_category": "trousers design with white stones",
+            "color": "white"
+        },
+        "positions": {
+            "product_category": [
+                12,
+                44
+            ],
+            "color": [
+                33,
+                37
+            ]
+        }
+    },
+    "164": {
+        "intent": "search_product",
+        "text": "can you show me some quality rubber slippers i size 8?",
+        "slots": {
+            "product_category": "quality rubber slippers",
+            "size": "8"
+        },
+        "positions": {
+            "product_category": [
+                21,
+                43
+            ],
+            "size": [
+                52,
+                52
+            ]
+        }
+    },
+    "165": {
+        "intent": "search_product",
+        "text": "Do you have red color velvet night dresses?",
+        "slots": {
+            "product_category": "velvet night dresses",
+            "color": "red"
+        },
+        "positions": {
+            "product_category": [
+                22,
+                41
+            ],
+            "color": [
+                12,
+                14
             ]
         }
     },
@@ -7298,5 +7604,75 @@
                 4
             ]
         }
-    }
+    },
+      "601": {
+        "intent": "product_specific_question",
+        "text": "Will this cap suits me?",
+        "slots": {
+            "product": "this cap"
+        },
+        "positions": {
+            "product": [
+                10,
+                12
+            ]
+        }
+    },
+      "602": {
+        "intent": "product_specific_question",
+        "text": "I want a red colour one of this product",
+        "slots": {
+            "product": "this product",
+            "color":"red"
+        },
+        "positions": {
+            "product": [
+                27,
+                38
+            ],
+            "color": [
+                9,
+                11
+            ]
+        }
+    },
+      "603": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this dress",
+        "slots": {
+            "product": "this dress"
+        },
+        "positions": {
+            "product": [
+                27,
+                38
+            ]
+        }
+    },
+      "603": {
+        "intent": "product_specific_question",
+        "text": "What colours available of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+       "604": {
+        "intent": "product_specific_question",
+        "text": "What colours available of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
 }
