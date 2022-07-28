@@ -7649,7 +7649,7 @@
             ]
         }
     },
-      "603": {
+      "604": {
         "intent": "product_specific_question",
         "text": "What colours available of this",
         "slots": {
@@ -7662,7 +7662,7 @@
             ]
         }
     },
-       "604": {
+       "605": {
         "intent": "product_specific_question",
         "text": "How many colours you have with this garment",
         "slots": {
@@ -7675,7 +7675,7 @@
             ]
         }
     },
-       "605": {
+       "606": {
         "intent": "product_specific_question",
         "text": "Material of the cloth?",
         "slots": {
@@ -7688,7 +7688,7 @@
             ]
         }
     },
-       "606": {
+       "607": {
         "intent": "product_specific_question",
         "text": "Are there any sizes other than this",
         "slots": {
@@ -7701,7 +7701,7 @@
             ]
         }
     },
-       "607": {
+       "608": {
         "intent": "product_specific_question",
         "text": "Any other colors other than this color?",
         "slots": {
@@ -7714,7 +7714,7 @@
             ]
         }
     },
-       "608": {
+       "609": {
         "intent": "product_specific_question",
         "text": "Are there any colours, sizes and designs of this dress?",
         "slots": {
@@ -7727,7 +7727,7 @@
             ]
         }
     },
-       "609": {
+       "610": {
         "intent": "product_specific_question",
         "text": "Are there any sizes of this one",
         "slots": {
@@ -7740,7 +7740,7 @@
             ]
         }
     },
-       "610": {
+       "611": {
         "intent": "product_specific_question",
         "text": "Are there any other colours of this frock",
         "slots": {
@@ -7753,7 +7753,7 @@
             ]
         }
     },
-       "611": {
+       "612": {
         "intent": "product_specific_question",
         "text": "Are there any colours, what is the material of the dress, is the small size available of this dress",
         "slots": {
