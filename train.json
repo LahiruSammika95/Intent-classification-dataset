@@ -7874,13 +7874,8 @@
         "intent": "product_specific_question",
         "text": "shall we try another brand?",
         "slots": {
-            "product":"dress"
         },
         "positions": {
-            "product": [
-                41,
-                45
-            ]
         }
     }
 }
