@@ -3003,7 +3003,7 @@
         "intent": "search_product",
         "text": "What are the brands are you selling? I'm looking for a new sunglass",
         "slots": {
-            "product_category": "new sunglass"
+            "product_category":"new sunglass"
         },
         "positions": {
             "product_category": [
