@@ -10354,5 +10354,333 @@
                 43
             ]
         }
+    },
+       "746": {
+        "intent": "product_specific_question",
+        "text": "can I know the product ratings of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                34,
+                42
+            ]
+        }
+    },
+       "747": {
+        "intent": "product_specific_question",
+        "text": "can I know the color of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                24,
+                32
+            ]
+        }
+    },
+        "748": {
+        "intent": "product_specific_question",
+        "text": "can I know the size of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                23,
+                31
+            ]
+        }
+    },
+        "749": {
+        "intent": "product_specific_question",
+        "text": "can I know the suitability of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                30,
+                38
+            ]
+        }
+    },
+        "750": {
+        "intent": "product_specific_question",
+        "text": "can I know the price of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                25,
+                33
+            ]
+        }
+    },
+            "751": {
+        "intent": "product_specific_question",
+        "text": "Can I exchange this item if I need to?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                15,
+                23
+            ]
+        }
+    },
+             "800": {
+        "intent": "add_to_bill",
+        "text": "please add this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "801": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "802": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "803": {
+        "intent": "add_to_bill",
+        "text": "please put this item to cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "804": {
+        "intent": "add_to_bill",
+        "text": "please add this item to cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "805": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "806": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "807": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "808": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "809": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "810": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "811": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "812": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bucket",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+             "813": {
+        "intent": "add_to_bill",
+        "text": "please add this item to bucket",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+
+             "814": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to bucket",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "815": {
+        "intent": "add_to_bill",
+        "text": "please include this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "816": {
+        "intent": "add_to_bill",
+        "text": "please include this item to my bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "817": {
+        "intent": "add_to_bill",
+        "text": "please include this item to cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "818": {
+        "intent": "add_to_bill",
+        "text": "please include this item to my cart",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "819": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "820": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "821": {
+        "intent": "add_to_bill",
+        "text": "put this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "822": {
+        "intent": "add_to_bill",
+        "text": "add this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "823": {
+        "intent": "add_to_bill",
+        "text": "insert this item to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    }, 
+                 "824": {
+        "intent": "add_to_bill",
+        "text": "I buy this one",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+                   "825": {
+        "intent": "add_to_bill",
+        "text": "I like to buy this one",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+                    "826": {
+        "intent": "add_to_bill",
+        "text": "I buy this product",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+                     "827": {
+        "intent": "add_to_bill",
+        "text": "great. add to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+                     "828": {
+        "intent": "add_to_bill",
+        "text": "I found it. add it to bill",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+                     "829": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for. I'll buy this one",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+                         "830": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for.add to basket",
+        "slots": {
+        },
+        "positions": {
+        }
     }
 }
+
