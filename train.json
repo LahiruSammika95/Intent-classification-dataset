@@ -9400,5 +9400,197 @@
                 39
             ]
         }
+    },
+           "669": {
+        "intent": "product_specific_question",
+        "text": "Could you please tell me what is the material of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                49,
+                52
+            ]
+        }
+    },
+           "668": {
+        "intent": "product_specific_question",
+        "text": "What is the manufactured country of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                36,
+                39
+            ]
+        }
+    },
+           "670": {
+        "intent": "product_specific_question",
+        "text": "This color is little bit dark. Can you suggest me another?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "671": {
+        "intent": "product_specific_question",
+        "text": "Is this a quality product? How cann you ensure that?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+           "672": {
+        "intent": "product_specific_question",
+        "text": "Can I have another design?",
+        "slots": {
+
+        },
+        "positions": {
+
+        }
+    },
+           "673": {
+        "intent": "product_specific_question",
+        "text": "Is this branded?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+           "674": {
+        "intent": "product_specific_question",
+        "text": "Can I change this to any other color?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                13,
+                16
+            ]
+        }
+    },
+           "675": {
+        "intent": "product_specific_question",
+        "text": "Can I exchange this after buying?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                15,
+                18
+            ]
+        }
+    },
+           "676": {
+        "intent": "product_specific_question",
+        "text": "This is having sleeves. I need this design without having sleeves?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "677": {
+        "intent": "product_specific_question",
+        "text": "Can you show me the same dress in different color?",
+        "slots": {
+            "product":"same dress"
+        },
+        "positions": {
+            "product": [
+                20,
+                29
+            ]
+        }
+    },
+           "678": {
+        "intent": "product_specific_question",
+        "text": "If this is not suits to me after delivery, can i return this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+           "679": {
+        "intent": "product_specific_question",
+        "text": "Can you give me a comfortable material?I dont like this silk one?",
+        "slots": {
+            "product":"this silk one"
+        },
+        "positions": {
+            "product": [
+                51,
+                63
+            ]
+        }
+    },
+           "680": {
+        "intent": "product_specific_question",
+        "text": "Is this leather or something?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+           "681": {
+        "intent": "product_specific_question",
+        "text": "this design is old isn't it? I like a new design",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "682": {
+        "intent": "product_specific_question",
+        "text": "Which country made this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                19,
+                22
+            ]
+        }
     }
 }
