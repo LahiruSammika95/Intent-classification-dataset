@@ -3089,15 +3089,15 @@
         "text": "Are there any discounts or offers for this dress?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                43,
+            "product": [
+                38,
                 47
             ]
         }
@@ -3138,15 +3138,15 @@
         "text": "Are there any offers for this shirt",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "shirt"
+            "product": "this shirt"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                30,
+            "product": [
+                25,
                 34
             ]
         }
@@ -3205,15 +3205,15 @@
         "text": "Are their any discounts available for this dress?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                43,
+            "product": [
+                38,
                 47
             ]
         }
@@ -3241,15 +3241,15 @@
         "text": "Is there 5% offer available for this product?",
         "slots": {
             "discount_percentage": "5%",
-            "product_category": "product"
+            "product": "this product"
         },
         "positions": {
             "discount_percentage": [
                 9,
                 10
             ],
-            "product_category": [
-                37,
+            "product": [
+                32,
                 43
             ]
         }
@@ -3259,15 +3259,15 @@
         "text": "Is there 10% offer available for this blouse?",
         "slots": {
             "discount_percentage": "10%",
-            "product_category": "blouse"
+            "product": "this blouse"
         },
         "positions": {
             "discount_percentage": [
                 9,
                 11
             ],
-            "product_category": [
-                38,
+            "product": [
+                33,
                 43
             ]
         }
@@ -3307,14 +3307,9 @@
         "intent": "discount",
         "text": "What are the discount items are there today?",
         "slots": {
-            "product_category": "items",
             "discount_period": "today"
         },
         "positions": {
-            "product_category": [
-                22,
-                26
-            ],
             "discount_period": [
                 38,
                 42
@@ -3380,15 +3375,15 @@
         "text": "Are there any discounts for this item ?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "item"
+            "product": "this item"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                33,
+            "product": [
+                28,
                 36
             ]
         }
@@ -3398,15 +3393,15 @@
         "text": "How much discount offered in this dress today?",
         "slots": {
             "discount_period": "today",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_period": [
                 40,
                 44
             ],
-            "product_category": [
-                34,
+            "product": [
+                29,
                 38
             ]
         }
@@ -3488,15 +3483,15 @@
         "text": "is this party frock having 20% off?",
         "slots": {
             "discount_percentage": "20%",
-            "product_category": "party frock"
+            "product": "this party frock"
         },
         "positions": {
             "discount_percentage": [
                 27,
                 29
             ],
-            "product_category": [
-                8,
+            "product": [
+                3,
                 18
             ]
         }
@@ -3668,15 +3663,15 @@
         "text": "Can you give me 5% discount for this dress?",
         "slots": {
             "discount_percentage": "5%",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 16,
                 17
             ],
-            "product_category": [
-                37,
+            "product": [
+                32,
                 41
             ]
         }
@@ -3703,12 +3698,12 @@
         "intent": "discount",
         "text": "Is this the discount that you are giving to this shirt today?",
         "slots": {
-            "product_category": "shirt",
+            "product": "this shirt",
             "discount_period": "today"
         },
         "positions": {
-            "product_category": [
-                49,
+            "product": [
+                44,
                 53
             ],
             "discount_period": [
@@ -3721,12 +3716,12 @@
         "intent": "discount",
         "text": "Is this dress for this price? Can't you lower the price for this month?",
         "slots": {
-            "product_category": "dress",
+            "product": "this dress",
             "discount_period": "month"
         },
         "positions": {
-            "product_category": [
-                8,
+            "product": [
+                3,
                 12
             ],
             "discount_period": [
@@ -3737,10 +3732,10 @@
     },
     "238": {
         "intent": "discount",
-        "text": "Can make it as low price for the frock?",
+        "text": "Can make it as low price for the frocks?",
         "slots": {
             "discount_percentage": "low price",
-            "product_category": "frock"
+            "product_category": "frocks"
         },
         "positions": {
             "discount_percentage": [
@@ -3749,7 +3744,7 @@
             ],
             "product_category": [
                 33,
-                37
+                38
             ]
         }
     },
@@ -3812,15 +3807,15 @@
         "text": "Any offer for this cloth?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "cloth"
+            "product": "this cloth"
         },
         "positions": {
             "discount_percentage": [
                 0,
                 2
             ],
-            "product_category": [
-                19,
+            "product": [
+                14,
                 23
             ]
         }
@@ -3830,15 +3825,15 @@
         "text": "Are there any offers for this dresses? ",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                30,
+            "product": [
+                25,
                 36
             ]
         }
@@ -3938,14 +3933,14 @@
         "text": "Are there any offers for this shoes?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "this shoes"
+            "product": "this shoes"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
+            "product": [
                 25,
                 34
             ]
@@ -3955,17 +3950,13 @@
         "intent": "discount",
         "text": "Any discounts available for the dresses?",
         "slots": {
-            "discount_percentage": "any",
-            "product_category": "dresses"
+            "discount_percentage": "any"
+       
         },
         "positions": {
             "discount_percentage": [
                 0,
                 2
-            ],
-            "product_category": [
-                32,
-                38
             ]
         }
     },
@@ -3992,15 +3983,15 @@
         "text": "Are there any discounts for this shirt?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "shirt"
+            "product": "this shirt"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                33,
+            "product": [
+                28,
                 37
             ]
         }
@@ -4010,14 +4001,14 @@
         "text": "please let me know whether there any discounts for this product",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "this product"
+            "product": "this product"
         },
         "positions": {
             "discount_percentage": [
                 33,
                 35
             ],
-            "product_category": [
+            "product": [
                 51,
                 62
             ]
@@ -4064,15 +4055,15 @@
         "text": "I need a 10% discount for this skirt",
         "slots": {
             "discount_percentage": "10%",
-            "product_category": "skirt"
+            "product": "this skirt"
         },
         "positions": {
             "discount_percentage": [
                 9,
                 11
             ],
-            "product_category": [
-                31,
+            "product": [
+                26,
                 35
             ]
         }
@@ -4117,17 +4108,13 @@
         "intent": "discount",
         "text": "Is there any offers for two products?",
         "slots": {
-            "qty": "two",
-            "product_category": "products"
+            "qty": "two"
+
         },
         "positions": {
             "qty": [
                 24,
                 26
-            ],
-            "product_category": [
-                28,
-                35
             ]
         }
     },
@@ -4244,15 +4231,15 @@
         "text": "What are the discounts for that item in this week?",
         "slots": {
             "discount_period": "this week",
-            "product_category": "item"
+            "product": "that item"
         },
         "positions": {
             "discount_period": [
                 40,
                 48
             ],
-            "product_category": [
-                32,
+            "product": [
+                27,
                 35
             ]
         }
@@ -4352,15 +4339,15 @@
         "text": "What is the last price of this tie today?",
         "slots": {
             "discount_period": "today",
-            "product_category": "tie"
+            "product": "this tie"
         },
         "positions": {
             "discount_period": [
                 35,
                 39
             ],
-            "product_category": [
-                31,
+            "product": [
+                26,
                 33
             ]
         }
@@ -4406,15 +4393,15 @@
         "text": "Is there any discounts that product?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "product"
+            "product": "that product"
         },
         "positions": {
             "discount_percentage": [
                 9,
                 11
             ],
-            "product_category": [
-                28,
+            "product": [
+                23,
                 34
             ]
         }
@@ -4424,15 +4411,15 @@
         "text": "Is there any discount available for this dress?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 9,
                 11
             ],
-            "product_category": [
-                41,
+            "product": [
+                36,
                 45
             ]
         }
@@ -4460,15 +4447,15 @@
         "text": "Do you give any discounts to this dress?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 12,
                 14
             ],
-            "product_category": [
-                34,
+            "product": [
+                29,
                 38
             ]
         }
@@ -4478,34 +4465,34 @@
         "text": "Can you give a 10% discount for this product ?",
         "slots": {
             "discount_percentage": "10%",
-            "product_category": "product"
+            "product": "this product"
         },
         "positions": {
             "discount_percentage": [
                 15,
                 17
             ],
-            "product_category": [
-                37,
+            "product": [
+                32,
                 43
             ]
         }
     },
     "280": {
         "intent": "discount",
-        "text": "I think this is trouser having 12% discounts. Right?",
+        "text": "I think this trouser is having 12% discounts. Right?",
         "slots": {
             "discount_percentage": "12%",
-            "product_category": "trouser"
+            "product": "this trouser"
         },
         "positions": {
             "discount_percentage": [
                 31,
                 33
             ],
-            "product_category": [
-                16,
-                22
+            "product": [
+                8,
+                19
             ]
         }
     },
@@ -4514,15 +4501,15 @@
         "text": "Do you have credit card or debit card offers for this blouse?",
         "slots": {
             "payment_method": "card or debit card",
-            "product_category": "blouse"
+            "product": "this blouse"
         },
         "positions": {
             "payment_method": [
                 19,
                 36
             ],
-            "product_category": [
-                54,
+            "product": [
+                49,
                 59
             ]
         }
@@ -4547,19 +4534,19 @@
     },
     "283": {
         "intent": "discount",
-        "text": "Are there any discount for the item ?",
+        "text": "Are there any discount for this item ?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "item"
+            "product": "this item"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                31,
-                34
+            "product": [
+                27,
+                35
             ]
         }
     },
@@ -4586,15 +4573,15 @@
         "text": "What are the discounts available today for this dress?",
         "slots": {
             "discount_period": "today",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_period": [
                 33,
                 37
             ],
-            "product_category": [
-                48,
+            "product": [
+                43,
                 52
             ]
         }
@@ -4673,19 +4660,19 @@
     },
     "290": {
         "intent": "discount",
-        "text": "Are there any discounts for this dress ?",
+        "text": "Are there any discounts for this sunglass ?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this sunglass"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                33,
-                37
+            "product": [
+                28,
+                40
             ]
         }
     },
@@ -4694,15 +4681,15 @@
         "text": "what are the discounts available today for this hat?",
         "slots": {
             "discount_period": "today",
-            "product_category": "hat"
+            "product": "this hat"
         },
         "positions": {
             "discount_period": [
                 33,
                 37
             ],
-            "product_category": [
-                48,
+            "product": [
+                43,
                 50
             ]
         }
@@ -4730,15 +4717,15 @@
         "text": "Are there any discount for this slippers today?",
         "slots": {
             "discount_period": "today",
-            "product_category": "slippers"
+            "product": "this slippers"
         },
         "positions": {
             "discount_period": [
                 41,
                 45
             ],
-            "product_category": [
-                32,
+            "product": [
+                27,
                 39
             ]
         }
@@ -4748,15 +4735,15 @@
         "text": "Are there any discounts for this dress?",
         "slots": {
             "discount_percentage": "any",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
             ],
-            "product_category": [
-                33,
+            "product": [
+                28,
                 37
             ]
         }
@@ -4765,17 +4752,12 @@
         "intent": "discount",
         "text": "Are there any discounts for these dresses?",
         "slots": {
-            "discount_percentage": "any",
-            "product_category": "dresses"
+            "discount_percentage": "any"
         },
         "positions": {
             "discount_percentage": [
                 10,
                 12
-            ],
-            "product_category": [
-                34,
-                40
             ]
         }
     },
@@ -4802,15 +4784,15 @@
         "text": "Can I get any discount for this dress?",
         "slots": {
             "object": "I",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "object": [
                 5,
                 5
             ],
-            "product_category": [
-                32,
+            "product": [
+                27,
                 36
             ]
         }
@@ -4838,15 +4820,15 @@
         "text": "Does this dress have any discount today",
         "slots": {
             "discount_period": "today",
-            "product_category": "dress"
+            "product": "this dress"
         },
         "positions": {
             "discount_period": [
                 34,
                 38
             ],
-            "product_category": [
-                10,
+            "product": [
+                5,
                 14
             ]
         }
@@ -4946,15 +4928,15 @@
       "text":"Is this having 5% discount for this frock?",
       "slots":{
          "discount_percentage":"5%",
-         "product_category":"frock"
+         "product":"this frock"
       },
       "positions":{
          "discount_percentage":[
             15,
             16
          ],
-         "product_category":[
-            36,
+         "product":[
+            31,
             40
          ]
       }
@@ -4981,17 +4963,12 @@
       "intent":"discount",
       "text":"Are there any offers for the products?",
       "slots":{
-         "discount_percentage":"any",
-         "product_category":"products"
+         "discount_percentage":"any"
       },
       "positions":{
          "discount_percentage":[
             10,
             12
-         ],
-         "discount_period":[
-            29,
-            36
          ]
       }
    },
@@ -5035,12 +5012,12 @@
       "intent":"discount",
       "text":"What is the discount for this dress in this month?",
       "slots":{
-         "product_category":"dress",
+         "product":"this dress",
          "discount_period":"this month"
       },
       "positions":{
-         "product_category":[
-            30,
+         "product":[
+            25,
             34
          ],
          "discount_period":[
@@ -5134,7 +5111,7 @@
        "discount_percentage":"any"
     },
     "positions":{
-       "product_category":[
+       "payment_method":[
           27,
           38
        ],
@@ -5472,12 +5449,12 @@
    "intent":"discount",
    "text":"Is there a debit card discount if I buy two of these pijamas?",
    "slots":{
-      "product_category":"pijamas",
+      "product":"these pijamas",
       "payment_method":"debit card"
    },
    "positions":{
-      "product_category":[
-         53,
+      "product":[
+         47,
          59
       ],
       "payment_method":[
@@ -5605,12 +5582,12 @@
    "intent":"discount",
    "text":"Is this having a discount for this frock on women's day?",
    "slots":{
-      "product_category":"frock",
+      "product":"this frock",
       "discount_period":"women's day"
    },
    "positions":{
-      "product_category":[
-         35,
+      "product":[
+         30,
          39
       ],
       "discount_period":[
@@ -5757,12 +5734,12 @@
    "intent":"discount",
    "text":"Is there 10% of discount if i buy two of these towels?",
    "slots":{
-      "product_category":"towels",
+      "product":"these towels",
       "discount_percentage":"10%"
    },
    "positions":{
-      "product_category":[
-         47,
+      "product":[
+         41,
          52
       ],
       "discount_percentage":[
@@ -9231,6 +9208,196 @@
             "product": [
                 45,
                 56
+            ]
+        }
+    },
+          "654": {
+        "intent": "product_specific_question",
+        "text": "can u show me the next size of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+           "655": {
+        "intent": "product_specific_question",
+        "text": "what is the  size of this shoe?",
+        "slots": {
+            "product":"this shoe"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+        "656": {
+        "intent": "product_specific_question",
+        "text": "what is the height of this mini dress?",
+        "slots": {
+            "product":"this mini dress"
+        },
+        "positions": {
+            "product": [
+                27,
+                36
+            ]
+        }
+    },
+         "657": {
+        "intent": "product_specific_question",
+        "text": "what is the fabric of this pajama? Is it cotton?",
+        "slots": {
+            "product":"this pajama"
+        },
+        "positions": {
+            "product": [
+                22,
+                32
+            ]
+        }
+    },
+           "658": {
+        "intent": "product_specific_question",
+        "text": "Are there different sizes in the same colour of this mini skirt?",
+        "slots": {
+            "product":"this mini skirt"
+        },
+        "positions": {
+            "product": [
+                48,
+                62
+            ]
+        }
+    },
+           "659": {
+        "intent": "product_specific_question",
+        "text": "What is the material of this underwear? I have an allergic with silk ones.",
+        "slots": {
+            "product":"this underwear"
+        },
+        "positions": {
+            "product": [
+                24,
+                37
+            ]
+        }
+    },
+        "660": {
+        "intent": "product_specific_question",
+        "text": "Is there any warranty for this wrist watch?",
+        "slots": {
+            "product":"this wrist watch"
+        },
+        "positions": {
+            "product": [
+                26,
+                41
+            ]
+        }
+    },
+           "661": {
+        "intent": "product_specific_question",
+        "text": "Who is the seller?",
+        "slots": {
+        },
+        "positions": {
+        }
+    },
+           "662": {
+        "intent": "product_specific_question",
+        "text": "What is the brand of it?",
+        "slots": {
+            "product":"it"
+        },
+        "positions": {
+            "product": [
+                21,
+                22
+            ]
+        }
+    },
+           "663": {
+        "intent": "product_specific_question",
+        "text": "Are there any different models?This model is bit old fashioned",
+        "slots": {
+            "product":"This model"
+        },
+        "positions": {
+            "product": [
+                31,
+                40
+            ]
+        }
+    },
+           "664": {
+        "intent": "product_specific_question",
+        "text": "Is there smaller size of this shoe? This one is bit large for me",
+        "slots": {
+            "product":"this shoe"
+        },
+        "positions": {
+            "product": [
+                25,
+                33
+            ]
+        }
+    },
+           "665": {
+        "intent": "product_specific_question",
+        "text": "This is too big for me.Plz give a regular fit one for me",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "666": {
+        "intent": "product_specific_question",
+        "text": "Can I know the price of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                24,
+                27
+            ]
+        }
+    },
+           "667": {
+        "intent": "product_specific_question",
+        "text": "How much this cost?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                9,
+                12
+            ]
+        }
+    },
+           "668": {
+        "intent": "product_specific_question",
+        "text": "What is the manufactured country of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                36,
+                39
             ]
         }
     }
