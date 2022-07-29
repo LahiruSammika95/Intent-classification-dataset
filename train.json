@@ -8524,14 +8524,14 @@
     },
       "601": {
         "intent": "product_specific_question",
-        "text": "Will this cap suits me?",
+        "text": "Will this suits me?",
         "slots": {
-            "product": "this cap"
+            "product": "this"
         },
         "positions": {
             "product": [
                 10,
-                12
+                13
             ]
         }
     },
@@ -8555,14 +8555,14 @@
     },
       "603": {
         "intent": "product_specific_question",
-        "text": "Are there any other colours of this dress",
+        "text": "Are there any other colours of this",
         "slots": {
-            "product": "this dress"
+            "product": "this"
         },
         "positions": {
             "product": [
                 27,
-                38
+                30
             ]
         }
     },
@@ -8633,14 +8633,14 @@
     },
        "609": {
         "intent": "product_specific_question",
-        "text": "Are there any colours, sizes and designs of this dress?",
+        "text": "Are there any colours, sizes and designs of this?",
         "slots": {
-            "product": "this dress"
+            "product": "this"
         },
         "positions": {
             "product": [
                 44,
-                53
+                47
             ]
         }
     },
@@ -8659,27 +8659,27 @@
     },
        "611": {
         "intent": "product_specific_question",
-        "text": "Are there any other colours of this frock",
+        "text": "Are there any other colours of this",
         "slots": {
-            "product": "this frock"
+            "product": "this"
         },
         "positions": {
             "product": [
                 31,
-                40
+                34
             ]
         }
     },
        "612": {
         "intent": "product_specific_question",
-        "text": "Are there any colours, what is the material of the dress, is the small size available of this dress",
+        "text": "Are there any colours, what is the material of the dress, is the small size available of this",
         "slots": {
-            "product": "this dress"
+            "product": "this"
         },
         "positions": {
             "product": [
                 89,
-                98
+                92
             ]
         }
     },
@@ -8737,27 +8737,27 @@
     },
        "617": {
         "intent": "product_specific_question",
-        "text": "Can you show me other colours of this dress?",
+        "text": "Can you show me other colours of this?",
         "slots": {
-            "product":"this dress"
+            "product":"this"
         },
         "positions": {
             "product": [
                 33,
-                42
+                36
             ]
         }
     },
        "618": {
         "intent": "product_specific_question",
-        "text": "What is the price of this dress?",
+        "text": "What is the price of this?",
         "slots": {
-            "product":"this dress"
+            "product":"this"
         },
         "positions": {
             "product": [
                 21,
-                30
+                24
             ]
         }
     },
@@ -8776,14 +8776,14 @@
     },
        "620": {
         "intent": "product_specific_question",
-        "text": "Do you have another design in same color dress?",
+        "text": "Do you have another design in same color of this?",
         "slots": {
-            "product":"dress"
+            "product":"this"
         },
         "positions": {
             "product": [
-                41,
-                45
+                44,
+                47
             ]
         }
     },
@@ -8849,14 +8849,14 @@
     },
        "626": {
         "intent": "product_specific_question",
-        "text": "Is the medium size available in this dress?",
+        "text": "Is the medium size available in this item?",
         "slots": {
             "product":"this item"
         },
         "positions": {
             "product": [
                 32,
-                41
+                40
             ]
         }
     },
@@ -8927,14 +8927,14 @@
     },
        "632": {
         "intent": "product_specific_question",
-        "text": "Are there any other sizes or colors of this shirt",
+        "text": "Are there any other sizes or colors of this",
         "slots": {
-            "product":"this shirt"
+            "product":"this"
         },
         "positions": {
             "product": [
                 39,
-                48
+                42
             ]
         }
     },
@@ -8942,7 +8942,7 @@
         "intent": "product_specific_question",
         "text": "Are there any sizes other than this?",
         "slots": {
-            "product":"this shirt"
+            "product":"this"
         },
         "positions": {
             "product": [
@@ -8953,14 +8953,14 @@
     },
        "634": {
         "intent": "product_specific_question",
-        "text": "Are there any colours, sizes and designs of this dress?",
+        "text": "Are there any colours, sizes and designs of this?",
         "slots": {
-            "product":"this dress"
+            "product":"this"
         },
         "positions": {
             "product": [
                 44,
-                53
+                47
             ]
         }
     },
@@ -8979,27 +8979,27 @@
     },
        "636": {
         "intent": "product_specific_question",
-        "text": "Are there any other colours of this sunglass",
+        "text": "Are there any other colours of this",
         "slots": {
-            "product":"this sunglass"
+            "product":"this"
         },
         "positions": {
             "product": [
                 31,
-                43
+                34
             ]
         }
     },
        "637": {
         "intent": "product_specific_question",
-        "text": "is the small size available of this dress?",
+        "text": "is the small size available of this?",
         "slots": {
-            "product":"this dress"
+            "product":"this"
         },
         "positions": {
             "product": [
                 31,
-                40
+                34
             ]
         }
     },
@@ -9018,14 +9018,14 @@
     },
        "639": {
         "intent": "product_specific_question",
-        "text": "Can you show me other colors and designs of this cap?",
+        "text": "Can you show me other colors and designs of this?",
         "slots": {
-            "product":"this cap"
+            "product":"this"
         },
         "positions": {
             "product": [
                 44,
-                51
+                47
             ]
         }
     },
@@ -9085,7 +9085,7 @@
         "intent": "product_specific_question",
         "text": "How is the quality of this?",
         "slots": {
-            "product":"this dress"
+            "product":"this"
         },
         "positions": {
             "product": [
@@ -9122,14 +9122,14 @@
     },
        "647": {
         "intent": "product_specific_question",
-        "text": "Are there any other meterial, colors of this towel?",
+        "text": "Are there any other meterial, colors of this?",
         "slots": {
-            "product":"this towel"
+            "product":"this"
         },
         "positions": {
             "product": [
                 40,
-                49
+                43
             ]
         }
     },
@@ -9226,9 +9226,9 @@
     },
            "655": {
         "intent": "product_specific_question",
-        "text": "what is the  size of this shoe?",
+        "text": "what is the  size of this?",
         "slots": {
-            "product":"this shoe"
+            "product":"this"
         },
         "positions": {
             "product": [
@@ -9239,66 +9239,66 @@
     },
         "656": {
         "intent": "product_specific_question",
-        "text": "what is the height of this mini dress?",
+        "text": "what is the height of this?",
         "slots": {
-            "product":"this mini dress"
+            "product":"this"
         },
         "positions": {
             "product": [
                 27,
-                36
+                30
             ]
         }
     },
          "657": {
         "intent": "product_specific_question",
-        "text": "what is the fabric of this pajama? Is it cotton?",
+        "text": "what is the fabric of this? Is it cotton?",
         "slots": {
-            "product":"this pajama"
+            "product":"this"
         },
         "positions": {
             "product": [
                 22,
-                32
+                25
             ]
         }
     },
            "658": {
         "intent": "product_specific_question",
-        "text": "Are there different sizes in the same colour of this mini skirt?",
+        "text": "Are there different sizes in the same colour of this?",
         "slots": {
-            "product":"this mini skirt"
+            "product":"this"
         },
         "positions": {
             "product": [
                 48,
-                62
+                51
             ]
         }
     },
            "659": {
         "intent": "product_specific_question",
-        "text": "What is the material of this underwear? I have an allergic with silk ones.",
+        "text": "What is the material of this? I have an allergic with silk ones.",
         "slots": {
-            "product":"this underwear"
+            "product":"this"
         },
         "positions": {
             "product": [
                 24,
-                37
+                27
             ]
         }
     },
         "660": {
         "intent": "product_specific_question",
-        "text": "Is there any warranty for this wrist watch?",
+        "text": "Is there any warranty for this?",
         "slots": {
-            "product":"this wrist watch"
+            "product":"this"
         },
         "positions": {
             "product": [
                 26,
-                41
+                29
             ]
         }
     },
@@ -9338,14 +9338,14 @@
     },
            "664": {
         "intent": "product_specific_question",
-        "text": "Is there smaller size of this shoe? This one is bit large for me",
+        "text": "Is there smaller size of this? This one is bit large for me",
         "slots": {
-            "product":"this shoe"
+            "product":"this"
         },
         "positions": {
             "product": [
                 25,
-                33
+                28
             ]
         }
     },
@@ -9517,14 +9517,14 @@
     },
            "677": {
         "intent": "product_specific_question",
-        "text": "Can you show me the same dress in different color?",
+        "text": "Can you show me the same in different color?",
         "slots": {
-            "product":"same dress"
+            "product":"same"
         },
         "positions": {
             "product": [
                 20,
-                29
+                23
             ]
         }
     },
@@ -9543,14 +9543,14 @@
     },
            "679": {
         "intent": "product_specific_question",
-        "text": "Can you give me a comfortable material?I dont like this silk one?",
+        "text": "Can you give me a comfortable material?I dont like this one?",
         "slots": {
-            "product":"this silk one"
+            "product":"this one"
         },
         "positions": {
             "product": [
                 51,
-                63
+                58
             ]
         }
     },
@@ -9592,5 +9592,189 @@
                 22
             ]
         }
+    },
+           "683": {
+        "intent": "product_specific_question",
+        "text": "Im really care about the material. so what is the material of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                62,
+                65
+            ]
+        }
+    },
+           "684": {
+        "intent": "product_specific_question",
+        "text": "Is this for men?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "685": {
+        "intent": "product_specific_question",
+        "text": "is this for women",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "686": {
+        "intent": "product_specific_question",
+        "text": "is this for ladies?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "687": {
+        "intent": "product_specific_question",
+        "text": "Is this for gents?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "688": {
+        "intent": "product_specific_question",
+        "text": "is this for girls?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "689": {
+        "intent": "product_specific_question",
+        "text": "Is this for boys?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "690": {
+        "intent": "product_specific_question",
+        "text": "Is this for children?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "691": {
+        "intent": "product_specific_question",
+        "text": "is this free size?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "692": {
+        "intent": "product_specific_question",
+        "text": "Is this fitting me?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+           "693": {
+        "intent": "product_specific_question",
+        "text": "Can you show me black color of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+           "694": {
+        "intent": "product_specific_question",
+        "text": "Show me different variant of this?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                29,
+                32
+            ]
+        }
+    },
+           "695": {
+        "intent": "product_specific_question",
+        "text": "Do you have any colors of this?",
+        "slots": {
+            "product":"this swim suit"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+           "696": {
+        "intent": "product_specific_question",
+        "text": "are there any other Size of this available  or not?",
+        "slots": {
+            "product":"this"
+        },
+        "positions": {
+            "product": [
+                28,
+                31
+            ]
+        }
     }
+    
+    
 }
