@@ -3065,4 +3065,582 @@
                 14
             ]
         }
-    }}
+    },
+        "800": {
+        "intent": "add_to_bill",
+        "text": "please add this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "801": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "802": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "803": {
+        "intent": "add_to_bill",
+        "text": "please put this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "804": {
+        "intent": "add_to_bill",
+        "text": "please add this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "805": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "806": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "807": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "808": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "809": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "810": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "811": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "812": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "813": {
+        "intent": "add_to_bill",
+        "text": "please add this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "814": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "815": {
+        "intent": "add_to_bill",
+        "text": "please include this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "816": {
+        "intent": "add_to_bill",
+        "text": "please include this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "817": {
+        "intent": "add_to_bill",
+        "text": "please include this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "818": {
+        "intent": "add_to_bill",
+        "text": "please include this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "819": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "820": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "821": {
+        "intent": "add_to_bill",
+        "text": "put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "822": {
+        "intent": "add_to_bill",
+        "text": "add this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "823": {
+        "intent": "add_to_bill",
+        "text": "insert this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "824": {
+        "intent": "add_to_bill",
+        "text": "I buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "825": {
+        "intent": "add_to_bill",
+        "text": "I like to buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "826": {
+        "intent": "add_to_bill",
+        "text": "I buy this product",
+        "slots": {},
+        "positions": {}
+    },
+    "827": {
+        "intent": "add_to_bill",
+        "text": "great. add to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "828": {
+        "intent": "add_to_bill",
+        "text": "I found it. add it to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "829": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for. I'll buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "830": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for.add to basket",
+        "slots": {},
+        "positions": {}
+    },
+    "831": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for.add to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "832": {
+        "intent": "add_to_bill",
+        "text": "add to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "833": {
+        "intent": "add_to_bill",
+        "text": "add to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "834": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "835": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "836": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "837": {
+        "intent": "add_to_bill",
+        "text": "could you please insert this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "838": {
+        "intent": "add_to_bill",
+        "text": "could you please put this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "839": {
+        "intent": "add_to_bill",
+        "text": "could you please include this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "840": {
+        "intent": "add_to_bill",
+        "text": "could you please insert this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "841": {
+        "intent": "add_to_bill",
+        "text": "could you please insert this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "842": {
+        "intent": "add_to_bill",
+        "text": "could you please put this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "843": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "844": {
+        "intent": "add_to_bill",
+        "text": "could you please include this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "845": {
+        "intent": "add_to_bill",
+        "text": "could you please push this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "846": {
+        "intent": "add_to_bill",
+        "text": "could you please push this to wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "847": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "848": {
+        "intent": "add_to_bill",
+        "text": "please push this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "849": {
+        "intent": "add_to_bill",
+        "text": "please put this item to box",
+        "slots": {},
+        "positions": {}
+    },
+    "850": {
+        "intent": "add_to_bill",
+        "text": "please add this item to box",
+        "slots": {},
+        "positions": {}
+    },
+    "851": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to box",
+        "slots": {},
+        "positions": {}
+    },
+    "852": {
+        "intent": "add_to_bill",
+        "text": "please add this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "853": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "854": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "855": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "856": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "859": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "860": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "861": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "862": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "863": {
+        "intent": "add_to_bill",
+        "text": "please push this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "864": {
+        "intent": "add_to_bill",
+        "text": "please push this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "865": {
+        "intent": "add_to_bill",
+        "text": "please push this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "866": {
+        "intent": "add_to_bill",
+        "text": "please nudge this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "867": {
+        "intent": "add_to_bill",
+        "text": "please nudge this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "868": {
+        "intent": "add_to_bill",
+        "text": "please include this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "869": {
+        "intent": "add_to_bill",
+        "text": "please push this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "870": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "871": {
+        "intent": "add_to_bill",
+        "text": "put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "872": {
+        "intent": "add_to_bill",
+        "text": "add this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "873": {
+        "intent": "add_to_bill",
+        "text": "insert this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "874": {
+        "intent": "add_to_bill",
+        "text": "I buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "875": {
+        "intent": "add_to_bill",
+        "text": "I like to buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "876": {
+        "intent": "add_to_bill",
+        "text": "I buy this product",
+        "slots": {},
+        "positions": {}
+    },
+    "877": {
+        "intent": "add_to_bill",
+        "text": "great. add to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "878": {
+        "intent": "add_to_bill",
+        "text": "I found it. add it to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "879": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for. I'll buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "880": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for.add to basket",
+        "slots": {},
+        "positions": {}
+    },
+    "881": {
+        "intent": "add_to_bill",
+        "text": "This is the one I was looking for.add to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "882": {
+        "intent": "add_to_bill",
+        "text": "add to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "883": {
+        "intent": "add_to_bill",
+        "text": "add to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "884": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "885": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "886": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "887": {
+        "intent": "add_to_bill",
+        "text": "could you please insert this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "888": {
+        "intent": "add_to_bill",
+        "text": "could you please put this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "889": {
+        "intent": "add_to_bill",
+        "text": "could you please include this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "890": {
+        "intent": "add_to_bill",
+        "text": "could you please insert this to my list",
+        "slots": {},
+        "positions": {}
+    },
+    "891": {
+        "intent": "add_to_bill",
+        "text": "could you please insert this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "892": {
+        "intent": "add_to_bill",
+        "text": "could you please put this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "893": {
+        "intent": "add_to_bill",
+        "text": "could you please add this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "894": {
+        "intent": "add_to_bill",
+        "text": "could you please include this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "895": {
+        "intent": "add_to_bill",
+        "text": "could you please push this to my wallet",
+        "slots": {},
+        "positions": {}
+    },
+    "896": {
+        "intent": "add_to_bill",
+        "text": "I would like to buy this one",
+        "slots": {},
+        "positions": {}
+    },
+    "897": {
+        "intent": "add_to_bill",
+        "text": "I will buy this one",
+        "slots": {},
+        "positions": {}
+    }
+    
+    }
