@@ -1,0 +1,1143 @@
+{
+    "0": {
+        "intent": "search_product",
+        "text": "I want to buy a medium cap",
+        "slots": {
+            "size": "medium",
+            "product_category": "cap"
+        },
+        "positions": {
+            "size": [
+                16,
+                21
+            ],
+            "product_category": [
+                23,
+                25
+            ]
+        }
+    },
+    "1": {
+        "intent": "search_product",
+        "text": "Please show me a medium t-shirt",
+        "slots": {
+            "size": "medium",
+            "product_category": "t-shirt"
+        },
+        "positions": {
+            "size": [
+                17,
+                22
+            ],
+            "product_category": [
+                24,
+                30
+            ]
+        }
+    },
+    "2": {
+        "intent": "search_product",
+        "text": "Hi.I want to buy a black colour long trouser",
+        "slots": {
+            "size": "long",
+            "color": "black",
+            "product_category": "trouser"
+        },
+        "positions": {
+            "size": [
+                32,
+                35
+            ],
+            "color": [
+                19,
+                23
+            ],
+            "product_category": [
+                37,
+                43
+            ]
+        }
+    },
+    "3": {
+        "intent": "search_product",
+        "text": "Please show me a small shirt that fit me",
+        "slots": {
+            "size": "small",
+            "product_category": "shirt"
+        },
+        "positions": {
+            "size": [
+                17,
+                21
+            ],
+            "product_category": [
+                23,
+                27
+            ]
+        }
+    },
+    "4": {
+        "intent": "search_product",
+        "text": "I want a white large frock",
+        "slots": {
+            "size": "large",
+            "color": "white",
+            "product_category": "frock"
+        },
+        "positions": {
+            "size": [
+                15,
+                19
+            ],
+            "color": [
+                9,
+                13
+            ],
+            "product_category": [
+                21,
+                25
+            ]
+        }
+    },
+    "5": {
+        "intent": "search_product",
+        "text": "I want a pair of small shoes",
+        "slots": {
+            "size": "small",
+            "product_category": "shoes"
+        },
+        "positions": {
+            "size": [
+                17,
+                21
+            ],
+            "product_category": [
+                23,
+                27
+            ]
+        }
+    },
+    "6": {
+        "intent": "search_product",
+        "text": "I am looking for a full sleeve t-shirt",
+        "slots": {
+            "size": "full",
+            "product_category": "t-shirt"
+        },
+        "positions": {
+            "size": [
+                19,
+                22
+            ],
+            "product_category": [
+                24,
+                37
+            ]
+        }
+    },
+    "7": {
+        "intent": "search_product",
+        "text": "Please show me a xl clothes that fit me",
+        "slots": {
+            "size": "xl",
+            "product_category": "clothes"
+        },
+        "positions": {
+            "size": [
+                17,
+                18
+            ],
+            "product_category": [
+                20,
+                26
+            ]
+        }
+    },
+    "8": {
+        "intent": "search_product",
+        "text": "Please show me a small dress for a wedding",
+        "slots": {
+            "size": "small",
+            "product_category": "wedding"
+        },
+        "positions": {
+            "size": [
+                17,
+                21
+            ],
+            "product_category": [
+                35,
+                41
+            ]
+        }
+    },
+    "9": {
+        "intent": "search_product",
+        "text": "Show me a small shirt very suitable to me",
+        "slots": {
+            "size": "small",
+            "product_category": "shirt"
+        },
+        "positions": {
+            "size": [
+                10,
+                14
+            ],
+            "product_category": [
+                16,
+                20
+            ]
+        }
+    },
+    "10": {
+        "intent": "search_product",
+        "text": "I want a black large t-shirt",
+        "slots": {
+            "size": "large",
+            "color": "black",
+            "product_category": "t-shirt"
+        },
+        "positions": {
+            "size": [
+                15,
+                19
+            ],
+            "color": [
+                9,
+                13
+            ],
+            "product_category": [
+                21,
+                27
+            ]
+        }
+    },
+    "11": {
+        "intent": "search_product",
+        "text": "I want a black large t-shirt",
+        "slots": {
+            "color": "black",
+            "product_category": "t-shirt"
+        },
+        "positions": {
+            "color": [
+                9,
+                13
+            ],
+            "product_category": [
+                15,
+                21
+            ]
+        }
+    },
+    "12": {
+        "intent": "search_product",
+        "text": "Please show me the available t-shirt on crocodile brand?",
+        "slots": {
+            "product_category": "t-shirt"
+        },
+        "positions": {
+            "product_category": [
+                29,
+                35
+            ],
+            "brand": [
+                50,
+                54
+            ]
+        }
+    },
+    "13": {
+        "intent": "search_product",
+        "text": "Please show me the medium size blouses",
+        "slots": {
+            "size": "medium",
+            "product_category": "blouses"
+        },
+        "positions": {
+            "size": [
+                19,
+                24
+            ],
+            "product_category": [
+                31,
+                37
+            ]
+        }
+    },
+    "14": {
+        "intent": "search_product",
+        "text": "Please show me a nice extra large frock that suits me?",
+        "slots": {
+            "size": "extra large",
+            "product_category": "frock"
+        },
+        "positions": {
+            "size": [
+                22,
+                32
+            ],
+            "product_category": [
+                34,
+                38
+            ]
+        }
+    },
+    "15": {
+        "intent": "search_product",
+        "text": "I want a pair of extra small white shoes?",
+        "slots": {
+            "size": "extra small",
+            "color": "white",
+            "product_category": "shoes"
+        },
+        "positions": {
+            "size": [
+                23,
+                27
+            ],
+            "color": [
+                29,
+                33
+            ],
+            "product_category": [
+                35,
+                39
+            ]
+        }
+    },
+    "200": {
+        "intent": "discount",
+        "text": "Are there any offers today",
+        "slots": {
+            "discount_percentage": "any",
+            "discount_period": "today"
+        },
+        "positions": {
+            "discount_percentage": [
+                10,
+                12
+            ],
+            "discount_period": [
+                21,
+                25
+            ]
+        }
+    },
+    "201": {
+        "intent": "discount",
+        "text": "Are there any discounts or offers for this dress?",
+        "slots": {
+            "discount_percentage": "any",
+            "product": "this dress"
+        },
+        "positions": {
+            "discount_percentage": [
+                10,
+                12
+            ],
+            "product": [
+                38,
+                47
+            ]
+        }
+    },
+    "202": {
+        "intent": "discount",
+        "text": "What are the discounts available today",
+        "slots": {
+            "discount_period": "today"
+        },
+        "positions": {
+            "discount_period": [
+                33,
+                37
+            ]
+        }
+    },
+    "203": {
+        "intent": "discount",
+        "text": "Are there any discounts available today.",
+        "slots": {
+            "discount_period": "today",
+            "discount_percentage": "any"
+        },
+        "positions": {
+            "discount_period": [
+                34,
+                38
+            ],
+            "discount_percentage": [
+                10,
+                12
+            ]
+        }
+    },
+    "204": {
+        "intent": "discount",
+        "text": "Are there any offers for this shirt",
+        "slots": {
+            "discount_percentage": "any",
+            "product": "this shirt"
+        },
+        "positions": {
+            "discount_percentage": [
+                10,
+                12
+            ],
+            "product": [
+                25,
+                34
+            ]
+        }
+    },
+    "205": {
+        "intent": "discount",
+        "text": "Are the any discounts available for this month?",
+        "slots": {
+            "discount_period": "month",
+            "discount_percentage": "any"
+        },
+        "positions": {
+            "discount_period": [
+                41,
+                45
+            ],
+            "discount_percentage": [
+                8,
+                10
+            ]
+        }
+    },
+    "206": {
+        "intent": "discount",
+        "text": "What are the discounts available in this season",
+        "slots": {
+            "discount_period": "season"
+        },
+        "positions": {
+            "size": [
+                41,
+                46
+            ]
+        }
+    },
+    "207": {
+        "intent": "discount",
+        "text": "Any discounts on Black Friday?",
+        "slots": {
+            "discount_period": "Black fiday",
+            "discount_percentage": "any"
+        },
+        "positions": {
+            "discount_period": [
+                17,
+                28
+            ],
+            "discount_percentage": [
+                0,
+                2
+            ]
+        }
+    },
+    "208": {
+        "intent": "discount",
+        "text": "Are their any discounts available for this dress?",
+        "slots": {
+            "discount_percentage": "any",
+            "product": "this dress"
+        },
+        "positions": {
+            "discount_percentage": [
+                10,
+                12
+            ],
+            "product": [
+                38,
+                47
+            ]
+        }
+    },
+    "209": {
+        "intent": "discount",
+        "text": "Are there any credit card offers?",
+        "slots": {
+            "discount_percentage": "any",
+            "payment_method": "credit card"
+        },
+        "positions": {
+            "discount_percentage": [
+                10,
+                12
+            ],
+            "payment_method": [
+                14,
+                24
+            ]
+        }
+    },
+    "210": {
+        "intent": "discount",
+        "text": "Is there 5% offer available for this product?",
+        "slots": {
+            "discount_percentage": "5%",
+            "product": "this product"
+        },
+        "positions": {
+            "discount_percentage": [
+                9,
+                10
+            ],
+            "product": [
+                32,
+                43
+            ]
+        }
+    },
+    "211": {
+        "intent": "discount",
+        "text": "Is there 10% offer available for this blouse?",
+        "slots": {
+            "discount_percentage": "10%",
+            "product": "this blouse"
+        },
+        "positions": {
+            "discount_percentage": [
+                9,
+                11
+            ],
+            "product": [
+                33,
+                43
+            ]
+        }
+    },
+    "212": {
+        "intent": "discount",
+        "text": "Do you give any offes for today?",
+        "slots": {
+            "discount_percentage": "any",
+            "discount_period": "today"
+        },
+        "positions": {
+            "discount_percentage": [
+                12,
+                14
+            ],
+            "discount_period": [
+                26,
+                30
+            ]
+        }
+    },
+    "213": {
+        "intent": "discount",
+        "text": "If I buy this what is your best price today?",
+        "slots": {
+            "discount_period": "today"
+        },
+        "positions": {
+            "discount_period": [
+                38,
+                42
+            ]
+        }
+    },
+    "214": {
+        "intent": "discount",
+        "text": "What are the discount items are there today?",
+        "slots": {
+            "discount_period": "today"
+        },
+        "positions": {
+            "discount_period": [
+                38,
+                42
+            ]
+        }
+    },
+    "215": {
+        "intent": "discount",
+        "text": "Are there any offers for credit card payments?",
+        "slots": {
+            "discount_percentage": "any",
+            "payment_method": "credit card"
+        },
+        "positions": {
+            "discount_percentage": [
+                10,
+                12
+            ],
+            "payment_method": [
+                25,
+                35
+            ]
+        }
+    },
+    "401": {
+        "intent": "pay",
+        "text": "What is the total price again",
+        "slots": {
+            "total_price": "total price",
+            "verb": "is"
+        },
+        "positions": {
+            "total_price": [
+                12,
+                22
+            ],
+            "verb": [
+                5,
+                6
+            ]
+        }
+    },
+    "402": {
+        "intent": "pay",
+        "text": "How can I pay for these? Will you accept crypto?",
+        "slots": {
+            "payment_method": "crypto",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                41,
+                46
+            ],
+            "object": [
+                8,
+                8
+            ]
+        }
+    },
+    "403": {
+        "intent": "pay",
+        "text": "Can I pay cash on delivery",
+        "slots": {
+            "payment_method": "cash on delivery",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                10,
+                25
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "404": {
+        "intent": "pay",
+        "text": "Can I pay by credit card?",
+        "slots": {
+            "payment_method": "credit card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                13,
+                23
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "405": {
+        "intent": "pay",
+        "text": "Do you have the credit card facilities?",
+        "slots": {
+            "payment_method": "credit card",
+            "object": "you"
+        },
+        "positions": {
+            "payment_method": [
+                16,
+                26
+            ],
+            "object": [
+                3,
+                5
+            ]
+        }
+    },
+    "406": {
+        "intent": "pay",
+        "text": "Can i pay later",
+        "slots": {
+            "payment_method": "later",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                10,
+                14
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "407": {
+        "intent": "pay",
+        "text": "Do you have facility to pay via debit card",
+        "slots": {
+            "payment_method": "debit card",
+            "object": "you"
+        },
+        "positions": {
+            "payment_method": [
+                32,
+                41
+            ],
+            "object": [
+                3,
+                5
+            ]
+        }
+    },
+    "408": {
+        "intent": "pay",
+        "text": "Can i pay credit card",
+        "slots": {
+            "payment_method": "credit card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                10,
+                20
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "409": {
+        "intent": "pay",
+        "text": "Is there any additional chargers when paying via credit card ?",
+        "slots": {
+            "payment_method": "credit card",
+            "total_price": "any additional chargers"
+        },
+        "positions": {
+            "payment_method": [
+                49,
+                59
+            ],
+            "total_price": [
+                13,
+                31
+            ]
+        }
+    },
+    "410": {
+        "intent": "pay",
+        "text": "Can I pay by my credit or debit card? ",
+        "slots": {
+            "payment_method": "credit or debit card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                16,
+                35
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "411": {
+        "intent": "pay",
+        "text": "Can I pay by card",
+        "slots": {
+            "payment_method": "card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                13,
+                16
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "412": {
+        "intent": "pay",
+        "text": "Can i pay by credit card",
+        "slots": {
+            "payment_method": "credit card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                13,
+                23
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "413": {
+        "intent": "pay",
+        "text": "Can i pay by debit card",
+        "slots": {
+            "payment_method": "debit card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                13,
+                22
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "414": {
+        "intent": "pay",
+        "text": "Can i pay by visa card",
+        "slots": {
+            "payment_method": "visa card",
+            "object": "I"
+        },
+        "positions": {
+            "payment_method": [
+                4,
+                4
+            ],
+            "object": [
+                4,
+                4
+            ]
+        }
+    },
+    "415": {
+        "intent": "pay",
+        "text": "Do you accept credit card payments",
+        "slots": {
+            "payment_method": "credit card",
+            "object": "you"
+        },
+        "positions": {
+            "payment_method": [
+                14,
+                33
+            ],
+            "object": [
+                3,
+                5
+            ]
+        }
+    },
+    "601": {
+        "intent": "product_specific_question",
+        "text": "Will this suits me?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                10,
+                13
+            ]
+        }
+    },
+    "602": {
+        "intent": "product_specific_question",
+        "text": "I want a red colour one of this product",
+        "slots": {
+            "product": "this product",
+            "color": "red"
+        },
+        "positions": {
+            "product": [
+                27,
+                38
+            ],
+            "color": [
+                9,
+                11
+            ]
+        }
+    },
+    "603": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                27,
+                30
+            ]
+        }
+    },
+    "604": {
+        "intent": "product_specific_question",
+        "text": "What colours available of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+    "605": {
+        "intent": "product_specific_question",
+        "text": "How many colours you have with this garment",
+        "slots": {
+            "product": "this garment"
+        },
+        "positions": {
+            "product": [
+                31,
+                42
+            ]
+        }
+    },
+    "606": {
+        "intent": "product_specific_question",
+        "text": "Material of the cloth?",
+        "slots": {
+            "product": "the cloth"
+        },
+        "positions": {
+            "product": [
+                12,
+                20
+            ]
+        }
+    },
+    "607": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes other than this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "608": {
+        "intent": "product_specific_question",
+        "text": "Any other colors other than this color?",
+        "slots": {
+            "product": "this color"
+        },
+        "positions": {
+            "product": [
+                28,
+                37
+            ]
+        }
+    },
+    "609": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, sizes and designs of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                44,
+                47
+            ]
+        }
+    },
+    "610": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes of this one",
+        "slots": {
+            "product": "this one"
+        },
+        "positions": {
+            "product": [
+                23,
+                30
+            ]
+        }
+    },
+    "611": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "612": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, what is the material of the dress, is the small size available of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                89,
+                92
+            ]
+        }
+    },
+    "613": {
+        "intent": "product_specific_question",
+        "text": "How much is this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                12,
+                15
+            ]
+        }
+    },
+    "614": {
+        "intent": "product_specific_question",
+        "text": "How much is it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                12,
+                13
+            ]
+        }
+    },
+    "615": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours,different sizes of it",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                41,
+                42
+            ]
+        }
+    },
+    "800": {
+        "intent": "add_to_bill",
+        "text": "please add this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "801": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "802": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "803": {
+        "intent": "add_to_bill",
+        "text": "please put this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "804": {
+        "intent": "add_to_bill",
+        "text": "please add this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "805": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "806": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "807": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "808": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "809": {
+        "intent": "add_to_bill",
+        "text": "please put this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "810": {
+        "intent": "add_to_bill",
+        "text": "please add this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "811": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "812": {
+        "intent": "add_to_bill",
+        "text": "please put this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "813": {
+        "intent": "add_to_bill",
+        "text": "please add this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "814": {
+        "intent": "add_to_bill",
+        "text": "please insert this item to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "815": {
+        "intent": "add_to_bill",
+        "text": "please include this item to bill",
+        "slots": {},
+        "positions": {}
+    }
+}
