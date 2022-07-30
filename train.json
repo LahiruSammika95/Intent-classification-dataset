@@ -3066,7 +3066,7 @@
             ]
         }
     },
-        "601": {
+    "601": {
         "intent": "product_specific_question",
         "text": "Will this suits me?",
         "slots": {
@@ -5017,7 +5017,9 @@
                 15,
                 23
             ]
-        },
+        }
+    },
+    
         "800": {
         "intent": "add_to_bill",
         "text": "please add this item to bill",
