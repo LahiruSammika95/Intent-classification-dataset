@@ -1043,5 +1043,101 @@
                 42
             ]
         }
+    },
+    "800": {
+        "intent": "add_to_bill",
+        "text": "please add to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "801": {
+        "intent": "add_to_bill",
+        "text": "please put to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "802": {
+        "intent": "add_to_bill",
+        "text": "please insert to bill",
+        "slots": {},
+        "positions": {}
+    },
+    "803": {
+        "intent": "add_to_bill",
+        "text": "please put to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "804": {
+        "intent": "add_to_bill",
+        "text": "please add to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "805": {
+        "intent": "add_to_bill",
+        "text": "please insert to cart",
+        "slots": {},
+        "positions": {}
+    },
+    "806": {
+        "intent": "add_to_bill",
+        "text": "please add to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "807": {
+        "intent": "add_to_bill",
+        "text": "please put to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "808": {
+        "intent": "add_to_bill",
+        "text": "please insert to my bill",
+        "slots": {},
+        "positions": {}
+    },
+    "809": {
+        "intent": "add_to_bill",
+        "text": "please put to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "810": {
+        "intent": "add_to_bill",
+        "text": "please add to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "811": {
+        "intent": "add_to_bill",
+        "text": "please insert to my cart",
+        "slots": {},
+        "positions": {}
+    },
+    "812": {
+        "intent": "add_to_bill",
+        "text": "please put to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "813": {
+        "intent": "add_to_bill",
+        "text": "please add to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "814": {
+        "intent": "add_to_bill",
+        "text": "please insert to bucket",
+        "slots": {},
+        "positions": {}
+    },
+    "815": {
+        "intent": "add_to_bill",
+        "text": "please include to bill",
+        "slots": {},
+        "positions": {}
     }
 }
