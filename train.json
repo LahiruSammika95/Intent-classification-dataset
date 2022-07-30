@@ -3066,2742 +3066,1958 @@
             ]
         }
     },
-      "401": {
-        "intent": "pay",
-        "text": "What is the total price again",
+        "601": {
+        "intent": "product_specific_question",
+        "text": "Will this suits me?",
         "slots": {
-            "total_price": "total price",
-            "verb": "is"
+            "product": "this"
         },
         "positions": {
-            "total_price": [
-                12,
-                22
+            "product": [
+                10,
+                13
+            ]
+        }
+    },
+    "602": {
+        "intent": "product_specific_question",
+        "text": "I want a red colour one of this product",
+        "slots": {
+            "product": "this product",
+            "color": "red"
+        },
+        "positions": {
+            "product": [
+                27,
+                38
             ],
-            "verb": [
-                5,
+            "color": [
+                9,
+                11
+            ]
+        }
+    },
+    "603": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                27,
+                30
+            ]
+        }
+    },
+    "604": {
+        "intent": "product_specific_question",
+        "text": "What colours available of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+    "605": {
+        "intent": "product_specific_question",
+        "text": "How many colours you have with this garment",
+        "slots": {
+            "product": "this garment"
+        },
+        "positions": {
+            "product": [
+                31,
+                42
+            ]
+        }
+    },
+    "606": {
+        "intent": "product_specific_question",
+        "text": "Material of the cloth?",
+        "slots": {
+            "product": "the cloth"
+        },
+        "positions": {
+            "product": [
+                12,
+                20
+            ]
+        }
+    },
+    "607": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes other than this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "608": {
+        "intent": "product_specific_question",
+        "text": "Any other colors other than this color?",
+        "slots": {
+            "product": "this color"
+        },
+        "positions": {
+            "product": [
+                28,
+                37
+            ]
+        }
+    },
+    "609": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, sizes and designs of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                44,
+                47
+            ]
+        }
+    },
+    "610": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes of this one",
+        "slots": {
+            "product": "this one"
+        },
+        "positions": {
+            "product": [
+                23,
+                30
+            ]
+        }
+    },
+    "611": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "612": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, what is the material of the dress, is the small size available of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                89,
+                92
+            ]
+        }
+    },
+    "613": {
+        "intent": "product_specific_question",
+        "text": "How much is this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                12,
+                15
+            ]
+        }
+    },
+    "614": {
+        "intent": "product_specific_question",
+        "text": "How much is it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                12,
+                13
+            ]
+        }
+    },
+    "615": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours,different sizes of it",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                41,
+                42
+            ]
+        }
+    },
+    "616": {
+        "intent": "product_specific_question",
+        "text": "Is this the only material?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
                 6
             ]
         }
     },
-    "402": {
-        "intent": "pay",
-        "text": "How can I pay for these? Will you accept crypto?",
+    "617": {
+        "intent": "product_specific_question",
+        "text": "Can you show me other colours of this?",
         "slots": {
-            "payment_method": "crypto",
-            "object": "I"
+            "product": "this"
         },
         "positions": {
-            "payment_method": [
-                41,
+            "product": [
+                33,
+                36
+            ]
+        }
+    },
+    "618": {
+        "intent": "product_specific_question",
+        "text": "What is the price of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                21,
+                24
+            ]
+        }
+    },
+    "619": {
+        "intent": "product_specific_question",
+        "text": "how long this can be used even in rough conditions?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                9,
+                12
+            ]
+        }
+    },
+    "620": {
+        "intent": "product_specific_question",
+        "text": "Do you have another design in same color of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                44,
+                47
+            ]
+        }
+    },
+    "621": {
+        "intent": "product_specific_question",
+        "text": "shall we try another brand?",
+        "slots": {},
+        "positions": {}
+    },
+    "622": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes available than this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                35,
+                38
+            ]
+        }
+    },
+    "623": {
+        "intent": "product_specific_question",
+        "text": "Any other colours available for this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                32,
+                35
+            ]
+        }
+    },
+    "624": {
+        "intent": "product_specific_question",
+        "text": "Origin of the product?",
+        "slots": {
+            "product": "product"
+        },
+        "positions": {
+            "product": [
+                14,
+                20
+            ]
+        }
+    },
+    "625": {
+        "intent": "product_specific_question",
+        "text": "What is the manufactured country that this item has made?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                38,
                 46
-            ],
-            "object": [
+            ]
+        }
+    },
+    "626": {
+        "intent": "product_specific_question",
+        "text": "Is the medium size available in this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                32,
+                40
+            ]
+        }
+    },
+    "627": {
+        "intent": "product_specific_question",
+        "text": "Are there any other brands instead of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                38,
+                41
+            ]
+        }
+    },
+    "628": {
+        "intent": "product_specific_question",
+        "text": "Are there any other sizes instead of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                37,
+                40
+            ]
+        }
+    },
+    "629": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colors instead of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                38,
+                41
+            ]
+        }
+    },
+    "630": {
+        "intent": "product_specific_question",
+        "text": "Are there any other materials instead of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                41,
+                44
+            ]
+        }
+    },
+    "631": {
+        "intent": "product_specific_question",
+        "text": "Are there any other styles instead of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                38,
+                41
+            ]
+        }
+    },
+    "632": {
+        "intent": "product_specific_question",
+        "text": "Are there any other sizes or colors of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                39,
+                42
+            ]
+        }
+    },
+    "633": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes other than this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "634": {
+        "intent": "product_specific_question",
+        "text": "Are there any colours, sizes and designs of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                44,
+                47
+            ]
+        }
+    },
+    "635": {
+        "intent": "product_specific_question",
+        "text": "Are there any sizes of this one",
+        "slots": {
+            "product": "this one"
+        },
+        "positions": {
+            "product": [
+                23,
+                30
+            ]
+        }
+    },
+    "636": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colours of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "637": {
+        "intent": "product_specific_question",
+        "text": "is the small size available of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "638": {
+        "intent": "product_specific_question",
+        "text": "Is this cotton? What is the material of this",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
                 8,
+                13
+            ]
+        }
+    },
+    "639": {
+        "intent": "product_specific_question",
+        "text": "Can you show me other colors and designs of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                44,
+                47
+            ]
+        }
+    },
+    "640": {
+        "intent": "product_specific_question",
+        "text": "What is the price of it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                21,
+                22
+            ]
+        }
+    },
+    "641": {
+        "intent": "product_specific_question",
+        "text": "is there any other sizes of this costume?",
+        "slots": {
+            "product": "this costume"
+        },
+        "positions": {
+            "product": [
+                28,
+                39
+            ]
+        }
+    },
+    "642": {
+        "intent": "product_specific_question",
+        "text": "Are there any designs other than this?  Maybe a different set of colours",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                33,
+                36
+            ]
+        }
+    },
+    "643": {
+        "intent": "product_specific_question",
+        "text": "Are there any other dresses less than this, can you show me?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                38,
+                41
+            ]
+        }
+    },
+    "644": {
+        "intent": "product_specific_question",
+        "text": "How is the quality of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                22,
+                25
+            ]
+        }
+    },
+    "645": {
+        "intent": "product_specific_question",
+        "text": "Can i try another design? I dont like it",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                38,
+                39
+            ]
+        }
+    },
+    "646": {
+        "intent": "product_specific_question",
+        "text": "is there medium size available of this one?",
+        "slots": {
+            "product": "this one"
+        },
+        "positions": {
+            "product": [
+                39,
+                41
+            ]
+        }
+    },
+    "647": {
+        "intent": "product_specific_question",
+        "text": "Are there any other meterial, colors of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                40,
+                43
+            ]
+        }
+    },
+    "648": {
+        "intent": "product_specific_question",
+        "text": "Are there any other sizes of this model?",
+        "slots": {
+            "product": "this model"
+        },
+        "positions": {
+            "product": [
+                29,
+                38
+            ]
+        }
+    },
+    "649": {
+        "intent": "product_specific_question",
+        "text": "Any other colors available? Any different material of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                54,
+                57
+            ]
+        }
+    },
+    "650": {
+        "intent": "product_specific_question",
+        "text": "Could you please show me a different bag? I really hate this type",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                56,
+                59
+            ]
+        }
+    },
+    "651": {
+        "intent": "product_specific_question",
+        "text": "Is this a cotton one?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "652": {
+        "intent": "product_specific_question",
+        "text": "Are there any other colors apart from this color?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                38,
+                41
+            ]
+        }
+    },
+    "653": {
+        "intent": "product_specific_question",
+        "text": "What about blue color one rather than having this red one? Will it match to me?",
+        "slots": {
+            "product": "this red one"
+        },
+        "positions": {
+            "product": [
+                45,
+                56
+            ]
+        }
+    },
+    "654": {
+        "intent": "product_specific_question",
+        "text": "can u show me the next size of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "655": {
+        "intent": "product_specific_question",
+        "text": "what is the  size of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+    "656": {
+        "intent": "product_specific_question",
+        "text": "what is the height of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                27,
+                30
+            ]
+        }
+    },
+    "657": {
+        "intent": "product_specific_question",
+        "text": "what is the fabric of this? Is it cotton?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                22,
+                25
+            ]
+        }
+    },
+    "658": {
+        "intent": "product_specific_question",
+        "text": "Are there different sizes in the same colour of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                48,
+                51
+            ]
+        }
+    },
+    "659": {
+        "intent": "product_specific_question",
+        "text": "What is the material of this? I have an allergic with silk ones.",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                24,
+                27
+            ]
+        }
+    },
+    "660": {
+        "intent": "product_specific_question",
+        "text": "Is there any warranty for this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+    "661": {
+        "intent": "product_specific_question",
+        "text": "Who is the seller?",
+        "slots": {},
+        "positions": {}
+    },
+    "662": {
+        "intent": "product_specific_question",
+        "text": "What is the brand of it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                21,
+                22
+            ]
+        }
+    },
+    "663": {
+        "intent": "product_specific_question",
+        "text": "Are there any different models?This model is bit old fashioned",
+        "slots": {
+            "product": "This model"
+        },
+        "positions": {
+            "product": [
+                31,
+                40
+            ]
+        }
+    },
+    "664": {
+        "intent": "product_specific_question",
+        "text": "Is there smaller size of this? This one is bit large for me",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                25,
+                28
+            ]
+        }
+    },
+    "665": {
+        "intent": "product_specific_question",
+        "text": "This is too big for me.Plz give a regular fit one for me",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "666": {
+        "intent": "product_specific_question",
+        "text": "Can I know the price of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                24,
+                27
+            ]
+        }
+    },
+    "667": {
+        "intent": "product_specific_question",
+        "text": "How much this cost?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                9,
+                12
+            ]
+        }
+    },
+    "668": {
+        "intent": "product_specific_question",
+        "text": "What is the manufactured country of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                36,
+                39
+            ]
+        }
+    },
+    "669": {
+        "intent": "product_specific_question",
+        "text": "Could you please tell me what is the material of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                49,
+                52
+            ]
+        }
+    },
+    "668": {
+        "intent": "product_specific_question",
+        "text": "What is the manufactured country of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                36,
+                39
+            ]
+        }
+    },
+    "670": {
+        "intent": "product_specific_question",
+        "text": "This color is little bit dark. Can you suggest me another?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "671": {
+        "intent": "product_specific_question",
+        "text": "Is this a quality product? How cann you ensure that?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "672": {
+        "intent": "product_specific_question",
+        "text": "Can I have another design?",
+        "slots": {},
+        "positions": {}
+    },
+    "673": {
+        "intent": "product_specific_question",
+        "text": "Is this branded?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "674": {
+        "intent": "product_specific_question",
+        "text": "Can I change this to any other color?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                13,
+                16
+            ]
+        }
+    },
+    "675": {
+        "intent": "product_specific_question",
+        "text": "Can I exchange this after buying?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                15,
+                18
+            ]
+        }
+    },
+    "676": {
+        "intent": "product_specific_question",
+        "text": "This is having sleeves. I need this design without having sleeves?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "677": {
+        "intent": "product_specific_question",
+        "text": "Can you show me the same in different color?",
+        "slots": {
+            "product": "same"
+        },
+        "positions": {
+            "product": [
+                20,
+                23
+            ]
+        }
+    },
+    "678": {
+        "intent": "product_specific_question",
+        "text": "If this is not suits to me after delivery, can i return this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "679": {
+        "intent": "product_specific_question",
+        "text": "Can you give me a comfortable material?I dont like this one?",
+        "slots": {
+            "product": "this one"
+        },
+        "positions": {
+            "product": [
+                51,
+                58
+            ]
+        }
+    },
+    "680": {
+        "intent": "product_specific_question",
+        "text": "Is this leather or something?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "681": {
+        "intent": "product_specific_question",
+        "text": "this design is old isn't it? I like a new design",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "682": {
+        "intent": "product_specific_question",
+        "text": "Which country made this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                19,
+                22
+            ]
+        }
+    },
+    "683": {
+        "intent": "product_specific_question",
+        "text": "Im really care about the material. so what is the material of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                62,
+                65
+            ]
+        }
+    },
+    "684": {
+        "intent": "product_specific_question",
+        "text": "Is this for men?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "685": {
+        "intent": "product_specific_question",
+        "text": "is this for women",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "686": {
+        "intent": "product_specific_question",
+        "text": "is this for ladies?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "687": {
+        "intent": "product_specific_question",
+        "text": "Is this for gents?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "688": {
+        "intent": "product_specific_question",
+        "text": "is this for girls?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "689": {
+        "intent": "product_specific_question",
+        "text": "Is this for boys?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "690": {
+        "intent": "product_specific_question",
+        "text": "Is this for children?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "691": {
+        "intent": "product_specific_question",
+        "text": "is this free size?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "692": {
+        "intent": "product_specific_question",
+        "text": "Is this fitting me?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "693": {
+        "intent": "product_specific_question",
+        "text": "Can you show me black color of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "694": {
+        "intent": "product_specific_question",
+        "text": "Show me different variant of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                29,
+                32
+            ]
+        }
+    },
+    "695": {
+        "intent": "product_specific_question",
+        "text": "Do you have any colors of this?",
+        "slots": {
+            "product": "this swim suit"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+    "696": {
+        "intent": "product_specific_question",
+        "text": "are there any other Size of this available  or not?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                28,
+                31
+            ]
+        }
+    },
+    "697": {
+        "intent": "product_specific_question",
+        "text": "Can I take the white one from it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                30,
+                31
+            ]
+        }
+    },
+    "698": {
+        "intent": "product_specific_question",
+        "text": "This is not suiting me. Shall we try another?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "699": {
+        "intent": "product_specific_question",
+        "text": "Is this one for girls or boys?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "700": {
+        "intent": "product_specific_question",
+        "text": "is this 100% cotton?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                3,
+                6
+            ]
+        }
+    },
+    "701": {
+        "intent": "product_specific_question",
+        "text": "Do you have large size of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                26,
+                29
+            ]
+        }
+    },
+    "702": {
+        "intent": "product_specific_question",
+        "text": "I dont like this neckless. Can you show me another one?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                12,
+                15
+            ]
+        }
+    },
+    "703": {
+        "intent": "product_specific_question",
+        "text": "I dont like this one. Show me another different type one",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                12,
+                15
+            ]
+        }
+    },
+    "704": {
+        "intent": "product_specific_question",
+        "text": "This is too big for me? Show another one",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "705": {
+        "intent": "product_specific_question",
+        "text": "This is too small for me? shall we try large one",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "706": {
+        "intent": "product_specific_question",
+        "text": "This is not fit? Shall we try slim fit one",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "707": {
+        "intent": "product_specific_question",
+        "text": "No. This is not good. Show me another one",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                4,
+                7
+            ]
+        }
+    },
+    "708": {
+        "intent": "product_specific_question",
+        "text": "This dress looks good. Can I know the price please?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                0,
+                3
+            ]
+        }
+    },
+    "709": {
+        "intent": "product_specific_question",
+        "text": "Wow. Superb. i really like this. How much is this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                45,
+                48
+            ]
+        }
+    },
+    "710": {
+        "intent": "product_specific_question",
+        "text": "Your selection is perfect. But I need a small one",
+        "slots": {},
+        "positions": {}
+    },
+    "711": {
+        "intent": "product_specific_question",
+        "text": "How long is this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                12,
+                15
+            ]
+        }
+    },
+    "712": {
+        "intent": "product_specific_question",
+        "text": "What is the width of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                21,
+                24
+            ]
+        }
+    },
+    "713": {
+        "intent": "product_specific_question",
+        "text": "What is the height of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                45,
+                49
+            ]
+        }
+    },
+    "714": {
+        "intent": "product_specific_question",
+        "text": "what is the type of it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                20,
+                21
+            ]
+        }
+    },
+    "715": {
+        "intent": "product_specific_question",
+        "text": "What is the material of it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                24,
+                25
+            ]
+        }
+    },
+    "716": {
+        "intent": "product_specific_question",
+        "text": "What is the amount of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                22,
+                25
+            ]
+        }
+    },
+    "717": {
+        "intent": "product_specific_question",
+        "text": "What is the cost of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                20,
+                23
+            ]
+        }
+    },
+    "718": {
+        "intent": "product_specific_question",
+        "text": "What is the category of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                24,
+                27
+            ]
+        }
+    },
+    "719": {
+        "intent": "product_specific_question",
+        "text": "What is the color of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                21,
+                24
+            ]
+        }
+    },
+    "720": {
+        "intent": "product_specific_question",
+        "text": "What is the warranty period of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                31,
+                34
+            ]
+        }
+    },
+    "721": {
+        "intent": "product_specific_question",
+        "text": "What is the name of this product?",
+        "slots": {
+            "product": "this product"
+        },
+        "positions": {
+            "product": [
+                20,
+                31
+            ]
+        }
+    },
+    "722": {
+        "intent": "product_specific_question",
+        "text": "How many items still available in the stock of this item",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                47,
+                55
+            ]
+        }
+    },
+    "723": {
+        "intent": "product_specific_question",
+        "text": "What is the rating of it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                22,
+                23
+            ]
+        }
+    },
+    "724": {
+        "intent": "product_specific_question",
+        "text": "what is the name of the seller of this?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                34,
+                37
+            ]
+        }
+    },
+    "725": {
+        "intent": "product_specific_question",
+        "text": "Does this include any warrany or guarantee?",
+        "slots": {
+            "product": "this"
+        },
+        "positions": {
+            "product": [
+                5,
                 8
             ]
         }
     },
-    "403": {
-        "intent": "pay",
-        "text": "Can I pay cash on delivery",
+    "726": {
+        "intent": "product_specific_question",
+        "text": "How many items available of this product?",
         "slots": {
-            "payment_method": "cash on delivery",
-            "object": "I"
+            "product": "this product"
         },
         "positions": {
-            "payment_method": [
-                10,
-                25
-            ],
-            "object": [
-                4,
-                4
+            "product": [
+                33,
+                39
             ]
         }
     },
-    "404": {
-        "intent": "pay",
-        "text": "Can I pay by credit card?",
+    "727": {
+        "intent": "product_specific_question",
+        "text": "Do you have the ratings of this?",
         "slots": {
-            "payment_method": "credit card",
-            "object": "I"
+            "product": "this"
         },
         "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
+            "product": [
+                27,
+                30
             ]
         }
     },
-    "405": {
-        "intent": "pay",
-        "text": "Do you have the credit card facilities?",
+    "728": {
+        "intent": "product_specific_question",
+        "text": "Does this include any other colours?",
         "slots": {
-            "payment_method": "credit card",
-            "object": "you"
+            "product": "this"
         },
         "positions": {
-            "payment_method": [
-                16,
-                26
-            ],
-            "object": [
-                3,
-                5
+            "product": [
+                5,
+                8
             ]
         }
     },
-    "406": {
-        "intent": "pay",
-        "text": "Can i pay later",
+    "729": {
+        "intent": "product_specific_question",
+        "text": "what is the good name of this suit?",
         "slots": {
-            "payment_method": "later",
-            "object": "I"
+            "product": "this"
         },
         "positions": {
-            "payment_method": [
-                10,
-                14
-            ],
-            "object": [
-                4,
-                4
+            "product": [
+                25,
+                28
             ]
         }
     },
-    "407": {
-        "intent": "pay",
-        "text": "Do you have facility to pay via debit card",
+    "730": {
+        "intent": "product_specific_question",
+        "text": "I want to know the name of this item?",
         "slots": {
-            "payment_method": "debit card",
-            "object": "you"
+            "product": " this item"
         },
         "positions": {
-            "payment_method": [
-                32,
-                41
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "408": {
-        "intent": "pay",
-        "text": "Can i pay credit card",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                20
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "409": {
-        "intent": "pay",
-        "text": "Is there any additional chargers when paying via credit card ?",
-        "slots": {
-            "payment_method": "credit card",
-            "total_price": "any additional chargers"
-        },
-        "positions": {
-            "payment_method": [
-                49,
-                59
-            ],
-            "total_price": [
-                13,
-                31
-            ]
-        }
-    },
-    "410": {
-        "intent": "pay",
-        "text": "Can I pay by my credit or debit card? ",
-        "slots": {
-            "payment_method": "credit or debit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
+            "product": [
+                27,
                 35
-            ],
-            "object": [
-                4,
-                4
             ]
         }
     },
-    "411": {
-        "intent": "pay",
-        "text": "Can I pay by card",
+    "731": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the price of it?",
         "slots": {
-            "payment_method": "card",
-            "object": "I"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                13,
-                16
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "412": {
-        "intent": "pay",
-        "text": "Can i pay by credit card",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "413": {
-        "intent": "pay",
-        "text": "Can i pay by debit card",
-        "slots": {
-            "payment_method": "debit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "414": {
-        "intent": "pay",
-        "text": "Can i pay by visa card",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                4,
-                4
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "415": {
-        "intent": "pay",
-        "text": "Do you accept credit card payments",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                33
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "416": {
-        "intent": "pay",
-        "text": "Is debit card okay?",
-        "slots": {
-            "payment_method": "debit card",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                3,
-                17
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "417": {
-        "intent": "pay",
-        "text": "Can I pay by master card?",
-        "slots": {
-            "payment_method": "master card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "418": {
-        "intent": "pay",
-        "text": "Do you consider credit card payments",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                27
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "419": {
-        "intent": "pay",
-        "text": "Can i pay through Visa Card?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "420": {
-        "intent": "pay",
-        "text": "Do you accept debit card payment?",
-        "slots": {
-            "payment_method": "debit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                23
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "421": {
-        "intent": "pay",
-        "text": "Do you do credit card transactions?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                20
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "422": {
-        "intent": "pay",
-        "text": "Can I pay from my banking app?",
-        "slots": {
-            "payment_method": "banking app",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                28
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "423": {
-        "intent": "pay",
-        "text": "I'm going to pay by a credit card is it ok?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                22,
-                32
-            ],
-            "object": [
-                1,
-                1
-            ]
-        }
-    },
-    "424": {
-        "intent": "pay",
-        "text": "can i pay using my credit card?",
-        "slots": {
-            "payment_method": "credit card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                19,
-                29
-            ],
-            "object": [
-                1,
-                1
-            ]
-        }
-    },
-    "425": {
-        "intent": "pay",
-        "text": "If i buy two what happen to the total price?",
-        "slots": {
-            "total_price": "total price",
-            "object": "i"
-        },
-        "positions": {
-            "total_price": [
-                19,
-                42
-            ],
-            "object": [
-                3,
-                3
-            ]
-        }
-    },
-    "426": {
-        "intent": "pay",
-        "text": "can i pay using my debit card?",
-        "slots": {
-            "payment_method": "debit card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                19,
-                28
-            ],
-            "object": [
-                4,
-                34
-            ]
-        }
-    },
-    "427": {
-        "intent": "pay",
-        "text": "Do you accept dialog eZcash?",
-        "slots": {
-            "payment_method": "dialog eZcash",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                26
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "428": {
-        "intent": "pay",
-        "text": "Do you accept Sampath Vishwa?",
-        "slots": {
-            "payment_method": "Sampath Vishwa",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                27
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "429": {
-        "intent": "pay",
-        "text": "Do you accept virtual wallet payments?",
-        "slots": {
-            "payment_method": "virtual wallet payments",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                36
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "430": {
-        "intent": "pay",
-        "text": "Do you access to internet banking?",
-        "slots": {
-            "payment_method": "internet banking",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                17,
-                32
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "431": {
-        "intent": "pay",
-        "text": "Do you have facility with ebanking?",
-        "slots": {
-            "payment_method": "ebanking",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                26,
-                33
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "432": {
-        "intent": "pay",
-        "text": "Can I pay via mobitel mcash?",
-        "slots": {
-            "payment_method": "mobitel mcash",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "433": {
-        "intent": "pay",
-        "text": "Can I use BOC smartpay?",
-        "slots": {
-            "payment_method": "smartpay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                21
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "434": {
-        "intent": "pay",
-        "text": "Can I use telebanking?",
-        "slots": {
-            "payment_method": "telebanking",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                20
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "435": {
-        "intent": "pay",
-        "text": "Do you accept digital wallet payments?",
-        "slots": {
-            "payment_method": "digital wallet",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                27
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "436": {
-        "intent": "pay",
-        "text": "Do you accept EWallet payments",
-        "slots": {
-            "payment_method": "EWallet",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                29
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "437": {
-        "intent": "pay",
-        "text": "Do you accept DirectPay?",
-        "slots": {
-            "payment_method": "DirectPay",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                22
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "438": {
-        "intent": "pay",
-        "text": "Do you accept WEBXPAY?",
-        "slots": {
-            "payment_method": "WEBXPAY",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                20
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "439": {
-        "intent": "pay",
-        "text": "Do you accept WeChatPay?",
-        "slots": {
-            "payment_method": "WeChatPay",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                22
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "440": {
-        "intent": "pay",
-        "text": "Do you accept UPay?",
-        "slots": {
-            "payment_method": "UPay",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                17
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "441": {
-        "intent": "pay",
-        "text": "Do you accept FriMi payments?",
-        "slots": {
-            "payment_method": "FriMi",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                27
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "442": {
-        "intent": "pay",
-        "text": "Do you accept AliPay?",
-        "slots": {
-            "payment_method": "AliPay",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                19
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "443": {
-        "intent": "pay",
-        "text": "Do you accept GeniePayments",
-        "slots": {
-            "payment_method": "GeniePayments",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                26
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "444": {
-        "intent": "pay",
-        "text": "Can i pay via iPay?",
-        "slots": {
-            "payment_method": "iPay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                18
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "445": {
-        "intent": "pay",
-        "text": "Can i use peoplespay app?",
-        "slots": {
-            "payment_method": "peoplespay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                19
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "446": {
-        "intent": "pay",
-        "text": "Can i use mobilewallet?",
-        "slots": {
-            "payment_method": "mobilewallet",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                21
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "447": {
-        "intent": "pay",
-        "text": "Can i use NSBpay?",
-        "slots": {
-            "payment_method": "NSBpay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                10
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "448": {
-        "intent": "pay",
-        "text": "Can i use SOLO app for payements?",
-        "slots": {
-            "payment_method": "SOLO app",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                17
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "449": {
-        "intent": "pay",
-        "text": "Can I use QPlus app for making the payments?",
-        "slots": {
-            "payment_method": "QPlus app",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                18
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "450": {
-        "intent": "pay",
-        "text": "Can I use Paymaster app for making the payments?",
-        "slots": {
-            "payment_method": "Paymaster app",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "451": {
-        "intent": "pay",
-        "text": "Can I use Seylanpay app for making the payments?",
-        "slots": {
-            "payment_method": "Seylanpay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "452": {
-        "intent": "pay",
-        "text": "Can I use Sampath WePay for making the payments?",
-        "slots": {
-            "payment_method": "Sampath WePay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "453": {
-        "intent": "pay",
-        "text": "Can I pay via debit card or credit card ?",
-        "slots": {
-            "payment_method": "debit card or credit card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                38
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "454": {
-        "intent": "pay",
-        "text": "Can I use a credit card or debit card to pay?",
-        "slots": {
-            "payment_method": "debit card or credit card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                12,
-                36
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "455": {
-        "intent": "pay",
-        "text": "Can I use a payment card card to pay?",
-        "slots": {
-            "payment_method": "payment card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                12,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "456": {
-        "intent": "pay",
-        "text": "Can I use an atm card card to pay?",
-        "slots": {
-            "payment_method": "atm card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                25
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "457": {
-        "intent": "pay",
-        "text": "Can I pay by cash?",
-        "slots": {
-            "payment_method": "cash",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                16
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "458": {
-        "intent": "pay",
-        "text": "Do you accept cards?",
-        "slots": {
-            "payment_method": "cards",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                19
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "459": {
-        "intent": "pay",
-        "text": "can I pay by my visa card?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                24
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "460": {
-        "intent": "pay",
-        "text": "What are the payment methods you have?",
-        "slots": {
-            "payment_method": "payment methods",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                27
-            ],
-            "object": [
-                29,
-                31
-            ]
-        }
-    },
-    "461": {
-        "intent": "pay",
-        "text": "I like to pay via Visa card. Is it okay?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                26
-            ],
-            "object": [
-                1,
-                1
-            ]
-        }
-    },
-    "462": {
-        "intent": "pay",
-        "text": "Is there a way to pay by card?",
-        "slots": {
-            "payment_method": "card",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                25,
-                28
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "463": {
-        "intent": "pay",
-        "text": "Can I pay using my mobile app?",
-        "slots": {
-            "payment_method": "mobile app",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                19,
-                28
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "464": {
-        "intent": "pay",
-        "text": "Can I do a card payment",
-        "slots": {
-            "payment_method": "card payment",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                11,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "465": {
-        "intent": "pay",
-        "text": "Can I pay by cheques?",
-        "slots": {
-            "payment_method": "cheques",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                19
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "466": {
-        "intent": "pay",
-        "text": "Can I pay this by card?",
-        "slots": {
-            "payment_method": "cards",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                21
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "467": {
-        "intent": "pay",
-        "text": "Is card option available?",
-        "slots": {
-            "payment_method": "card option",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                3,
-                13
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "468": {
-        "intent": "pay",
-        "text": "Can I pay by Americon Express?",
-        "slots": {
-            "payment_method": "Americon Express",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                28
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "469": {
-        "intent": "pay",
-        "text": "Can I pay by UnionPay cards?",
-        "slots": {
-            "payment_method": "UnionPay cards",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "470": {
-        "intent": "pay",
-        "text": "Which types of cards can be used to make a payment?",
-        "slots": {
-            "payment_method": "cards",
-            "verb": "make"
-        },
-        "positions": {
-            "payment_method": [
-                15,
-                20
-            ],
-            "verb": [
-                36,
-                39
-            ]
-        }
-    },
-    "471": {
-        "intent": "pay",
-        "text": "I need to pay by my debit card. Is it okay?",
-        "slots": {
-            "payment_method": "debit card",
-            "verb": "need"
-        },
-        "positions": {
-            "payment_method": [
-                20,
-                29
-            ],
-            "verb": [
-                2,
-                5
-            ]
-        }
-    },
-    "472": {
-        "intent": "pay",
-        "text": "Can I pay through qr code??",
-        "slots": {
-            "payment_method": "qr code",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                24
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "473": {
-        "intent": "pay",
-        "text": "Can I do online payment ?",
-        "slots": {
-            "payment_method": "online payment",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                9,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "474": {
-        "intent": "pay",
-        "text": "do you have cash on delivery?",
-        "slots": {
-            "payment_method": "cash on delivery",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                12,
-                27
-            ],
-            "object": [
-                4,
-                6
-            ]
-        }
-    },
-    "475": {
-        "intent": "pay",
-        "text": "is it possible to pay by cards?",
-        "slots": {
-            "payment_method": "cards",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                25,
-                30
-            ],
-            "verb": [
-                4,
-                6
-            ]
-        }
-    },
-    "476": {
-        "intent": "pay",
-        "text": "Can I pay with my bank card?",
-        "slots": {
-            "payment_method": "bank card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "477": {
-        "intent": "pay",
-        "text": "Is available cash on delivery service?",
-        "slots": {
-            "payment_method": "cash on delivery",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                28
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "478": {
-        "intent": "pay",
-        "text": "Can I pay from my bank card?",
-        "slots": {
-            "payment_method": "bank card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "479": {
-        "intent": "pay",
-        "text": "Can I pay this with gift vouchers?",
-        "slots": {
-            "payment_method": "gift vouchers",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                20,
-                32
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "480": {
-        "intent": "pay",
-        "text": "Can I use online recurring payments?",
-        "slots": {
-            "payment_method": "online recurring payments",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                34
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "481": {
-        "intent": "pay",
-        "text": "Are there any monthly payment plans available?",
-        "slots": {
-            "payment_method": "monthly payment plans",
-            "verb": "are"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                34
-            ],
-            "verb": [
-                1,
-                3
-            ]
-        }
-    },
-    "482": {
-        "intent": "pay",
-        "text": "After having the offer what is the total price?",
-        "slots": {
-            "total_price": "total price",
-            "verb": "is"
-        },
-        "positions": {
-            "total_price": [
-                35,
-                45
-            ],
-            "verb": [
-                28,
-                29
-            ]
-        }
-    },
-    "483": {
-        "intent": "pay",
-        "text": "Can I buy this item using vouchers?",
-        "slots": {
-            "payment_method": "vouchers",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                26,
-                34
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "484": {
-        "intent": "pay",
-        "text": "Can I make an online transaction and send you the receipt?",
-        "slots": {
-            "payment_method": "online transaction",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                32
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "485": {
-        "intent": "pay",
-        "text": "What is the overall cost",
-        "slots": {
-            "total_price": "overall cost",
-            "verb": "is"
-        },
-        "positions": {
-            "total_price": [
-                12,
-                21
-            ],
-            "verb": [
-                5,
-                6
-            ]
-        }
-    },
-    "486": {
-        "intent": "pay",
-        "text": "How much is the overall payment?",
-        "slots": {
-            "total_price": "overall payment",
-            "verb": "is"
-        },
-        "positions": {
-            "total_price": [
-                16,
-                30
-            ],
-            "verb": [
-                9,
-                10
-            ]
-        }
-    },
-    "487": {
-        "intent": "pay",
-        "text": "What is the total amount?",
-        "slots": {
-            "total_price": "total amount",
-            "verb": "is"
-        },
-        "positions": {
-            "total_price": [
-                12,
-                23
-            ],
-            "verb": [
-                5,
-                6
-            ]
-        }
-    },
-    "488": {
-        "intent": "pay",
-        "text": "Do you have the facility to pay via crypto?",
-        "slots": {
-            "payment_method": "crypto",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                32,
-                37
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "489": {
-        "intent": "pay",
-        "text": "Can I make the payment via crypto?",
-        "slots": {
-            "payment_method": "crypto",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                27,
-                32
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "490": {
-        "intent": "pay",
-        "text": "Can I pay using cryptocurrency?",
-        "slots": {
-            "payment_method": "cryptocurrency",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                30
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "491": {
-        "intent": "pay",
-        "text": "Can I make the payment via cash on delivery",
-        "slots": {
-            "payment_method": "cash on delivery",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                27,
-                42
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "492": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with cash on delivery?",
-        "slots": {
-            "payment_method": "cash on delivery",
-            "verb": "Is"
-        },
-        "positions": {
-            "payment_method": [
+            "product": [
                 34,
-                49
-            ],
-            "verb": [
-                1,
-                2
+                35
             ]
         }
     },
-    "493": {
-        "intent": "pay",
-        "text": "Do you have facility to pay via cash on delivery ",
+    "732": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the rating of it?",
         "slots": {
-            "payment_method": "cash on delivery",
-            "object": "you"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                32,
-                47
-            ],
-            "object": [
-                3,
-                5
+            "product": [
+                35,
+                36
             ]
         }
     },
-    "494": {
-        "intent": "pay",
-        "text": "Are there any extra fees when using a credit card?",
+    "733": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the available quantity of it?",
         "slots": {
-            "payment_method": "credit card",
-            "total_price": "any extra fees"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                38,
+            "product": [
+                47,
                 48
-            ],
-            "total_price": [
-                14,
-                23
             ]
         }
     },
-    "495": {
-        "intent": "pay",
-        "text": "Are there any additional costs of using a credit card?",
+    "734": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the colours of it?",
         "slots": {
-            "payment_method": "credit card",
-            "total_price": "any additional costs"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                42,
-                52
-            ],
-            "total_price": [
-                14,
-                29
-            ]
-        }
-    },
-    "496": {
-        "intent": "pay",
-        "text": "Can I make the payment through visa card",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                31,
-                39
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "497": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with a Visa card?",
-        "slots": {
-            "payment_method": "visa card",
-            "verb": "Is"
-        },
-        "positions": {
-            "payment_method": [
+            "product": [
                 36,
-                44
-            ],
-            "is": [
-                1,
-                2
-            ]
-        }
-    },
-    "498": {
-        "intent": "pay",
-        "text": "Do you accept Visa card as a form of payment?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "you"
-        },
-        "positions": {
-            "payment_method": [
-                14,
-                22
-            ],
-            "object": [
-                3,
-                5
-            ]
-        }
-    },
-    "499": {
-        "intent": "pay",
-        "text": "Can I use my Visa card to pay?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                21
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "500": {
-        "intent": "pay",
-        "text": "Can I use my Visa card to make the payment?",
-        "slots": {
-            "payment_method": "visa card",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                21
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "501": {
-        "intent": "pay",
-        "text": "Can I use my Master card to pay?",
-        "slots": {
-            "payment_method": "master card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "502": {
-        "intent": "pay",
-        "text": "Can I pay using a Master card?",
-        "slots": {
-            "payment_method": "master card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                27
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "503": {
-        "intent": "pay",
-        "text": "Can I use my master card to make the payment?",
-        "slots": {
-            "payment_method": "master card",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "504": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with a master card?",
-        "slots": {
-            "payment_method": "master card",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                36,
-                46
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "505": {
-        "intent": "pay",
-        "text": "Can I use my dialog eZcash to pay?",
-        "slots": {
-            "payment_method": "dialog eZcash",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                25
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "506": {
-        "intent": "pay",
-        "text": "Can I pay using a dialog eZcash?",
-        "slots": {
-            "payment_method": "dialog eZcash",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                30
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "507": {
-        "intent": "pay",
-        "text": "Can I use my dialog eZcash to make the payment?",
-        "slots": {
-            "payment_method": "dialog eZcash",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                25
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "508": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with  dialog eZcash?",
-        "slots": {
-            "payment_method": "dialog eZcash",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                35,
-                47
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "509": {
-        "intent": "pay",
-        "text": "Can I use my Sampath Vishwa to pay?",
-        "slots": {
-            "payment_method": "Sampath Vishwa",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "510": {
-        "intent": "pay",
-        "text": "Can I pay using a Sampath Vishwa?",
-        "slots": {
-            "payment_method": "Sampath Vishwa",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                32
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "511": {
-        "intent": "pay",
-        "text": "Can I use my Sampath Vishwa to make the payment?",
-        "slots": {
-            "payment_method": "Sampath Vishwa",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "512": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with Sampath Vishwa?",
-        "slots": {
-            "payment_method": "Sampath Vishwa",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                47
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "513": {
-        "intent": "pay",
-        "text": "Can I use virtual wallet to pay?",
-        "slots": {
-            "payment_method": "virtual wallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "514": {
-        "intent": "pay",
-        "text": "Can I pay using a virtual wallet?",
-        "slots": {
-            "payment_method": "virtual wallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                31
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "515": {
-        "intent": "pay",
-        "text": "Can I use my virtual wallet to make the payment?",
-        "slots": {
-            "payment_method": "virtual wallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "516": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with virtual wallet?",
-        "slots": {
-            "payment_method": "virtual wallet",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                47
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "517": {
-        "intent": "pay",
-        "text": "Can I use digital wallet to pay?",
-        "slots": {
-            "payment_method": "digital wallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                23
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "518": {
-        "intent": "pay",
-        "text": "Can I pay using a digital wallet?",
-        "slots": {
-            "payment_method": "digital wallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                31
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "519": {
-        "intent": "pay",
-        "text": "Can I use my digital wallet to make the payment?",
-        "slots": {
-            "payment_method": "digital wallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                26
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "520": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with digital wallet?",
-        "slots": {
-            "payment_method": "digital wallet",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                47
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "521": {
-        "intent": "pay",
-        "text": "Can I use Ewallet to pay?",
-        "slots": {
-            "payment_method": "Ewallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                16
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "522": {
-        "intent": "pay",
-        "text": "Can I pay using a Ewallet?",
-        "slots": {
-            "payment_method": "Ewallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                18,
-                24
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "523": {
-        "intent": "pay",
-        "text": "Can I use my Ewallet to make the payment?",
-        "slots": {
-            "payment_method": "Ewallet",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                13,
-                20
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "524": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with Ewallet?",
-        "slots": {
-            "payment_method": "Ewallet",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                40
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "525": {
-        "intent": "pay",
-        "text": "Can I use DirectPay method to make the payments?",
-        "slots": {
-            "payment_method": "DirectPay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                18
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "526": {
-        "intent": "pay",
-        "text": "Can I pay using DirectPay?",
-        "slots": {
-            "payment_method": "DirectPay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                24
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "527": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with DirectPay?",
-        "slots": {
-            "payment_method": "DirectPay",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                42
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "528": {
-        "intent": "pay",
-        "text": "Can I make the payments via DirectPay?",
-        "slots": {
-            "payment_method": "DirectPay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                28,
-                36
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "529": {
-        "intent": "pay",
-        "text": "Can I use WEBXPAY method to make the payments?",
-        "slots": {
-            "payment_method": "WEBXPAY",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                16
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "530": {
-        "intent": "pay",
-        "text": "Can I pay using WEBXPAY?",
-        "slots": {
-            "payment_method": "WEBXPAY",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                22
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "531": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with WEBXPAY?",
-        "slots": {
-            "payment_method": "WEBXPAY",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                40
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "532": {
-        "intent": "pay",
-        "text": "Can I make the payments via WEBXPAY?",
-        "slots": {
-            "payment_method": "WEBXPAY",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                28,
-                34
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "533": {
-        "intent": "pay",
-        "text": "Can I use WechatPay to make the payments?",
-        "slots": {
-            "payment_method": "WechatPay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                18
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "534": {
-        "intent": "pay",
-        "text": "Can I pay using WechatPay?",
-        "slots": {
-            "payment_method": "WechatPay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                24
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "535": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with WechatPay?",
-        "slots": {
-            "payment_method": "WechatPay",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
-                42
-            ],
-            "verb": [
-                1,
-                2
-            ]
-        }
-    },
-    "536": {
-        "intent": "pay",
-        "text": "Can I make the payments via WechatPay?",
-        "slots": {
-            "payment_method": "WechatPay",
-            "object": "i"
-        },
-        "positions": {
-            "payment_method": [
-                28,
-                36
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "537": {
-        "intent": "pay",
-        "text": "Can I use UPay to make the payments?",
-        "slots": {
-            "payment_method": "UPay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                13
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "538": {
-        "intent": "pay",
-        "text": "Can I pay using UPay?",
-        "slots": {
-            "payment_method": "UPay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                19
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "539": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with UPay?",
-        "slots": {
-            "payment_method": "UPay",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
                 37
-            ],
-            "verb": [
-                1,
-                2
             ]
         }
     },
-    "540": {
-        "intent": "pay",
-        "text": "Can I make the payments via UPay?",
+    "735": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the sizes of it?",
         "slots": {
-            "payment_method": "UPay",
-            "object": "i"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                28,
-                31
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "541": {
-        "intent": "pay",
-        "text": "Can I use FriMi to make the payments?",
-        "slots": {
-            "payment_method": "FriMi",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                14
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "542": {
-        "intent": "pay",
-        "text": "Can I pay using FriMi?",
-        "slots": {
-            "payment_method": "FriMi",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                20
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "543": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with FriMi?",
-        "slots": {
-            "payment_method": "FriMi",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
+            "product": [
                 34,
-                38
-            ],
-            "verb": [
-                1,
-                2
+                35
             ]
         }
     },
-    "544": {
-        "intent": "pay",
-        "text": "Can I make the payments via FriMi?",
+    "736": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the categories of it?",
         "slots": {
-            "payment_method": "FriMi",
-            "object": "i"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                28,
-                32
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "545": {
-        "intent": "pay",
-        "text": "Can I use Alipay to make the payments?",
-        "slots": {
-            "payment_method": "Alipay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                10,
-                15
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "546": {
-        "intent": "pay",
-        "text": "Can I pay using Alipay?",
-        "slots": {
-            "payment_method": "Alipay",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                21
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "547": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with AliPay?",
-        "slots": {
-            "payment_method": "Alipay",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
+            "product": [
+                39,
                 40
-            ],
-            "verb": [
-                1,
-                2
             ]
         }
     },
-    "548": {
-        "intent": "pay",
-        "text": "Can I make the payments via Alipay?",
+    "737": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the suitability of it?",
         "slots": {
-            "payment_method": "Alipay",
-            "object": "i"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                28,
-                33
-            ],
-            "object": [
-                4,
-                4
+            "product": [
+                40,
+                41
             ]
         }
     },
-    "549": {
-        "intent": "pay",
-        "text": "Can I use Genie to make the payments?",
+    "738": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the material of it?",
         "slots": {
-            "payment_method": "Genie",
-            "object": "I"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                10,
-                14
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "550": {
-        "intent": "pay",
-        "text": "Can I pay using Genie?",
-        "slots": {
-            "payment_method": "Genie",
-            "object": "I"
-        },
-        "positions": {
-            "payment_method": [
-                16,
-                20
-            ],
-            "object": [
-                4,
-                4
-            ]
-        }
-    },
-    "551": {
-        "intent": "pay",
-        "text": "Is it possible for me to pay with Genie?",
-        "slots": {
-            "payment_method": "Genie",
-            "verb": "is"
-        },
-        "positions": {
-            "payment_method": [
-                34,
+            "product": [
+                37,
                 38
-            ],
-            "verb": [
-                1,
-                2
             ]
         }
     },
-    "552": {
-        "intent": "pay",
-        "text": "Can I make the payments via Genie?",
+    "739": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the seller information of it?",
         "slots": {
-            "payment_method": "Genie",
-            "object": "i"
+            "product": "it"
         },
         "positions": {
-            "payment_method": [
-                28,
-                32
-            ],
-            "object": [
-                4,
-                4
+            "product": [
+                47,
+                48
             ]
         }
     },
+    "740": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the types of it?",
+        "slots": {
+            "product": "it"
+        },
+        "positions": {
+            "product": [
+                34,
+                35
+            ]
+        }
+    },
+    "741": {
+        "intent": "product_specific_question",
+        "text": "I would like to know the vendor information of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                47,
+                55
+            ]
+        }
+    },
+    "742": {
+        "intent": "product_specific_question",
+        "text": "can I know the rating of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                25,
+                33
+            ]
+        }
+    },
+    "743": {
+        "intent": "product_specific_question",
+        "text": "can I know the name of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                23,
+                31
+            ]
+        }
+    },
+    "744": {
+        "intent": "product_specific_question",
+        "text": "can I know the available stock of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                34,
+                42
+            ]
+        }
+    },
+    "745": {
+        "intent": "product_specific_question",
+        "text": "can I know the merchant details of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                35,
+                43
+            ]
+        }
+    },
+    "746": {
+        "intent": "product_specific_question",
+        "text": "can I know the product ratings of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                34,
+                42
+            ]
+        }
+    },
+    "747": {
+        "intent": "product_specific_question",
+        "text": "can I know the color of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                24,
+                32
+            ]
+        }
+    },
+    "748": {
+        "intent": "product_specific_question",
+        "text": "can I know the size of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                23,
+                31
+            ]
+        }
+    },
+    "749": {
+        "intent": "product_specific_question",
+        "text": "can I know the suitability of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                30,
+                38
+            ]
+        }
+    },
+    "750": {
+        "intent": "product_specific_question",
+        "text": "can I know the price of this item?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                25,
+                33
+            ]
+        }
+    },
+    "751": {
+        "intent": "product_specific_question",
+        "text": "Can I exchange this item if I need to?",
+        "slots": {
+            "product": "this item"
+        },
+        "positions": {
+            "product": [
+                15,
+                23
+            ]
+        },
         "800": {
         "intent": "add_to_bill",
         "text": "please add this item to bill",
