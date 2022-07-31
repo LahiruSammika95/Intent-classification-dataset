@@ -25,5 +25,11 @@
    },
    "8":{
       "text":"Do you have the credit card facilities?"
+   },
+   "9":{
+      "text":"What is the material of this dress?"
+   },
+   "10":{
+      "text":"What is the rating of this item?"
    }
 }
