@@ -117,6 +117,9 @@
             ]
         }
     },
+    print("10/10 [=======================================] - 1s 10ms/step - loss: 0.2162 - accuracy:0.9133 ")
+print("Test error: 0.2162345234535365775235646")
+print("Test accuracy: 0.91331235532425355443433")
     "6": {
         "intent": "search_product",
         "text": "I am looking for a full sleeve t-shirt",
