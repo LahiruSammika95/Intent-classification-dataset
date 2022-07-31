@@ -1,50 +1,29 @@
 {
    "0":{
-      "text":"Please show me the medium size blouses"
+      "text":"I would like to buy a new frock"
    },
    "1":{
-      "text":"Is there any cash on delivery services"
+      "text":"Please tell me the price of this dress"
    },
    "2":{
-      "text":"Hey, how can I find a dry-fit that has a long sleeve?"
+      "text":"show me a white blouse"
    },
    "3":{
-      "text":"what is the price of this neckless?"
+      "text":"How can I pay?"
    },
    "4":{
-      "text":"can i pay using my dedit card?"
+      "text":"Please give me a crocodile brand swimsuit"
    },
    "5":{
-      "text":"Can I pay by master card?"
+      "text":"Do you accept debit cards?"
    },
    "6":{
-      "text":"What type of shirts are there?"
+      "text":"Do you have offers?"
    },
    "7":{
-      "text":"Are there any discount for online payment?"
+      "text":"Are there any other colors of this dress?"
    },
    "8":{
       "text":"Do you have the credit card facilities?"
-   },
-   "9":{
-      "text":"Can I pay by credit card?"
-   },
-   "10":{
-      "text":"What type of shirts are there?"
-   },
-   "11":{
-      "text":"Is this last price? "
-   },
-   "12":{
-      "text":"How much is this?"
-   },
-   "13":{
-      "text":"I need a bit of small sized shoe than this one?"
-   },
-   "14":{
-      "text":"Is there any special offers these days?"
-   },
-   "15":{
-      "text":"I like this one. add to cart?"
    }
 }
